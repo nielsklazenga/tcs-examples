@@ -73,14 +73,15 @@
 <!-- lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3 -->
 <g id="node6" class="node">
 <title>lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M758.22,-114.21C758.22,-114.21 598.22,-114.21 598.22,-114.21 592.22,-114.21 586.22,-108.21 586.22,-102.21 586.22,-102.21 586.22,-90.21 586.22,-90.21 586.22,-84.21 592.22,-78.21 598.22,-78.21 598.22,-78.21 758.22,-78.21 758.22,-78.21 764.22,-78.21 770.22,-84.21 770.22,-90.21 770.22,-90.21 770.22,-102.21 770.22,-102.21 770.22,-108.21 764.22,-114.21 758.22,-114.21"/>
-<text text-anchor="start" x="594.22" y="-93.71" font-family="Arial,Helvetica" font-size="10.00">Begonia salaziensis sec. POWO 2022</text>
+<path fill="#ffffff" stroke="#b0bec5" d="M766.22,-114.21C766.22,-114.21 590.22,-114.21 590.22,-114.21 584.22,-114.21 578.22,-108.21 578.22,-102.21 578.22,-102.21 578.22,-90.21 578.22,-90.21 578.22,-84.21 584.22,-78.21 590.22,-78.21 590.22,-78.21 766.22,-78.21 766.22,-78.21 772.22,-78.21 778.22,-84.21 778.22,-90.21 778.22,-90.21 778.22,-102.21 778.22,-102.21 778.22,-108.21 772.22,-114.21 766.22,-114.21"/>
+<text text-anchor="start" x="586.22" y="-99.21" font-family="Arial,Helvetica" font-size="10.00">Begonia salaziensis sec. PoWo 2022 sec.</text>
+<text text-anchor="start" x="586.22" y="-88.21" font-family="Arial,Helvetica" font-size="10.00">Govaerts 1996</text>
 </g>
 <!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3 -->
 <g id="edge4" class="edge">
 <title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3</title>
-<path fill="none" stroke="#546e7a" d="M445.5,-96.21C492.34,-96.21 539.46,-96.21 578.86,-96.21"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="579.13,-98.66 586.13,-96.21 579.13,-93.76 579.13,-98.66"/>
+<path fill="none" stroke="#546e7a" d="M445.5,-96.21C489.09,-96.21 532.93,-96.21 570.56,-96.21"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="571,-98.66 578,-96.21 571,-93.76 571,-98.66"/>
 <text text-anchor="middle" x="499.98" y="-99.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
 </g>
 <!-- urn:lsid:ipni.org:publications:17755&#45;2 -->
