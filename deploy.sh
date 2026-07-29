@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Configuration
-PROJECT_ROOT="/var/www/vicflora-model"
-APP_DOCS_DIR="$PROJECT_ROOT/vicflora-model/public/docs"
-DOCS_DIR="/var/www/vicflora-docs"
+DOCS_DIR="/var/www/tcs-examples"
 
 JIGSAW_SOURCE="$DOCS_DIR/source"
 
