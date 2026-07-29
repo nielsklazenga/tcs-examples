@@ -1,5 +1,5 @@
 ---
-extends: _layouts.ain
+extends: _layouts.main
 title: Title
 ---
 

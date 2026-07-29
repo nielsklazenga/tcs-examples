@@ -25,7 +25,7 @@ export default defineConfig({
             interval: 100,    // Checks every 100ms
         },
         hmr: {
-            host: 'tcs-examples.test',
+            host: 'vicflora-docs.test',
         },
     },
 });

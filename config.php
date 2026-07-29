@@ -14,17 +14,16 @@ $path = function ($page) {
 
 $collections = [
     'intro' => ['path' => $path, 'sort' => 'order'],
+    'examples' => ['path' => $path, 'sort' => 'order'],
 ];
 
 return [
     'baseUrl' => '',
     'appUrl' => '',
     'siteName' => 'TCS Examples',
-    'documentationTitle' => 'Data model',
-    'siteLogo' => '/assets/images/rbgv-logo.svg',
-    'siteMenu' => [
-        ['title' => 'Docs', 'link' => '/docs'],
-    ],
+    'documentationTitle' => '',
+    'siteLogo' => '/assets/images/tdwg-logo-long.svg',
+    'siteMenu' => [],
     'collections' => $collections,
     'navigation' => $navigation,
 ];
