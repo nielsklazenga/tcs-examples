@@ -1,0 +1,1 @@
+import '../../../source/_shared/assets/js/main.js';

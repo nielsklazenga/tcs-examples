@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "update-shared": "git submodule update --remote --merge",
+        "dev": "npm run update-shared && npx vite",
+        "build": "npm run update-shared && npx vite build && ./vendor/bin/jigsaw build production",
+        "linkify-erd": "node linkify-svgs.cjs",
+        "build-erd": "find source/_mermaid/ -name '*.mmd' | xargs -I {} sh -c 'npx @mermaid-js/mermaid-cli@latest -c erd-config.json -p puppeteer-config.json --cssFile mermaid-style.css -i \"$1\" -o \"source/assets/images/erd/$(basename \"$1\" .mmd).svg\"' _ {} && npm run linkify-erd",
+        "docs:generate": "php artisan docs:generate",
+        "docs:staging": "./vendor/bin/jigsaw build staging",
+        "docs:watch": "./vendor/bin/jigsaw watch staging"
+    },
+    "devDependencies": {
+        "@tighten/jigsaw-vite-plugin": "^1.0.1",
+        "tailwindcss": "^4.1.0",
+        "vite": "^6.4.2"
+    },
+    "dependencies": {
+        "@tailwindcss/typography": "^0.5.20",
+        "@tailwindcss/vite": "^4.1.8",
+        "highlight.js": "^11.11.1",
+        "jsdom": "^29.1.1",
+        "jsonld": "^9.0.0",
+        "n3": "^2.1.1"
+    },
+    "allowScripts": {
+        "@tailwindcss/oxide@4.1.8": true,
+        "esbuild@0.25.1": true
+    }
+}

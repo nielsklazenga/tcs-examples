@@ -1,0 +1,36 @@
+/* source/assets/css/main.css */
+
+/* Reach all the way up to root, then back into shared */
+@import "../../../source/_shared/assets/css/main.css";
+@source "../../../source/**/*";
+
+@theme {
+  /* international orange */
+  --color-primary-50: oklch(0.9777 0.0154 67.65); /* #fff6ed */
+  --color-primary-100: oklch(0.9484 0.036 67.37); /* #ffead5 */
+  --color-primary-200: oklch(0.8893 0.0705 62.54); /* #fdd1ab */
+  --color-primary-300: oklch(0.8183 0.1147 58.82); /* #fbb176 */
+  --color-primary-400: oklch(0.7358 0.1632 49.61); /* #f9863e */
+  --color-primary-500: oklch(0.671 0.2018 41.15); /* #f65d0d */
+  --color-primary-600: oklch(0.6263 0.2016 37.45); /* #e74b0f */
+  --color-primary-700: oklch(0.5381 0.1807 35.06); /* #c0360e */
+  --color-primary-800: oklch(0.4569 0.1477 33.8); /* #982c14 */
+  --color-primary-900: oklch(0.3986 0.1209 34.53); /* #7b2713 */
+  --color-primary-950: oklch(0.2596 0.078 32.7); /* #421108 */
+
+  --primary-color: var(--color-primary-600);
+
+  --color-link: var(--color-primary-600);
+  --page-bg-from: var(--color-primary-50);
+  --page-bg-to: var(--color-primary-100);
+  --tw-prose-links: var(--color-link);
+}
+
+@layer base {
+  .dark {
+    --color-link: var(--color-primary-400);
+    --page-bg-from: var(--color-primary-600);
+    --page-bg-to: var(--color-primary-500);
+    --tw-prose-invert-links: var(--color-link);
+  }
+}
