@@ -5,112 +5,138 @@
  -->
 <!-- Title: Taxonomic_Data_Graph Pages: 1 -->
 <svg width="100%" height="100%"
- viewBox="0.00 0.00 1187.96 269.21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 265.21)">
+ viewBox="0.00 0.00 1642.34 338.21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 334.21)">
 <title>Taxonomic_Data_Graph</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-265.21 1183.96,-265.21 1183.96,4 -4,4"/>
-<!-- https://ipni.org/n/105644&#45;1 -->
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-334.21 1638.34,-334.21 1638.34,4 -4,4"/>
+<!-- https://doi.org/10.48580/d4dz -->
 <g id="node1" class="node">
-<title>https://ipni.org/n/105644&#45;1</title>
-<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="678.22" cy="-171.21" rx="91.85" ry="21.43"/>
-<text text-anchor="middle" x="678.22" y="-174.21" font-family="Arial,Helvetica" font-size="10.00">TaxonName</text>
-<text text-anchor="middle" x="678.22" y="-163.21" font-family="Arial,Helvetica" font-size="10.00">https://ipni.org/n/105644&#45;1</text>
+<title>https://doi.org/10.48580/d4dz</title>
+<ellipse fill="#bbdefb" stroke="#0d47a1" cx="1183.84" cy="-309" rx="101.23" ry="21.43"/>
+<text text-anchor="middle" x="1183.84" y="-312" font-family="Arial,Helvetica" font-size="10.00">Dataset</text>
+<text text-anchor="middle" x="1183.84" y="-301" font-family="Arial,Helvetica" font-size="10.00">https://doi.org/10.48580/d4dz</text>
 </g>
-<!-- lit_httpsipniorgn1056441_namePublishedIn_0 -->
+<!-- lit_httpsdoiorg1048580d4dz_bibliographicCitation_0 -->
 <g id="node2" class="node">
-<title>lit_httpsipniorgn1056441_namePublishedIn_0</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1161.96,-261.21C1161.96,-261.21 982.96,-261.21 982.96,-261.21 976.96,-261.21 970.96,-255.21 970.96,-249.21 970.96,-249.21 970.96,-237.21 970.96,-237.21 970.96,-231.21 976.96,-225.21 982.96,-225.21 982.96,-225.21 1161.96,-225.21 1161.96,-225.21 1167.96,-225.21 1173.96,-231.21 1173.96,-237.21 1173.96,-237.21 1173.96,-249.21 1173.96,-249.21 1173.96,-255.21 1167.96,-261.21 1161.96,-261.21"/>
-<text text-anchor="start" x="978.96" y="-246.21" font-family="Arial,Helvetica" font-size="10.00">Nat. Pflanzenfam. [Engler &amp; Prantl] iii. 6 a.</text>
-<text text-anchor="start" x="978.96" y="-235.21" font-family="Arial,Helvetica" font-size="10.00">(1894) 139.</text>
+<title>lit_httpsdoiorg1048580d4dz_bibliographicCitation_0</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1622.34,-327C1622.34,-327 1440.34,-327 1440.34,-327 1434.34,-327 1428.34,-321 1428.34,-315 1428.34,-315 1428.34,-303 1428.34,-303 1428.34,-297 1434.34,-291 1440.34,-291 1440.34,-291 1622.34,-291 1622.34,-291 1628.34,-291 1634.34,-297 1634.34,-303 1634.34,-303 1634.34,-315 1634.34,-315 1634.34,-321 1628.34,-327 1622.34,-327"/>
+<text text-anchor="start" x="1436.34" y="-312" font-family="Arial,Helvetica" font-size="10.00">WCVP, World Checklist of Vascular Plants,</text>
+<text text-anchor="start" x="1436.34" y="-301" font-family="Arial,Helvetica" font-size="10.00">Royal Botanic Gardens, Kew</text>
 </g>
-<!-- https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_namePublishedIn_0 -->
+<!-- https://doi.org/10.48580/d4dz&#45;&gt;lit_httpsdoiorg1048580d4dz_bibliographicCitation_0 -->
 <g id="edge1" class="edge">
-<title>https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_namePublishedIn_0</title>
-<path fill="none" stroke="#546e7a" d="M750.71,-184.34C810.95,-195.39 897.99,-211.37 966.2,-223.89"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="965.83,-226.31 973.16,-225.17 966.72,-221.49 965.83,-226.31"/>
-<text text-anchor="middle" x="883.46" y="-220.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">namePublishedIn</text>
+<title>https://doi.org/10.48580/d4dz&#45;&gt;lit_httpsdoiorg1048580d4dz_bibliographicCitation_0</title>
+<path fill="none" stroke="#546e7a" d="M1285.24,-309C1327.8,-309 1377.51,-309 1421,-309"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1421.2,-311.45 1428.2,-309 1421.2,-306.55 1421.2,-311.45"/>
+<text text-anchor="middle" x="1356.84" y="-311.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">bibliographicCitation</text>
 </g>
-<!-- lit_httpsipniorgn1056441_scientificNameAuthorship_1 -->
+<!-- https://doi.org/10.48580/d4dz.v226 -->
 <g id="node3" class="node">
-<title>lit_httpsipniorgn1056441_scientificNameAuthorship_1</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1087.46,-189.21C1087.46,-189.21 1057.46,-189.21 1057.46,-189.21 1051.46,-189.21 1045.46,-183.21 1045.46,-177.21 1045.46,-177.21 1045.46,-165.21 1045.46,-165.21 1045.46,-159.21 1051.46,-153.21 1057.46,-153.21 1057.46,-153.21 1087.46,-153.21 1087.46,-153.21 1093.46,-153.21 1099.46,-159.21 1099.46,-165.21 1099.46,-165.21 1099.46,-177.21 1099.46,-177.21 1099.46,-183.21 1093.46,-189.21 1087.46,-189.21"/>
-<text text-anchor="start" x="1053.46" y="-168.71" font-family="Arial,Helvetica" font-size="10.00">Warb.</text>
+<title>https://doi.org/10.48580/d4dz.v226</title>
+<ellipse fill="#bbdefb" stroke="#0d47a1" cx="801.26" cy="-234" rx="118.17" ry="21.43"/>
+<text text-anchor="middle" x="801.26" y="-237" font-family="Arial,Helvetica" font-size="10.00">Dataset</text>
+<text text-anchor="middle" x="801.26" y="-226" font-family="Arial,Helvetica" font-size="10.00">https://doi.org/10.48580/d4dz.v226</text>
 </g>
-<!-- https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_scientificNameAuthorship_1 -->
+<!-- https://doi.org/10.48580/d4dz.v226&#45;&gt;https://doi.org/10.48580/d4dz -->
 <g id="edge2" class="edge">
-<title>https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_scientificNameAuthorship_1</title>
-<path fill="none" stroke="#546e7a" d="M770.2,-171.21C855.92,-171.21 979.71,-171.21 1038.31,-171.21"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1038.46,-173.66 1045.46,-171.21 1038.46,-168.76 1038.46,-173.66"/>
-<text text-anchor="middle" x="883.46" y="-174.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">scientificNameAuthorship</text>
+<title>https://doi.org/10.48580/d4dz.v226&#45;&gt;https://doi.org/10.48580/d4dz</title>
+<path fill="none" stroke="#546e7a" d="M881.58,-249.63C946.32,-262.39 1037.4,-280.34 1102.43,-293.15"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1102.09,-295.58 1109.43,-294.53 1103.04,-290.78 1102.09,-295.58"/>
+<text text-anchor="middle" x="1000.84" y="-285.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">isVersionOf</text>
 </g>
-<!-- lit_httpsipniorgn1056441_nameString_2 -->
+<!-- lit_httpsdoiorg1048580d4dzv226_modified_1 -->
 <g id="node4" class="node">
-<title>lit_httpsipniorgn1056441_nameString_2</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1112.46,-117.21C1112.46,-117.21 1032.46,-117.21 1032.46,-117.21 1026.46,-117.21 1020.46,-111.21 1020.46,-105.21 1020.46,-105.21 1020.46,-93.21 1020.46,-93.21 1020.46,-87.21 1026.46,-81.21 1032.46,-81.21 1032.46,-81.21 1112.46,-81.21 1112.46,-81.21 1118.46,-81.21 1124.46,-87.21 1124.46,-93.21 1124.46,-93.21 1124.46,-105.21 1124.46,-105.21 1124.46,-111.21 1118.46,-117.21 1112.46,-117.21"/>
-<text text-anchor="start" x="1028.46" y="-96.71" font-family="Arial,Helvetica" font-size="10.00">Begonia salaziensis</text>
+<title>lit_httpsdoiorg1048580d4dzv226_modified_1</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1204.34,-252C1204.34,-252 1163.34,-252 1163.34,-252 1157.34,-252 1151.34,-246 1151.34,-240 1151.34,-240 1151.34,-228 1151.34,-228 1151.34,-222 1157.34,-216 1163.34,-216 1163.34,-216 1204.34,-216 1204.34,-216 1210.34,-216 1216.34,-222 1216.34,-228 1216.34,-228 1216.34,-240 1216.34,-240 1216.34,-246 1210.34,-252 1204.34,-252"/>
+<text text-anchor="start" x="1159.34" y="-231.5" font-family="Arial,Helvetica" font-size="10.00">2026&#45;07&#45;22</text>
 </g>
-<!-- https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_nameString_2 -->
+<!-- https://doi.org/10.48580/d4dz.v226&#45;&gt;lit_httpsdoiorg1048580d4dzv226_modified_1 -->
 <g id="edge3" class="edge">
-<title>https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_nameString_2</title>
-<path fill="none" stroke="#546e7a" d="M750.71,-158.09C826.12,-144.25 943.51,-122.7 1013.41,-109.87"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1014,-112.25 1020.44,-108.58 1013.12,-107.43 1014,-112.25"/>
-<text text-anchor="middle" x="883.46" y="-144.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">nameString</text>
+<title>https://doi.org/10.48580/d4dz.v226&#45;&gt;lit_httpsdoiorg1048580d4dzv226_modified_1</title>
+<path fill="none" stroke="#546e7a" d="M919.55,-234C996.32,-234 1091.76,-234 1144.06,-234"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1144.15,-236.45 1151.15,-234 1144.15,-231.55 1144.15,-236.45"/>
+<text text-anchor="middle" x="1000.84" y="-236.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">modified</text>
 </g>
-<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1 -->
+<!-- https://ipni.org/n/105644&#45;1 -->
 <g id="node5" class="node">
-<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1</title>
-<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="222.74" cy="-96.21" rx="222.98" ry="21.43"/>
-<text text-anchor="middle" x="222.74" y="-99.21" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
-<text text-anchor="middle" x="222.74" y="-88.21" font-family="Arial,Helvetica" font-size="10.00">https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1</text>
+<title>https://ipni.org/n/105644&#45;1</title>
+<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="801.26" cy="-123" rx="91.85" ry="21.43"/>
+<text text-anchor="middle" x="801.26" y="-126" font-family="Arial,Helvetica" font-size="10.00">TaxonName</text>
+<text text-anchor="middle" x="801.26" y="-115" font-family="Arial,Helvetica" font-size="10.00">https://ipni.org/n/105644&#45;1</text>
 </g>
-<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;https://ipni.org/n/105644&#45;1 -->
-<g id="edge6" class="edge">
-<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;https://ipni.org/n/105644&#45;1</title>
-<path fill="none" stroke="#546e7a" d="M334.67,-114.56C415.45,-127.92 523.03,-145.71 595.92,-157.77"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="595.56,-160.19 602.87,-158.92 596.36,-155.36 595.56,-160.19"/>
-<text text-anchor="middle" x="499.98" y="-147.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
-</g>
-<!-- lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3 -->
+<!-- lit_httpsipniorgn1056441_namePublishedIn_2 -->
 <g id="node6" class="node">
-<title>lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M770.72,-114.21C770.72,-114.21 585.72,-114.21 585.72,-114.21 579.72,-114.21 573.72,-108.21 573.72,-102.21 573.72,-102.21 573.72,-90.21 573.72,-90.21 573.72,-84.21 579.72,-78.21 585.72,-78.21 585.72,-78.21 770.72,-78.21 770.72,-78.21 776.72,-78.21 782.72,-84.21 782.72,-90.21 782.72,-90.21 782.72,-102.21 782.72,-102.21 782.72,-108.21 776.72,-114.21 770.72,-114.21"/>
-<text text-anchor="start" x="581.72" y="-99.21" font-family="Arial,Helvetica" font-size="10.00">Begonia salaziensis sec. POWO 2022 (sec.</text>
-<text text-anchor="start" x="581.72" y="-88.21" font-family="Arial,Helvetica" font-size="10.00">Govaerts 1996)</text>
+<title>lit_httpsipniorgn1056441_namePublishedIn_2</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1273.34,-180C1273.34,-180 1094.34,-180 1094.34,-180 1088.34,-180 1082.34,-174 1082.34,-168 1082.34,-168 1082.34,-156 1082.34,-156 1082.34,-150 1088.34,-144 1094.34,-144 1094.34,-144 1273.34,-144 1273.34,-144 1279.34,-144 1285.34,-150 1285.34,-156 1285.34,-156 1285.34,-168 1285.34,-168 1285.34,-174 1279.34,-180 1273.34,-180"/>
+<text text-anchor="start" x="1090.34" y="-165" font-family="Arial,Helvetica" font-size="10.00">Nat. Pflanzenfam. [Engler &amp; Prantl] iii. 6 a.</text>
+<text text-anchor="start" x="1090.34" y="-154" font-family="Arial,Helvetica" font-size="10.00">(1894) 139.</text>
 </g>
-<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3 -->
+<!-- https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_namePublishedIn_2 -->
 <g id="edge4" class="edge">
-<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441_title_3</title>
-<path fill="none" stroke="#546e7a" d="M445.5,-96.21C487.51,-96.21 529.75,-96.21 566.44,-96.21"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="566.71,-98.66 573.71,-96.21 566.71,-93.76 566.71,-98.66"/>
-<text text-anchor="middle" x="499.98" y="-99.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
+<title>https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_namePublishedIn_2</title>
+<path fill="none" stroke="#546e7a" d="M885.78,-131.56C941.39,-137.26 1015,-144.8 1075.03,-150.95"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1075.07,-153.42 1082.28,-151.69 1075.57,-148.54 1075.07,-153.42"/>
+<text text-anchor="middle" x="1000.84" y="-151.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">namePublishedIn</text>
 </g>
-<!-- urn:lsid:ipni.org:publications:17755&#45;2 -->
+<!-- lit_httpsipniorgn1056441_scientificNameAuthorship_3 -->
 <g id="node7" class="node">
-<title>urn:lsid:ipni.org:publications:17755&#45;2</title>
-<ellipse fill="#bbdefb" stroke="#0d47a1" cx="678.22" cy="-21.21" rx="123.99" ry="21.43"/>
-<text text-anchor="middle" x="678.22" y="-24.21" font-family="Arial,Helvetica" font-size="10.00">Book</text>
-<text text-anchor="middle" x="678.22" y="-13.21" font-family="Arial,Helvetica" font-size="10.00">urn:lsid:ipni.org:publications:17755&#45;2</text>
+<title>lit_httpsipniorgn1056441_scientificNameAuthorship_3</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1198.84,-108C1198.84,-108 1168.84,-108 1168.84,-108 1162.84,-108 1156.84,-102 1156.84,-96 1156.84,-96 1156.84,-84 1156.84,-84 1156.84,-78 1162.84,-72 1168.84,-72 1168.84,-72 1198.84,-72 1198.84,-72 1204.84,-72 1210.84,-78 1210.84,-84 1210.84,-84 1210.84,-96 1210.84,-96 1210.84,-102 1204.84,-108 1198.84,-108"/>
+<text text-anchor="start" x="1164.84" y="-87.5" font-family="Arial,Helvetica" font-size="10.00">Warb.</text>
 </g>
-<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;urn:lsid:ipni.org:publications:17755&#45;2 -->
+<!-- https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_scientificNameAuthorship_3 -->
 <g id="edge5" class="edge">
-<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1&#45;&gt;urn:lsid:ipni.org:publications:17755&#45;2</title>
-<path fill="none" stroke="#546e7a" d="M334.67,-77.87C410.22,-65.37 509.21,-49 581.34,-37.07"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="582.16,-39.42 588.67,-35.86 581.36,-34.58 582.16,-39.42"/>
-<text text-anchor="middle" x="499.98" y="-57.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
+<title>https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_scientificNameAuthorship_3</title>
+<path fill="none" stroke="#546e7a" d="M883.72,-113.54C904.76,-111.25 927.38,-108.91 948.34,-107 1019.97,-100.48 1104.08,-94.88 1149.56,-92.03"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1149.96,-94.46 1156.79,-91.58 1149.65,-89.57 1149.96,-94.46"/>
+<text text-anchor="middle" x="1000.84" y="-109.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">scientificNameAuthorship</text>
 </g>
-<!-- lit_urnlsidipniorgpublications177552_bibliographicCitation_4 -->
+<!-- lit_httpsipniorgn1056441_nameString_4 -->
 <g id="node8" class="node">
-<title>lit_urnlsidipniorgpublications177552_bibliographicCitation_4</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1167.96,-39.21C1167.96,-39.21 976.96,-39.21 976.96,-39.21 970.96,-39.21 964.96,-33.21 964.96,-27.21 964.96,-27.21 964.96,-15.21 964.96,-15.21 964.96,-9.21 970.96,-3.21 976.96,-3.21 976.96,-3.21 1167.96,-3.21 1167.96,-3.21 1173.96,-3.21 1179.96,-9.21 1179.96,-15.21 1179.96,-15.21 1179.96,-27.21 1179.96,-27.21 1179.96,-33.21 1173.96,-39.21 1167.96,-39.21"/>
-<text text-anchor="start" x="972.96" y="-24.21" font-family="Arial,Helvetica" font-size="10.00">Govaerts, R. (1996). World Checklist of Seed</text>
-<text text-anchor="start" x="972.96" y="-13.21" font-family="Arial,Helvetica" font-size="10.00">Plants 2(1, 2): 1&#45;492. MIM, Deurne.</text>
+<title>lit_httpsipniorgn1056441_nameString_4</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1223.84,-36C1223.84,-36 1143.84,-36 1143.84,-36 1137.84,-36 1131.84,-30 1131.84,-24 1131.84,-24 1131.84,-12 1131.84,-12 1131.84,-6 1137.84,0 1143.84,0 1143.84,0 1223.84,0 1223.84,0 1229.84,0 1235.84,-6 1235.84,-12 1235.84,-12 1235.84,-24 1235.84,-24 1235.84,-30 1229.84,-36 1223.84,-36"/>
+<text text-anchor="start" x="1139.84" y="-15.5" font-family="Arial,Helvetica" font-size="10.00">Begonia salaziensis</text>
 </g>
-<!-- urn:lsid:ipni.org:publications:17755&#45;2&#45;&gt;lit_urnlsidipniorgpublications177552_bibliographicCitation_4 -->
+<!-- https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_nameString_4 -->
+<g id="edge6" class="edge">
+<title>https://ipni.org/n/105644&#45;1&#45;&gt;lit_httpsipniorgn1056441_nameString_4</title>
+<path fill="none" stroke="#546e7a" d="M858,-106.2C885.19,-98.1 918.42,-88.36 948.34,-80 1008.26,-63.26 1077.12,-45.2 1124.65,-32.91"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1125.33,-35.26 1131.5,-31.14 1124.11,-30.52 1125.33,-35.26"/>
+<text text-anchor="middle" x="1000.84" y="-82.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">nameString</text>
+</g>
+<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22 -->
+<g id="node9" class="node">
+<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22</title>
+<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="287.09" cy="-123" rx="287.17" ry="21.43"/>
+<text text-anchor="middle" x="287.09" y="-126" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
+<text text-anchor="middle" x="287.09" y="-115" font-family="Arial,Helvetica" font-size="10.00">https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22</text>
+</g>
+<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22&#45;&gt;https://doi.org/10.48580/d4dz.v226 -->
+<g id="edge8" class="edge">
+<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22&#45;&gt;https://doi.org/10.48580/d4dz.v226</title>
+<path fill="none" stroke="#546e7a" d="M380.84,-143.1C477.06,-163.96 626.09,-196.25 718.17,-216.21"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="717.89,-218.66 725.25,-217.74 718.93,-213.87 717.89,-218.66"/>
+<text text-anchor="middle" x="628.67" y="-204.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
+</g>
+<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22&#45;&gt;https://ipni.org/n/105644&#45;1 -->
+<g id="edge9" class="edge">
+<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22&#45;&gt;https://ipni.org/n/105644&#45;1</title>
+<path fill="none" stroke="#546e7a" d="M574.49,-123C620.19,-123 664.59,-123 701.74,-123"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="702.08,-125.45 709.08,-123 702.08,-120.55 702.08,-125.45"/>
+<text text-anchor="middle" x="628.67" y="-125.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
+</g>
+<!-- lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441version20260722_title_5 -->
+<g id="node10" class="node">
+<title>lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441version20260722_title_5</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M894.76,-66C894.76,-66 707.76,-66 707.76,-66 701.76,-66 695.76,-60 695.76,-54 695.76,-54 695.76,-42 695.76,-42 695.76,-36 701.76,-30 707.76,-30 707.76,-30 894.76,-30 894.76,-30 900.76,-30 906.76,-36 906.76,-42 906.76,-42 906.76,-54 906.76,-54 906.76,-60 900.76,-66 894.76,-66"/>
+<text text-anchor="start" x="703.76" y="-45.5" font-family="Arial,Helvetica" font-size="10.00">Begonia salaziensis sec. POWO 2026&#45;07&#45;22</text>
+</g>
+<!-- https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22&#45;&gt;lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441version20260722_title_5 -->
 <g id="edge7" class="edge">
-<title>urn:lsid:ipni.org:publications:17755&#45;2&#45;&gt;lit_urnlsidipniorgpublications177552_bibliographicCitation_4</title>
-<path fill="none" stroke="#546e7a" d="M801.98,-21.21C851.78,-21.21 908.96,-21.21 957.79,-21.21"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="957.94,-23.66 964.94,-21.21 957.94,-18.76 957.94,-23.66"/>
-<text text-anchor="middle" x="883.46" y="-24.01" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">bibliographicCitation</text>
+<title>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644&#45;1?version=2026&#45;07&#45;22&#45;&gt;lit_httpspowosciencekeworgtaxonurnlsidipniorgnames1056441version20260722_title_5</title>
+<path fill="none" stroke="#546e7a" d="M417.33,-104.07C500.89,-91.84 608.57,-76.07 688.44,-64.37"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="689.03,-66.76 695.6,-63.33 688.32,-61.92 689.03,-66.76"/>
+<text text-anchor="middle" x="628.67" y="-79.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
 </g>
 </g>
 </svg>
