@@ -5,161 +5,175 @@
  -->
 <!-- Title: Taxonomic_Data_Graph Pages: 1 -->
 <svg width="100%" height="100%"
- viewBox="0.00 0.00 1175.62 476.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 472)">
+ viewBox="0.00 0.00 1635.52 410.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 406)">
 <title>Taxonomic_Data_Graph</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-472 1171.62,-472 1171.62,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-406 1631.52,-406 1631.52,4 -4,4"/>
 <!-- b0 -->
 <g id="node1" class="node">
 <title>b0</title>
-<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="677.84" cy="-378" rx="40.74" ry="18"/>
-<text text-anchor="middle" x="677.84" y="-375.5" font-family="Arial,Helvetica" font-size="10.00">TaxonName</text>
+<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="769.76" cy="-312" rx="40.74" ry="18"/>
+<text text-anchor="middle" x="769.76" y="-309.5" font-family="Arial,Helvetica" font-size="10.00">TaxonName</text>
 </g>
 <!-- lit_b0_scientificNameAuthorship_0 -->
 <g id="node2" class="node">
 <title>lit_b0_scientificNameAuthorship_0</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1110.62,-468C1110.62,-468 1045.62,-468 1045.62,-468 1039.62,-468 1033.62,-462 1033.62,-456 1033.62,-456 1033.62,-444 1033.62,-444 1033.62,-438 1039.62,-432 1045.62,-432 1045.62,-432 1110.62,-432 1110.62,-432 1116.62,-432 1122.62,-438 1122.62,-444 1122.62,-444 1122.62,-456 1122.62,-456 1122.62,-462 1116.62,-468 1110.62,-468"/>
-<text text-anchor="start" x="1041.62" y="-447.5" font-family="Arial,Helvetica" font-size="10.00">(Linnaeus, 1758)</text>
+<path fill="#ffffff" stroke="#b0bec5" d="M1263.66,-402C1263.66,-402 1198.66,-402 1198.66,-402 1192.66,-402 1186.66,-396 1186.66,-390 1186.66,-390 1186.66,-378 1186.66,-378 1186.66,-372 1192.66,-366 1198.66,-366 1198.66,-366 1263.66,-366 1263.66,-366 1269.66,-366 1275.66,-372 1275.66,-378 1275.66,-378 1275.66,-390 1275.66,-390 1275.66,-396 1269.66,-402 1263.66,-402"/>
+<text text-anchor="start" x="1194.66" y="-381.5" font-family="Arial,Helvetica" font-size="10.00">(Linnaeus, 1758)</text>
 </g>
 <!-- b0&#45;&gt;lit_b0_scientificNameAuthorship_0 -->
 <g id="edge1" class="edge">
 <title>b0&#45;&gt;lit_b0_scientificNameAuthorship_0</title>
-<path fill="none" stroke="#546e7a" d="M715.59,-384.64C787.09,-397.57 945.02,-426.12 1026.42,-440.83"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1026.25,-443.29 1033.57,-442.13 1027.12,-438.47 1026.25,-443.29"/>
-<text text-anchor="middle" x="907.12" y="-430.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">scientificNameAuthorship</text>
+<path fill="none" stroke="#546e7a" d="M808.35,-317.89C890.54,-330.77 1086.26,-361.45 1179.32,-376.03"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1179.09,-378.48 1186.38,-377.14 1179.85,-373.63 1179.09,-378.48"/>
+<text text-anchor="middle" x="1044.3" y="-364.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">scientificNameAuthorship</text>
 </g>
 <!-- lit_b0_nameString_1 -->
 <g id="node3" class="node">
 <title>lit_b0_nameString_1</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1125.62,-396C1125.62,-396 1030.62,-396 1030.62,-396 1024.62,-396 1018.62,-390 1018.62,-384 1018.62,-384 1018.62,-372 1018.62,-372 1018.62,-366 1024.62,-360 1030.62,-360 1030.62,-360 1125.62,-360 1125.62,-360 1131.62,-360 1137.62,-366 1137.62,-372 1137.62,-372 1137.62,-384 1137.62,-384 1137.62,-390 1131.62,-396 1125.62,-396"/>
-<text text-anchor="start" x="1026.62" y="-375.5" font-family="Arial,Helvetica" font-size="10.00">Balaenoptera musculus</text>
+<path fill="#ffffff" stroke="#b0bec5" d="M1278.66,-330C1278.66,-330 1183.66,-330 1183.66,-330 1177.66,-330 1171.66,-324 1171.66,-318 1171.66,-318 1171.66,-306 1171.66,-306 1171.66,-300 1177.66,-294 1183.66,-294 1183.66,-294 1278.66,-294 1278.66,-294 1284.66,-294 1290.66,-300 1290.66,-306 1290.66,-306 1290.66,-318 1290.66,-318 1290.66,-324 1284.66,-330 1278.66,-330"/>
+<text text-anchor="start" x="1179.66" y="-309.5" font-family="Arial,Helvetica" font-size="10.00">Balaenoptera musculus</text>
 </g>
 <!-- b0&#45;&gt;lit_b0_nameString_1 -->
 <g id="edge2" class="edge">
 <title>b0&#45;&gt;lit_b0_nameString_1</title>
-<path fill="none" stroke="#546e7a" d="M718.48,-378C786.93,-378 927.92,-378 1011.28,-378"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1011.42,-380.45 1018.42,-378 1011.42,-375.55 1011.42,-380.45"/>
-<text text-anchor="middle" x="907.12" y="-380.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">nameString</text>
+<path fill="none" stroke="#546e7a" d="M810.73,-312C889.95,-312 1067.6,-312 1164.34,-312"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1164.44,-314.45 1171.44,-312 1164.44,-309.55 1164.44,-314.45"/>
+<text text-anchor="middle" x="1044.3" y="-314.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">nameString</text>
 </g>
 <!-- b1 -->
 <g id="node4" class="node">
 <title>b1</title>
-<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="677.84" cy="-236" rx="52.28" ry="18"/>
-<text text-anchor="middle" x="677.84" y="-233.5" font-family="Arial,Helvetica" font-size="10.00">VernacularName</text>
+<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="769.76" cy="-168" rx="52.28" ry="18"/>
+<text text-anchor="middle" x="769.76" y="-165.5" font-family="Arial,Helvetica" font-size="10.00">VernacularName</text>
 </g>
 <!-- lit_b1_language_2 -->
 <g id="node5" class="node">
 <title>lit_b1_language_2</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1093.12,-324C1093.12,-324 1063.12,-324 1063.12,-324 1057.12,-324 1051.12,-318 1051.12,-312 1051.12,-312 1051.12,-300 1051.12,-300 1051.12,-294 1057.12,-288 1063.12,-288 1063.12,-288 1093.12,-288 1093.12,-288 1099.12,-288 1105.12,-294 1105.12,-300 1105.12,-300 1105.12,-312 1105.12,-312 1105.12,-318 1099.12,-324 1093.12,-324"/>
-<text text-anchor="start" x="1059.12" y="-303.5" font-family="Arial,Helvetica" font-size="10.00">en</text>
+<path fill="#ffffff" stroke="#b0bec5" d="M1246.16,-258C1246.16,-258 1216.16,-258 1216.16,-258 1210.16,-258 1204.16,-252 1204.16,-246 1204.16,-246 1204.16,-234 1204.16,-234 1204.16,-228 1210.16,-222 1216.16,-222 1216.16,-222 1246.16,-222 1246.16,-222 1252.16,-222 1258.16,-228 1258.16,-234 1258.16,-234 1258.16,-246 1258.16,-246 1258.16,-252 1252.16,-258 1246.16,-258"/>
+<text text-anchor="start" x="1212.16" y="-237.5" font-family="Arial,Helvetica" font-size="10.00">en</text>
 </g>
 <!-- b1&#45;&gt;lit_b1_language_2 -->
 <g id="edge3" class="edge">
 <title>b1&#45;&gt;lit_b1_language_2</title>
-<path fill="none" stroke="#546e7a" d="M724.91,-244.1C806.08,-258.36 972.67,-287.64 1043.77,-300.14"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1043.43,-302.57 1050.75,-301.37 1044.28,-297.74 1043.43,-302.57"/>
-<text text-anchor="middle" x="907.12" y="-287.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">language</text>
+<path fill="none" stroke="#546e7a" d="M817.76,-175.37C910.89,-189.96 1116.74,-222.22 1197.11,-234.82"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1196.74,-237.24 1204.04,-235.91 1197.5,-232.4 1196.74,-237.24"/>
+<text text-anchor="middle" x="1044.3" y="-220.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">language</text>
 </g>
 <!-- lit_b1_vernacularName_3 -->
 <g id="node6" class="node">
 <title>lit_b1_vernacularName_3</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1098.62,-252C1098.62,-252 1057.62,-252 1057.62,-252 1051.62,-252 1045.62,-246 1045.62,-240 1045.62,-240 1045.62,-228 1045.62,-228 1045.62,-222 1051.62,-216 1057.62,-216 1057.62,-216 1098.62,-216 1098.62,-216 1104.62,-216 1110.62,-222 1110.62,-228 1110.62,-228 1110.62,-240 1110.62,-240 1110.62,-246 1104.62,-252 1098.62,-252"/>
-<text text-anchor="start" x="1053.62" y="-231.5" font-family="Arial,Helvetica" font-size="10.00">Blue whale</text>
+<path fill="#ffffff" stroke="#b0bec5" d="M1251.66,-186C1251.66,-186 1210.66,-186 1210.66,-186 1204.66,-186 1198.66,-180 1198.66,-174 1198.66,-174 1198.66,-162 1198.66,-162 1198.66,-156 1204.66,-150 1210.66,-150 1210.66,-150 1251.66,-150 1251.66,-150 1257.66,-150 1263.66,-156 1263.66,-162 1263.66,-162 1263.66,-174 1263.66,-174 1263.66,-180 1257.66,-186 1251.66,-186"/>
+<text text-anchor="start" x="1206.66" y="-165.5" font-family="Arial,Helvetica" font-size="10.00">Blue whale</text>
 </g>
 <!-- b1&#45;&gt;lit_b1_vernacularName_3 -->
 <g id="edge4" class="edge">
 <title>b1&#45;&gt;lit_b1_vernacularName_3</title>
-<path fill="none" stroke="#546e7a" d="M730.5,-235.74C811.38,-235.33 966.13,-234.56 1038.29,-234.2"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1038.43,-236.64 1045.42,-234.16 1038.41,-231.74 1038.43,-236.64"/>
-<text text-anchor="middle" x="907.12" y="-237.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">vernacularName</text>
+<path fill="none" stroke="#546e7a" d="M822.57,-168C915.5,-168 1108.54,-168 1191.21,-168"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1191.39,-170.45 1198.39,-168 1191.39,-165.55 1191.39,-170.45"/>
+<text text-anchor="middle" x="1044.3" y="-170.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">vernacularName</text>
 </g>
-<!-- https://www.catalogueoflife.org#v2022&#45;11&#45;14 -->
+<!-- https://doi.org/10.48580/dgykv -->
 <g id="node7" class="node">
-<title>https://www.catalogueoflife.org#v2022&#45;11&#45;14</title>
-<ellipse fill="#bbdefb" stroke="#0d47a1" cx="677.84" cy="-161" rx="147.57" ry="21.43"/>
-<text text-anchor="middle" x="677.84" y="-164" font-family="Arial,Helvetica" font-size="10.00">Website</text>
-<text text-anchor="middle" x="677.84" y="-153" font-family="Arial,Helvetica" font-size="10.00">https://www.catalogueoflife.org#v2022&#45;11&#45;14</text>
+<title>https://doi.org/10.48580/dgykv</title>
+<ellipse fill="#bbdefb" stroke="#0d47a1" cx="1231.16" cy="-93" rx="105.22" ry="21.43"/>
+<text text-anchor="middle" x="1231.16" y="-96" font-family="Arial,Helvetica" font-size="10.00">Dataset</text>
+<text text-anchor="middle" x="1231.16" y="-85" font-family="Arial,Helvetica" font-size="10.00">https://doi.org/10.48580/dgykv</text>
 </g>
-<!-- lit_httpswwwcatalogueoflifeorgv20221114_isVersionOf_4 -->
+<!-- lit_httpsdoiorg1048580dgykv_title_4 -->
 <g id="node8" class="node">
-<title>lit_httpswwwcatalogueoflifeorgv20221114_isVersionOf_4</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1142.12,-180C1142.12,-180 1014.12,-180 1014.12,-180 1008.12,-180 1002.12,-174 1002.12,-168 1002.12,-168 1002.12,-156 1002.12,-156 1002.12,-150 1008.12,-144 1014.12,-144 1014.12,-144 1142.12,-144 1142.12,-144 1148.12,-144 1154.12,-150 1154.12,-156 1154.12,-156 1154.12,-168 1154.12,-168 1154.12,-174 1148.12,-180 1142.12,-180"/>
-<text text-anchor="start" x="1010.12" y="-159.5" font-family="Arial,Helvetica" font-size="10.00">https://www.catalogueoflife.org</text>
+<title>lit_httpsdoiorg1048580dgykv_title_4</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1552.02,-147C1552.02,-147 1485.02,-147 1485.02,-147 1479.02,-147 1473.02,-141 1473.02,-135 1473.02,-135 1473.02,-123 1473.02,-123 1473.02,-117 1479.02,-111 1485.02,-111 1485.02,-111 1552.02,-111 1552.02,-111 1558.02,-111 1564.02,-117 1564.02,-123 1564.02,-123 1564.02,-135 1564.02,-135 1564.02,-141 1558.02,-147 1552.02,-147"/>
+<text text-anchor="start" x="1481.02" y="-126.5" font-family="Arial,Helvetica" font-size="10.00">Catalogue of Life</text>
 </g>
-<!-- https://www.catalogueoflife.org#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgv20221114_isVersionOf_4 -->
+<!-- https://doi.org/10.48580/dgykv&#45;&gt;lit_httpsdoiorg1048580dgykv_title_4 -->
 <g id="edge5" class="edge">
-<title>https://www.catalogueoflife.org#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgv20221114_isVersionOf_4</title>
-<path fill="none" stroke="#546e7a" d="M825.73,-161.37C882.89,-161.51 946.23,-161.67 995.03,-161.79"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="995.11,-164.24 1002.12,-161.81 995.13,-159.34 995.11,-164.24"/>
-<text text-anchor="middle" x="907.12" y="-163.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">isVersionOf</text>
+<title>https://doi.org/10.48580/dgykv&#45;&gt;lit_httpsdoiorg1048580dgykv_title_4</title>
+<path fill="none" stroke="#546e7a" d="M1320.88,-104.19C1368.42,-110.19 1425.33,-117.37 1465.66,-122.46"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1465.49,-124.91 1472.74,-123.35 1466.11,-120.04 1465.49,-124.91"/>
+<text text-anchor="middle" x="1373.02" y="-113.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
 </g>
-<!-- lit_httpswwwcatalogueoflifeorgv20221114_title_5 -->
+<!-- lit_httpsdoiorg1048580dgykv_uri_5 -->
 <g id="node9" class="node">
-<title>lit_httpswwwcatalogueoflifeorgv20221114_title_5</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1155.62,-108C1155.62,-108 1000.62,-108 1000.62,-108 994.62,-108 988.62,-102 988.62,-96 988.62,-96 988.62,-84 988.62,-84 988.62,-78 994.62,-72 1000.62,-72 1000.62,-72 1155.62,-72 1155.62,-72 1161.62,-72 1167.62,-78 1167.62,-84 1167.62,-84 1167.62,-96 1167.62,-96 1167.62,-102 1161.62,-108 1155.62,-108"/>
-<text text-anchor="start" x="996.62" y="-87.5" font-family="Arial,Helvetica" font-size="10.00">Catalogue of Life, version 2022&#45;11&#45;14</text>
+<title>lit_httpsdoiorg1048580dgykv_uri_5</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1615.52,-75C1615.52,-75 1421.52,-75 1421.52,-75 1415.52,-75 1409.52,-69 1409.52,-63 1409.52,-63 1409.52,-51 1409.52,-51 1409.52,-45 1415.52,-39 1421.52,-39 1421.52,-39 1615.52,-39 1615.52,-39 1621.52,-39 1627.52,-45 1627.52,-51 1627.52,-51 1627.52,-63 1627.52,-63 1627.52,-69 1621.52,-75 1615.52,-75"/>
+<text text-anchor="start" x="1417.52" y="-54.5" font-family="Arial,Helvetica" font-size="10.00">https://www.checklistbank.org/dataset/315834</text>
 </g>
-<!-- https://www.catalogueoflife.org#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgv20221114_title_5 -->
+<!-- https://doi.org/10.48580/dgykv&#45;&gt;lit_httpsdoiorg1048580dgykv_uri_5 -->
 <g id="edge6" class="edge">
-<title>https://www.catalogueoflife.org#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgv20221114_title_5</title>
-<path fill="none" stroke="#546e7a" d="M771.21,-144.53C834.16,-133.31 917.32,-118.49 981.05,-107.13"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="981.87,-109.47 988.33,-105.83 981.01,-104.65 981.87,-109.47"/>
-<text text-anchor="middle" x="907.12" y="-129.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
+<title>https://doi.org/10.48580/dgykv&#45;&gt;lit_httpsdoiorg1048580dgykv_uri_5</title>
+<path fill="none" stroke="#546e7a" d="M1320.88,-81.81C1346.57,-78.57 1374.98,-74.98 1402.04,-71.57"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1402.63,-73.96 1409.26,-70.66 1402.01,-69.1 1402.63,-73.96"/>
+<text text-anchor="middle" x="1373.02" y="-78.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">uri</text>
 </g>
-<!-- lit_httpswwwcatalogueoflifeorgv20221114_uri_6 -->
+<!-- https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR -->
 <g id="node10" class="node">
-<title>lit_httpswwwcatalogueoflifeorgv20221114_uri_6</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1142.12,-36C1142.12,-36 1014.12,-36 1014.12,-36 1008.12,-36 1002.12,-30 1002.12,-24 1002.12,-24 1002.12,-12 1002.12,-12 1002.12,-6 1008.12,0 1014.12,0 1014.12,0 1142.12,0 1142.12,0 1148.12,0 1154.12,-6 1154.12,-12 1154.12,-12 1154.12,-24 1154.12,-24 1154.12,-30 1148.12,-36 1142.12,-36"/>
-<text text-anchor="start" x="1010.12" y="-15.5" font-family="Arial,Helvetica" font-size="10.00">https://www.catalogueoflife.org</text>
+<title>https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR</title>
+<ellipse fill="#bbdefb" stroke="#0d47a1" cx="769.76" cy="-93" rx="193.08" ry="21.43"/>
+<text text-anchor="middle" x="769.76" y="-96" font-family="Arial,Helvetica" font-size="10.00">Dataset</text>
+<text text-anchor="middle" x="769.76" y="-85" font-family="Arial,Helvetica" font-size="10.00">https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR</text>
 </g>
-<!-- https://www.catalogueoflife.org#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgv20221114_uri_6 -->
+<!-- https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR&#45;&gt;https://doi.org/10.48580/dgykv -->
 <g id="edge7" class="edge">
-<title>https://www.catalogueoflife.org#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgv20221114_uri_6</title>
-<path fill="none" stroke="#546e7a" d="M772.07,-144.63C790.59,-139.1 809.33,-131.75 825.62,-122 841.81,-112.31 838.72,-101.15 854.62,-91 897.24,-63.81 950.95,-45.81 994.93,-34.49"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="995.71,-36.82 1001.9,-32.73 994.51,-32.07 995.71,-36.82"/>
-<text text-anchor="middle" x="907.12" y="-93.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">uri</text>
+<title>https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR&#45;&gt;https://doi.org/10.48580/dgykv</title>
+<path fill="none" stroke="#546e7a" d="M962.92,-93C1015.9,-93 1071.6,-93 1118.37,-93"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1118.5,-95.45 1125.5,-93 1118.5,-90.55 1118.5,-95.45"/>
+<text text-anchor="middle" x="1044.3" y="-95.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">isVersionOf</text>
 </g>
-<!-- https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14 -->
+<!-- lit_httpsdoiorg1048580dgykvversion2026071720XR_modified_6 -->
 <g id="node11" class="node">
-<title>https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14</title>
-<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="201.53" cy="-198" rx="201.55" ry="21.43"/>
-<text text-anchor="middle" x="201.53" y="-201" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
-<text text-anchor="middle" x="201.53" y="-190" font-family="Arial,Helvetica" font-size="10.00">https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14</text>
+<title>lit_httpsdoiorg1048580dgykvversion2026071720XR_modified_6</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1251.66,-36C1251.66,-36 1210.66,-36 1210.66,-36 1204.66,-36 1198.66,-30 1198.66,-24 1198.66,-24 1198.66,-12 1198.66,-12 1198.66,-6 1204.66,0 1210.66,0 1210.66,0 1251.66,0 1251.66,0 1257.66,0 1263.66,-6 1263.66,-12 1263.66,-12 1263.66,-24 1263.66,-24 1263.66,-30 1257.66,-36 1251.66,-36"/>
+<text text-anchor="start" x="1206.66" y="-15.5" font-family="Arial,Helvetica" font-size="10.00">2026&#45;07&#45;17</text>
 </g>
-<!-- https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;b0 -->
-<g id="edge10" class="edge">
-<title>https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;b0</title>
-<path fill="none" stroke="#546e7a" d="M256.47,-218.47C353.77,-255.4 556.28,-332.25 639.69,-363.9"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="639.03,-366.27 646.44,-366.47 640.77,-361.69 639.03,-366.27"/>
-<text text-anchor="middle" x="466.55" y="-311.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
-</g>
-<!-- https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;b1 -->
-<g id="edge11" class="edge">
-<title>https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;b1</title>
-<path fill="none" stroke="#546e7a" d="M362.44,-210.81C451.14,-217.92 556.01,-226.32 619.42,-231.4"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="619.39,-233.86 626.57,-231.97 619.78,-228.97 619.39,-233.86"/>
-<text text-anchor="middle" x="466.55" y="-223.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">vernacularName</text>
-</g>
-<!-- https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;https://www.catalogueoflife.org#v2022&#45;11&#45;14 -->
-<g id="edge9" class="edge">
-<title>https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;https://www.catalogueoflife.org#v2022&#45;11&#45;14</title>
-<path fill="none" stroke="#546e7a" d="M343.55,-182.91C372.79,-180.05 403.41,-177.25 432.05,-175 463.91,-172.49 498.13,-170.25 530.59,-168.34"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="531.08,-170.76 537.93,-167.91 530.8,-165.87 531.08,-170.76"/>
-<text text-anchor="middle" x="466.55" y="-177.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
-</g>
-<!-- lit_httpswwwcatalogueoflifeorgdatataxonKF8Tv20221114_title_7 -->
-<g id="node12" class="node">
-<title>lit_httpswwwcatalogueoflifeorgdatataxonKF8Tv20221114_title_7</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M774.84,-104C774.84,-104 580.84,-104 580.84,-104 574.84,-104 568.84,-98 568.84,-92 568.84,-92 568.84,-80 568.84,-80 568.84,-74 574.84,-68 580.84,-68 580.84,-68 774.84,-68 774.84,-68 780.84,-68 786.84,-74 786.84,-80 786.84,-80 786.84,-92 786.84,-92 786.84,-98 780.84,-104 774.84,-104"/>
-<text text-anchor="start" x="576.84" y="-89" font-family="Arial,Helvetica" font-size="10.00">Balaenoptera musculus sec. Catalogue of Life</text>
-<text text-anchor="start" x="576.84" y="-78" font-family="Arial,Helvetica" font-size="10.00">2022&#45;11&#45;14</text>
-</g>
-<!-- https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgdatataxonKF8Tv20221114_title_7 -->
+<!-- https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR&#45;&gt;lit_httpsdoiorg1048580dgykvversion2026071720XR_modified_6 -->
 <g id="edge8" class="edge">
-<title>https://www.catalogueoflife.org/data/taxon/KF8T#v2022&#45;11&#45;14&#45;&gt;lit_httpswwwcatalogueoflifeorgdatataxonKF8Tv20221114_title_7</title>
-<path fill="none" stroke="#546e7a" d="M284.6,-178.62C371.08,-158.2 506.56,-126.21 593.51,-105.68"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="594.21,-108.03 600.46,-104.03 593.09,-103.26 594.21,-108.03"/>
-<text text-anchor="middle" x="466.55" y="-144.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
+<title>https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR&#45;&gt;lit_httpsdoiorg1048580dgykvversion2026071720XR_modified_6</title>
+<path fill="none" stroke="#546e7a" d="M878.47,-75.42C978.77,-59.04 1122.8,-35.53 1191.22,-24.36"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1191.88,-26.73 1198.39,-23.19 1191.09,-21.9 1191.88,-26.73"/>
+<text text-anchor="middle" x="1044.3" y="-57.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">modified</text>
+</g>
+<!-- https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17 -->
+<g id="node12" class="node">
+<title>https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17</title>
+<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="224.86" cy="-130" rx="224.72" ry="21.43"/>
+<text text-anchor="middle" x="224.86" y="-133" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
+<text text-anchor="middle" x="224.86" y="-122" font-family="Arial,Helvetica" font-size="10.00">https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17</text>
+</g>
+<!-- https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;b0 -->
+<g id="edge11" class="edge">
+<title>https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;b0</title>
+<path fill="none" stroke="#546e7a" d="M286.82,-150.44C399.37,-188.17 636.82,-267.77 730.03,-299.02"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="729.34,-301.37 736.76,-301.27 730.9,-296.72 729.34,-301.37"/>
+<text text-anchor="middle" x="513.22" y="-239.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
+</g>
+<!-- https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;b1 -->
+<g id="edge12" class="edge">
+<title>https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;b1</title>
+<path fill="none" stroke="#546e7a" d="M405.88,-142.6C511.82,-150.02 638.79,-158.9 710.99,-163.96"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="711.08,-166.42 718.23,-164.46 711.42,-161.53 711.08,-166.42"/>
+<text text-anchor="middle" x="513.22" y="-154.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">vernacularName</text>
+</g>
+<!-- https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR -->
+<g id="edge10" class="edge">
+<title>https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;https://doi.org/10.48580/dgykv?version=2026&#45;07&#45;17%20XR</title>
+<path fill="none" stroke="#546e7a" d="M381.91,-114.76C413.91,-111.93 447.39,-109.18 478.72,-107 511.94,-104.69 547.32,-102.64 581.55,-100.87"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="581.96,-103.3 588.83,-100.49 581.71,-98.41 581.96,-103.3"/>
+<text text-anchor="middle" x="513.22" y="-109.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
+</g>
+<!-- lit_httpswwwcatalogueoflifeorgdatataxonKF8Tversion20260717_title_7 -->
+<g id="node13" class="node">
+<title>lit_httpswwwcatalogueoflifeorgdatataxonKF8Tversion20260717_title_7</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M866.76,-36C866.76,-36 672.76,-36 672.76,-36 666.76,-36 660.76,-30 660.76,-24 660.76,-24 660.76,-12 660.76,-12 660.76,-6 666.76,0 672.76,0 672.76,0 866.76,0 866.76,0 872.76,0 878.76,-6 878.76,-12 878.76,-12 878.76,-24 878.76,-24 878.76,-30 872.76,-36 866.76,-36"/>
+<text text-anchor="start" x="668.76" y="-21" font-family="Arial,Helvetica" font-size="10.00">Balaenoptera musculus sec. Catalogue of Life</text>
+<text text-anchor="start" x="668.76" y="-10" font-family="Arial,Helvetica" font-size="10.00">2026&#45;07&#45;17</text>
+</g>
+<!-- https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;lit_httpswwwcatalogueoflifeorgdatataxonKF8Tversion20260717_title_7 -->
+<g id="edge9" class="edge">
+<title>https://www.catalogueoflife.org/data/taxon/KF8T?version=2026&#45;07&#45;17&#45;&gt;lit_httpswwwcatalogueoflifeorgdatataxonKF8Tversion20260717_title_7</title>
+<path fill="none" stroke="#546e7a" d="M312.95,-110.43C383.86,-94.66 486.61,-72.2 576.72,-54 604.46,-48.4 634.52,-42.62 662.43,-37.38"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="663.05,-39.76 669.48,-36.06 662.15,-34.94 663.05,-39.76"/>
+<text text-anchor="middle" x="513.22" y="-76.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
 </g>
 </g>
 </svg>

@@ -5,170 +5,196 @@
  -->
 <!-- Title: Taxonomic_Data_Graph Pages: 1 -->
 <svg width="100%" height="100%"
- viewBox="0.00 0.00 1820.81 407.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 403)">
+ viewBox="0.00 0.00 1820.81 485.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 481)">
 <title>Taxonomic_Data_Graph</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-403 1816.81,-403 1816.81,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-481 1816.81,-481 1816.81,4 -4,4"/>
 <!-- b0 -->
 <g id="node1" class="node">
 <title>b0</title>
-<ellipse fill="#e0e0e0" stroke="#212121" cx="660.25" cy="-376" rx="27" ry="18"/>
-<text text-anchor="middle" x="660.25" y="-373.5" font-family="Arial,Helvetica" font-size="10.00">Label</text>
+<ellipse fill="#e0e0e0" stroke="#212121" cx="660.25" cy="-459" rx="27" ry="18"/>
+<text text-anchor="middle" x="660.25" y="-456.5" font-family="Arial,Helvetica" font-size="10.00">Label</text>
 </g>
 <!-- lit_b0_literalForm_0 -->
 <g id="node2" class="node">
 <title>lit_b0_literalForm_0</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1220.03,-399C1220.03,-399 1150.03,-399 1150.03,-399 1144.03,-399 1138.03,-393 1138.03,-387 1138.03,-387 1138.03,-375 1138.03,-375 1138.03,-369 1144.03,-363 1150.03,-363 1150.03,-363 1220.03,-363 1220.03,-363 1226.03,-363 1232.03,-369 1232.03,-375 1232.03,-375 1232.03,-387 1232.03,-387 1232.03,-393 1226.03,-399 1220.03,-399"/>
-<text text-anchor="start" x="1146.03" y="-378.5" font-family="Arial,Helvetica" font-size="10.00">SH1109146.09FU</text>
+<path fill="#ffffff" stroke="#b0bec5" d="M1220.03,-477C1220.03,-477 1150.03,-477 1150.03,-477 1144.03,-477 1138.03,-471 1138.03,-465 1138.03,-465 1138.03,-453 1138.03,-453 1138.03,-447 1144.03,-441 1150.03,-441 1150.03,-441 1220.03,-441 1220.03,-441 1226.03,-441 1232.03,-447 1232.03,-453 1232.03,-453 1232.03,-465 1232.03,-465 1232.03,-471 1226.03,-477 1220.03,-477"/>
+<text text-anchor="start" x="1146.03" y="-456.5" font-family="Arial,Helvetica" font-size="10.00">SH1109146.09FU</text>
 </g>
 <!-- b0&#45;&gt;lit_b0_literalForm_0 -->
 <g id="edge1" class="edge">
 <title>b0&#45;&gt;lit_b0_literalForm_0</title>
-<path fill="none" stroke="#546e7a" d="M687.53,-376.25C769.28,-377.03 1020.21,-379.43 1130.77,-380.49"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1130.82,-382.94 1137.85,-380.56 1130.87,-378.04 1130.82,-382.94"/>
-<text text-anchor="middle" x="883.75" y="-380.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">literalForm</text>
+<path fill="none" stroke="#546e7a" d="M687.53,-459C769.28,-459 1020.21,-459 1130.77,-459"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1130.85,-461.45 1137.85,-459 1130.85,-456.55 1130.85,-461.45"/>
+<text text-anchor="middle" x="883.75" y="-461.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">literalForm</text>
 </g>
 <!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU -->
 <g id="node3" class="node">
 <title>https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU</title>
-<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="191.63" cy="-309" rx="191.75" ry="21.43"/>
-<text text-anchor="middle" x="191.63" y="-312" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
-<text text-anchor="middle" x="191.63" y="-301" font-family="Arial,Helvetica" font-size="10.00">https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU</text>
+<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="191.63" cy="-355" rx="191.75" ry="21.43"/>
+<text text-anchor="middle" x="191.63" y="-358" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
+<text text-anchor="middle" x="191.63" y="-347" font-family="Arial,Helvetica" font-size="10.00">https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU</text>
 </g>
 <!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;b0 -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <title>https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;b0</title>
-<path fill="none" stroke="#546e7a" d="M309.47,-325.78C414.49,-340.86 561.84,-362.01 626.58,-371.31"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="626.41,-373.76 633.68,-372.33 627.1,-368.91 626.41,-373.76"/>
-<text text-anchor="middle" x="437.25" y="-348.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
+<path fill="none" stroke="#546e7a" d="M275.27,-374.12C335.18,-387.9 418.18,-406.85 491.25,-423 538.57,-433.46 593.48,-445.14 627.3,-452.28"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="626.83,-454.68 634.18,-453.73 627.84,-449.89 626.83,-454.68"/>
+<text text-anchor="middle" x="437.25" y="-417.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
+</g>
+<!-- lit_httpsdoiplutofuteedoi1015156BIOSH110914609FU_identifier_1 -->
+<g id="node4" class="node">
+<title>lit_httpsdoiplutofuteedoi1015156BIOSH110914609FU_identifier_1</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M695.25,-405C695.25,-405 625.25,-405 625.25,-405 619.25,-405 613.25,-399 613.25,-393 613.25,-393 613.25,-381 613.25,-381 613.25,-375 619.25,-369 625.25,-369 625.25,-369 695.25,-369 695.25,-369 701.25,-369 707.25,-375 707.25,-381 707.25,-381 707.25,-393 707.25,-393 707.25,-399 701.25,-405 695.25,-405"/>
+<text text-anchor="start" x="621.25" y="-384.5" font-family="Arial,Helvetica" font-size="10.00">SH1109146.09FU</text>
+</g>
+<!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;lit_httpsdoiplutofuteedoi1015156BIOSH110914609FU_identifier_1 -->
+<g id="edge2" class="edge">
+<title>https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;lit_httpsdoiplutofuteedoi1015156BIOSH110914609FU_identifier_1</title>
+<path fill="none" stroke="#546e7a" d="M354.85,-366.12C442.58,-372.14 545.15,-379.18 606.02,-383.35"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="606.08,-385.81 613.23,-383.84 606.42,-380.92 606.08,-385.81"/>
+<text text-anchor="middle" x="437.25" y="-374.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">identifier</text>
 </g>
 <!-- https://unite.ut.ee -->
-<g id="node4" class="node">
+<g id="node5" class="node">
 <title>https://unite.ut.ee</title>
-<ellipse fill="#bbdefb" stroke="#0d47a1" cx="1185.03" cy="-306" rx="65.52" ry="21.43"/>
-<text text-anchor="middle" x="1185.03" y="-309" font-family="Arial,Helvetica" font-size="10.00">Website</text>
-<text text-anchor="middle" x="1185.03" y="-298" font-family="Arial,Helvetica" font-size="10.00">https://unite.ut.ee</text>
+<ellipse fill="#bbdefb" stroke="#0d47a1" cx="1185.03" cy="-318" rx="65.52" ry="21.43"/>
+<text text-anchor="middle" x="1185.03" y="-321" font-family="Arial,Helvetica" font-size="10.00">Website</text>
+<text text-anchor="middle" x="1185.03" y="-310" font-family="Arial,Helvetica" font-size="10.00">https://unite.ut.ee</text>
 </g>
 <!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;https://unite.ut.ee -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <title>https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;https://unite.ut.ee</title>
-<path fill="none" stroke="#546e7a" d="M383.19,-308.42C605.22,-307.75 960.9,-306.68 1112.18,-306.22"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1112.24,-308.67 1119.23,-306.2 1112.22,-303.77 1112.24,-308.67"/>
-<text text-anchor="middle" x="660.25" y="-310.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
+<path fill="none" stroke="#546e7a" d="M367.1,-346.42C407.83,-344.53 451.06,-342.61 491.25,-341 717.61,-331.94 985.68,-323.77 1111.71,-320.08"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1112.15,-322.51 1119.07,-319.86 1112,-317.62 1112.15,-322.51"/>
+<text text-anchor="middle" x="660.25" y="-343.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
 </g>
 <!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737 -->
-<g id="node5" class="node">
+<g id="node6" class="node">
 <title>https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737</title>
-<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="660.25" cy="-216" rx="169" ry="21.43"/>
-<text text-anchor="middle" x="660.25" y="-219" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
-<text text-anchor="middle" x="660.25" y="-208" font-family="Arial,Helvetica" font-size="10.00">https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737</text>
+<ellipse fill="#c8e6c9" stroke="#1b5e20" cx="660.25" cy="-230" rx="169" ry="21.43"/>
+<text text-anchor="middle" x="660.25" y="-233" font-family="Arial,Helvetica" font-size="10.00">TaxonConcept</text>
+<text text-anchor="middle" x="660.25" y="-222" font-family="Arial,Helvetica" font-size="10.00">https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737</text>
 </g>
 <!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737 -->
-<g id="edge3" class="edge">
+<g id="edge4" class="edge">
 <title>https://doi.plutof.ut.ee/doi/10.15156/BIO/SH1109146.09FU&#45;&gt;https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737</title>
-<path fill="none" stroke="#546e7a" d="M285.65,-290.46C365.66,-274.51 480.67,-251.59 561.91,-235.4"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="562.78,-237.72 569.17,-233.95 561.82,-232.92 562.78,-237.72"/>
-<text text-anchor="middle" x="437.25" y="-264.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">isIncludedIn</text>
+<path fill="none" stroke="#546e7a" d="M251.39,-334.69C295.38,-319.88 357.2,-299.87 412.25,-285 461.47,-271.71 516.82,-259.16 562.63,-249.42"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="563.26,-251.79 569.6,-247.94 562.25,-247 563.26,-251.79"/>
+<text text-anchor="middle" x="437.25" y="-287.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">isIncludedIn</text>
 </g>
-<!-- lit_httpsuniteutee_title_1 -->
-<g id="node7" class="node">
-<title>lit_httpsuniteutee_title_1</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1800.81,-396C1800.81,-396 1606.81,-396 1606.81,-396 1600.81,-396 1594.81,-390 1594.81,-384 1594.81,-384 1594.81,-372 1594.81,-372 1594.81,-366 1600.81,-360 1606.81,-360 1606.81,-360 1800.81,-360 1800.81,-360 1806.81,-360 1812.81,-366 1812.81,-372 1812.81,-372 1812.81,-384 1812.81,-384 1812.81,-390 1806.81,-396 1800.81,-396"/>
-<text text-anchor="start" x="1602.81" y="-381" font-family="Arial,Helvetica" font-size="10.00">UNITE: rDNA ITS based identification of</text>
-<text text-anchor="start" x="1602.81" y="-370" font-family="Arial,Helvetica" font-size="10.00">Eukaryotes and their communication via DOIs</text>
+<!-- lit_httpsuniteutee_title_3 -->
+<g id="node9" class="node">
+<title>lit_httpsuniteutee_title_3</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1800.81,-404C1800.81,-404 1606.81,-404 1606.81,-404 1600.81,-404 1594.81,-398 1594.81,-392 1594.81,-392 1594.81,-380 1594.81,-380 1594.81,-374 1600.81,-368 1606.81,-368 1606.81,-368 1800.81,-368 1800.81,-368 1806.81,-368 1812.81,-374 1812.81,-380 1812.81,-380 1812.81,-392 1812.81,-392 1812.81,-398 1806.81,-404 1800.81,-404"/>
+<text text-anchor="start" x="1602.81" y="-389" font-family="Arial,Helvetica" font-size="10.00">UNITE: rDNA ITS based identification of</text>
+<text text-anchor="start" x="1602.81" y="-378" font-family="Arial,Helvetica" font-size="10.00">Eukaryotes and their communication via DOIs</text>
 </g>
-<!-- https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_title_1 -->
-<g id="edge7" class="edge">
-<title>https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_title_1</title>
-<path fill="none" stroke="#546e7a" d="M1245.56,-314.29C1328.71,-325.88 1481.31,-347.14 1587.23,-361.9"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1587.19,-364.36 1594.46,-362.9 1587.87,-359.51 1587.19,-364.36"/>
-<text text-anchor="middle" x="1513.31" y="-360.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
+<!-- https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_title_3 -->
+<g id="edge9" class="edge">
+<title>https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_title_3</title>
+<path fill="none" stroke="#546e7a" d="M1246.07,-325.9C1329.4,-336.86 1481.77,-356.91 1587.48,-370.83"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1587.44,-373.29 1594.7,-371.77 1588.08,-368.43 1587.44,-373.29"/>
+<text text-anchor="middle" x="1513.31" y="-369.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">title</text>
 </g>
-<!-- lit_httpsuniteutee_uri_2 -->
-<g id="node8" class="node">
-<title>lit_httpsuniteutee_uri_2</title>
-<path fill="#ffffff" stroke="#b0bec5" d="M1738.31,-324C1738.31,-324 1669.31,-324 1669.31,-324 1663.31,-324 1657.31,-318 1657.31,-312 1657.31,-312 1657.31,-300 1657.31,-300 1657.31,-294 1663.31,-288 1669.31,-288 1669.31,-288 1738.31,-288 1738.31,-288 1744.31,-288 1750.31,-294 1750.31,-300 1750.31,-300 1750.31,-312 1750.31,-312 1750.31,-318 1744.31,-324 1738.31,-324"/>
-<text text-anchor="start" x="1665.31" y="-303.5" font-family="Arial,Helvetica" font-size="10.00">https://unite.ut.ee</text>
+<!-- lit_httpsuniteutee_uri_4 -->
+<g id="node10" class="node">
+<title>lit_httpsuniteutee_uri_4</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1738.31,-332C1738.31,-332 1669.31,-332 1669.31,-332 1663.31,-332 1657.31,-326 1657.31,-320 1657.31,-320 1657.31,-308 1657.31,-308 1657.31,-302 1663.31,-296 1669.31,-296 1669.31,-296 1738.31,-296 1738.31,-296 1744.31,-296 1750.31,-302 1750.31,-308 1750.31,-308 1750.31,-320 1750.31,-320 1750.31,-326 1744.31,-332 1738.31,-332"/>
+<text text-anchor="start" x="1665.31" y="-311.5" font-family="Arial,Helvetica" font-size="10.00">https://unite.ut.ee</text>
 </g>
-<!-- https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_uri_2 -->
-<g id="edge8" class="edge">
-<title>https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_uri_2</title>
-<path fill="none" stroke="#546e7a" d="M1250.96,-306C1354.39,-306 1554.61,-306 1649.91,-306"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1650.14,-308.45 1657.14,-306 1650.14,-303.55 1650.14,-308.45"/>
-<text text-anchor="middle" x="1513.31" y="-308.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">uri</text>
+<!-- https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_uri_4 -->
+<g id="edge10" class="edge">
+<title>https://unite.ut.ee&#45;&gt;lit_httpsuniteutee_uri_4</title>
+<path fill="none" stroke="#546e7a" d="M1250.96,-317.5C1354.39,-316.7 1554.61,-315.15 1649.91,-314.41"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1650.16,-316.86 1657.14,-314.35 1650.12,-311.96 1650.16,-316.86"/>
+<text text-anchor="middle" x="1513.31" y="-317.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">uri</text>
 </g>
 <!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737&#45;&gt;https://unite.ut.ee -->
-<g id="edge5" class="edge">
+<g id="edge7" class="edge">
 <title>https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737&#45;&gt;https://unite.ut.ee</title>
-<path fill="none" stroke="#546e7a" d="M760.5,-233.09C865.89,-251.23 1029.38,-279.38 1119.29,-294.86"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1119.12,-297.31 1126.43,-296.08 1119.95,-292.48 1119.12,-297.31"/>
-<text text-anchor="middle" x="883.75" y="-260.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
+<path fill="none" stroke="#546e7a" d="M762.05,-246.97C867.49,-264.72 1029.85,-292.05 1119.32,-307.11"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1119.12,-309.56 1126.43,-308.3 1119.93,-304.73 1119.12,-309.56"/>
+<text text-anchor="middle" x="883.75" y="-273.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">accordingTo</text>
+</g>
+<!-- lit_httpsdoiplutofuteedoi1015156BIOTH077737_identifier_2 -->
+<g id="node7" class="node">
+<title>lit_httpsdoiplutofuteedoi1015156BIOTH077737_identifier_2</title>
+<path fill="#ffffff" stroke="#b0bec5" d="M1204.03,-250C1204.03,-250 1166.03,-250 1166.03,-250 1160.03,-250 1154.03,-244 1154.03,-238 1154.03,-238 1154.03,-226 1154.03,-226 1154.03,-220 1160.03,-214 1166.03,-214 1166.03,-214 1204.03,-214 1204.03,-214 1210.03,-214 1216.03,-220 1216.03,-226 1216.03,-226 1216.03,-238 1216.03,-238 1216.03,-244 1210.03,-250 1204.03,-250"/>
+<text text-anchor="start" x="1162.03" y="-229.5" font-family="Arial,Helvetica" font-size="10.00">TH077737</text>
+</g>
+<!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737&#45;&gt;lit_httpsdoiplutofuteedoi1015156BIOTH077737_identifier_2 -->
+<g id="edge6" class="edge">
+<title>https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737&#45;&gt;lit_httpsdoiplutofuteedoi1015156BIOTH077737_identifier_2</title>
+<path fill="none" stroke="#546e7a" d="M829.18,-230.64C941.87,-231.07 1081.26,-231.61 1146.74,-231.86"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1146.97,-234.31 1153.98,-231.89 1146.99,-229.41 1146.97,-234.31"/>
+<text text-anchor="middle" x="883.75" y="-232.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">identifier</text>
 </g>
 <!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175 -->
-<g id="node6" class="node">
+<g id="node8" class="node">
 <title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175</title>
-<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="1185.03" cy="-162" rx="246.56" ry="21.43"/>
-<text text-anchor="middle" x="1185.03" y="-165" font-family="Arial,Helvetica" font-size="10.00">TaxonName</text>
-<text text-anchor="middle" x="1185.03" y="-154" font-family="Arial,Helvetica" font-size="10.00">https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175</text>
+<ellipse fill="#ffcdd2" stroke="#b71c1c" cx="1185.03" cy="-157" rx="246.56" ry="21.43"/>
+<text text-anchor="middle" x="1185.03" y="-160" font-family="Arial,Helvetica" font-size="10.00">TaxonName</text>
+<text text-anchor="middle" x="1185.03" y="-149" font-family="Arial,Helvetica" font-size="10.00">https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175</text>
 </g>
 <!-- https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737&#45;&gt;https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175 -->
-<g id="edge6" class="edge">
+<g id="edge8" class="edge">
 <title>https://doi.plutof.ut.ee/doi/10.15156/BIO/TH077737&#45;&gt;https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175</title>
-<path fill="none" stroke="#546e7a" d="M791.15,-202.58C860.14,-195.46 945.65,-186.62 1019.27,-179.02"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1019.64,-181.44 1026.35,-178.29 1019.14,-176.57 1019.64,-181.44"/>
-<text text-anchor="middle" x="883.75" y="-198.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
+<path fill="none" stroke="#546e7a" d="M774.04,-214.25C854.33,-203.04 962.62,-187.92 1047.75,-176.03"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1048.28,-178.43 1054.88,-175.03 1047.6,-173.58 1048.28,-178.43"/>
+<text text-anchor="middle" x="883.75" y="-205.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">taxonName</text>
 </g>
-<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_3 -->
-<g id="node9" class="node">
-<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_3</title>
+<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_5 -->
+<g id="node11" class="node">
+<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_5</title>
 <path fill="#ffffff" stroke="#b0bec5" d="M1731.81,-252C1731.81,-252 1675.81,-252 1675.81,-252 1669.81,-252 1663.81,-246 1663.81,-240 1663.81,-240 1663.81,-228 1663.81,-228 1663.81,-222 1669.81,-216 1675.81,-216 1675.81,-216 1731.81,-216 1731.81,-216 1737.81,-216 1743.81,-222 1743.81,-228 1743.81,-228 1743.81,-240 1743.81,-240 1743.81,-246 1737.81,-252 1731.81,-252"/>
 <text text-anchor="start" x="1671.81" y="-231.5" font-family="Arial,Helvetica" font-size="10.00">Sp. pl. 2: 1176</text>
 </g>
-<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_3 -->
-<g id="edge9" class="edge">
-<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_3</title>
-<path fill="none" stroke="#546e7a" d="M1315.43,-180.03C1426.65,-195.52 1580.75,-216.99 1656.71,-227.58"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1656.54,-230.03 1663.81,-228.57 1657.21,-225.17 1656.54,-230.03"/>
-<text text-anchor="middle" x="1513.31" y="-217.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">namePublishedIn</text>
+<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_5 -->
+<g id="edge11" class="edge">
+<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedIn_5</title>
+<path fill="none" stroke="#546e7a" d="M1309.15,-175.35C1420.65,-191.96 1578.93,-215.54 1656.43,-227.09"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1656.38,-229.56 1663.67,-228.17 1657.11,-224.71 1656.38,-229.56"/>
+<text text-anchor="middle" x="1513.31" y="-216.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">namePublishedIn</text>
 </g>
-<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_4 -->
-<g id="node10" class="node">
-<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_4</title>
+<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_6 -->
+<g id="node12" class="node">
+<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_6</title>
 <path fill="#ffffff" stroke="#b0bec5" d="M1718.81,-180C1718.81,-180 1688.81,-180 1688.81,-180 1682.81,-180 1676.81,-174 1676.81,-168 1676.81,-168 1676.81,-156 1676.81,-156 1676.81,-150 1682.81,-144 1688.81,-144 1688.81,-144 1718.81,-144 1718.81,-144 1724.81,-144 1730.81,-150 1730.81,-156 1730.81,-156 1730.81,-168 1730.81,-168 1730.81,-174 1724.81,-180 1718.81,-180"/>
 <text text-anchor="start" x="1684.81" y="-159.5" font-family="Arial,Helvetica" font-size="10.00">1753</text>
 </g>
-<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_4 -->
-<g id="edge10" class="edge">
-<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_4</title>
-<path fill="none" stroke="#546e7a" d="M1431.93,-162C1525.24,-162 1620.72,-162 1669.56,-162"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1669.7,-164.45 1676.7,-162 1669.7,-159.55 1669.7,-164.45"/>
-<text text-anchor="middle" x="1513.31" y="-164.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">namePublishedInYear</text>
+<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_6 -->
+<g id="edge12" class="edge">
+<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_namePublishedInYear_6</title>
+<path fill="none" stroke="#546e7a" d="M1430.42,-159.36C1524.05,-160.27 1620.14,-161.2 1669.32,-161.68"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1669.49,-164.13 1676.52,-161.75 1669.54,-159.23 1669.49,-164.13"/>
+<text text-anchor="middle" x="1513.31" y="-163.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">namePublishedInYear</text>
 </g>
-<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_5 -->
-<g id="node11" class="node">
-<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_5</title>
+<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_7 -->
+<g id="node13" class="node">
+<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_7</title>
 <path fill="#ffffff" stroke="#b0bec5" d="M1718.81,-108C1718.81,-108 1688.81,-108 1688.81,-108 1682.81,-108 1676.81,-102 1676.81,-96 1676.81,-96 1676.81,-84 1676.81,-84 1676.81,-78 1682.81,-72 1688.81,-72 1688.81,-72 1718.81,-72 1718.81,-72 1724.81,-72 1730.81,-78 1730.81,-84 1730.81,-84 1730.81,-96 1730.81,-96 1730.81,-102 1724.81,-108 1718.81,-108"/>
 <text text-anchor="start" x="1684.81" y="-87.5" font-family="Arial,Helvetica" font-size="10.00">L</text>
 </g>
-<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_5 -->
-<g id="edge11" class="edge">
-<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_5</title>
-<path fill="none" stroke="#546e7a" d="M1315.43,-143.97C1433.13,-127.57 1598.84,-104.49 1669.15,-94.69"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1669.86,-97.06 1676.45,-93.67 1669.18,-92.21 1669.86,-97.06"/>
-<text text-anchor="middle" x="1513.31" y="-124.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">scientificNameAuthorship</text>
+<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_7 -->
+<g id="edge13" class="edge">
+<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_scientificNameAuthorship_7</title>
+<path fill="none" stroke="#546e7a" d="M1322.14,-139.35C1439.58,-124.13 1600.8,-103.23 1669.56,-94.31"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1670.08,-96.71 1676.7,-93.38 1669.45,-91.86 1670.08,-96.71"/>
+<text text-anchor="middle" x="1513.31" y="-122.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">scientificNameAuthorship</text>
 </g>
-<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_6 -->
-<g id="node12" class="node">
-<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_6</title>
+<!-- lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_8 -->
+<g id="node14" class="node">
+<title>lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_8</title>
 <path fill="#ffffff" stroke="#b0bec5" d="M1718.81,-36C1718.81,-36 1688.81,-36 1688.81,-36 1682.81,-36 1676.81,-30 1676.81,-24 1676.81,-24 1676.81,-12 1676.81,-12 1676.81,-6 1682.81,0 1688.81,0 1688.81,0 1718.81,0 1718.81,0 1724.81,0 1730.81,-6 1730.81,-12 1730.81,-12 1730.81,-24 1730.81,-24 1730.81,-30 1724.81,-36 1718.81,-36"/>
 <text text-anchor="start" x="1684.81" y="-15.5" font-family="Arial,Helvetica" font-size="10.00">Boletus</text>
 </g>
-<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_6 -->
-<g id="edge12" class="edge">
-<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_6</title>
-<path fill="none" stroke="#546e7a" d="M1258.7,-141.75C1372.31,-110.09 1587.49,-50.13 1669.73,-27.22"/>
-<polygon fill="#546e7a" stroke="#546e7a" points="1670.72,-29.49 1676.8,-25.25 1669.4,-24.77 1670.72,-29.49"/>
-<text text-anchor="middle" x="1513.31" y="-84.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">nameString</text>
+<!-- https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_8 -->
+<g id="edge14" class="edge">
+<title>https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=17175&#45;&gt;lit_httpswwwindexfungorumorgnamesNamesRecordaspRecordID17175_nameString_8</title>
+<path fill="none" stroke="#546e7a" d="M1261.17,-136.79C1375.3,-106.09 1587.7,-48.96 1669.5,-26.96"/>
+<polygon fill="#546e7a" stroke="#546e7a" points="1670.42,-29.25 1676.54,-25.06 1669.15,-24.52 1670.42,-29.25"/>
+<text text-anchor="middle" x="1513.31" y="-82.8" font-family="Arial,Helvetica" font-size="9.00" fill="#37474f">nameString</text>
 </g>
 </g>
 </svg>
