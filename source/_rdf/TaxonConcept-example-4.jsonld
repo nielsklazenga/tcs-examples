@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "id": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:105644-1?version=2026-07-22",
+  "type": "TaxonConcept",
+  "dcterms:title": "Begonia salaziensis sec. POWO 2026-07-22",
+  "accordingTo": {
+    "id": "https://doi.org/10.48580/d4dz.v226",
+    "type": "dcterms:Dataset",
+    "dcterms:modified": {
+      "@value": "2026-07-22",
+      "@type": "xsd:date"
+    },
+    "dcterms:isVersionOf": {
+      "id": "https://doi.org/10.48580/d4dz",
+      "type": "dcterms:Dataset",
+      "dcterms:bibliographicCitation": "WCVP, World Checklist of Vascular Plants, Royal Botanic Gardens, Kew"
+    }
+  },
+  "taxonName": {
+    "id": "https://ipni.org/n/105644-1",
+    "type": "TaxonName",
+    "nameString": "Begonia salaziensis",
+    "scientificNameAuthorship": "Warb.",
+    "namePublishedInLiteral": "Warburg, O. (1894). Begoniaceae, in Engler, A. & K. Prantl, Nat. Pflanzenfam. 3(6a): 121-150."
+  }
+}

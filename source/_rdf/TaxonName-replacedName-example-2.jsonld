@@ -1,0 +1,31 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "@graph": [
+    {
+      "id": "https://www.tropicos.org/name/35000146",
+      "type": "TaxonName",
+      "nameString": "Braunfelsia",
+      "scientificNameAuthorship": "Paris",
+      "namePublishedInLiteral": "Index Bryol.: 148",
+      "namePublishedInYear": "1894",
+      "replacedName": "https://www.tropicos.org/name/35001206"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35001206",
+      "type": "TaxonName",
+      "nameString": "Solmsia",
+      "scientificNameAuthorship": "Hampe",
+      "namePublishedInLiteral": "Nuovo Giorn. Bot. Ital. 4(4): 273, 281",
+      "namePublishedInYear": "1872",
+      "nomenclaturalStatus": "illegitimate"
+    },
+    {
+      "id": "https://ipni.org/n/39527-1",
+      "type": "TaxonName",
+      "nameString": "Solmsia",
+      "scientificNameAuthorship": "Baill.",
+      "namePublishedInLiteral": "Adansonia 10: 37",
+      "namePublishedInYear": "1871"
+    }
+  ]
+}

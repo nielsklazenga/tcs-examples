@@ -1,0 +1,149 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "dsw": "http://purl.org/dsw/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "oa": "http://www.w3.org/ns/oa#",
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      },
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208",
+      "type": "dwc:PreservedSpecimen",
+      "dwc:catalogNumber": "MEL 1516494A",
+      "schema:itemLocation": {
+        "id": "https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992",
+        "type": "org:OrganizationalUnit",
+        "skos:prefLabel": "National Herbarium of Victoria",
+        "dwc:collectionCode": "MEL",
+        "org:unitOf": {
+          "id": "https://scientific-collections.gbif.org/institution/70fbf720-63a3-4e3c-b844-ee96091880e0",
+          "type": "org:Organization",
+          "skos:prefLabel": "National Herbarium of Victoria",
+          "dwc:institutionCode": "MEL"
+        }
+      },
+      "dsw:evidenceFor": {
+        "id": "https://avh.ala.org.au/occurrences/794ef2b7-956e-44e5-9321-cbe9553d6057",
+        "type": "dwc:Occurrence",
+        "dwciri:recordedBy": {
+          "id": "http://www.wikidata.org/entity/Q16065577",
+          "type": "foaf:Person",
+          "foaf:givenName": "John",
+          "foaf:familyName": "Dallachy"
+        },
+        "dwc:recordNumber": "88",
+        "dsw:atEvent": {
+          "type": "dwc:Event",
+          "dwc:eventDate": "1852/1862",
+          "dwciri:inDescribedPlace": {
+            "type": "dcterms:Location",
+            "dwc:country": "Australia",
+            "dwc:stateOrProvince": "Victoria",
+            "dwc:verbatimLocality": "Between Mount Arapiles and Lake Hindmarsh",
+            "dwc:locality": "Mount Arapiles",
+            "dwc:verbatimLatitude": "36° 45' S",
+            "dwc:verbatimLongitude": "141° 50' E",
+            "dwc:decimalLatitude": {
+              "@value": "-36.75000",
+              "@type": "xsd:decimal"
+            },
+            "dwc:decimalLongitude": {
+              "@value": "141.83333",
+              "@type": "xsd:decimal"
+            },
+            "dwc:coordinatePrecision": {
+              "@value": "0.01667",
+              "@type": "xsd:decimal"
+            },
+            "dwc:coordinateUncertaintyInMeters": {
+              "@value": "25000",
+              "@type": "xsd:integer"
+            },
+            "dwciri:geodeticDatum": {
+              "id": "https://epsg.io/4326"
+            }
+          }
+        }
+      },
+      "dsw:isBasisForId": {
+        "id": "_:b0",
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": {
+          "id": "https://id.biodiversity.org.au/instance/apni/683275",
+          "type": "TaxonConcept",
+          "dcterms:title": "Templetonia stenophylla sec. Ross 1996",
+          "taxonName": {
+            "id": "https://ipni.org/n/520361-1",
+            "type": "TaxonName",
+            "nameString": "Templetonia stenophylla",
+            "scientificNameAuthorship": "(F.Muell.) J.M.Black",
+            "namePublishedInLiteral": "Fl. S. Austral. 304",
+            "namePublishedInYear": "1924"
+          }
+        },
+        "dwciri:identifiedBy": {
+          "id": "http://www.wikidata.org/entity/Q5925767",
+          "type": "foaf:Person",
+          "foaf:givenName": "James Henderson",
+          "foaf:familyName": "Ross"
+        }
+      },
+      "dwciri:typeStatus": {
+        "id": "_:b1",
+        "type": "NomenclaturalType",
+        "typifiedName": {
+          "id": "https://ipni.org/n/520357-1",
+          "type": "TaxonName",
+          "nameString": "Templetonia muelleri",
+          "scientificNameAuthorship": "Benth.",
+          "namePublishedInLiteral": "Fl. Austral. 2: 169",
+          "namePublishedInYear": "1864",
+          "nomenclaturalStatus": "superfluous",
+          "rdfs:comment": "Templestonia muelleri Benth. includes the type of Bossiaea stenophylla F.Muell."
+        },
+        "typeOfType": "syntype",
+        "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208"
+      }
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b0",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208",
+      "dcterms:creator": {
+        "@id": "http://www.wikidata.org/entity/Q5925767"
+      },
+      "dcterms:created": "1980-03-24"
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b1",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/313208",
+      "dcterms:creator": {
+        "@id": "http://www.wikidata.org/entity/Q5925767"
+      },
+      "dcterms:created": "1980-03-24"
+    }
+  ]
+}

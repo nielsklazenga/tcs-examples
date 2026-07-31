@@ -1,0 +1,124 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "typification": {
+        "@type": "@id",
+        "@id": "tcs:typification",
+        "@container": "@set"
+      },
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://doi/org/10.2307/3668252",
+      "type": "bibo:AcademicArticle",
+      "dcterms:bibliographicCitation": "Klazenga, N., J.J.F.E. de Wilde & R.J. Quené (1994). Begonia sect. Mezierea (Gaud.) Warb., a taxonomic revision. Bulletin du Jardin Botanique National de Belgique, 63, 263-312."
+    },
+    {
+      "id": "https://ipni.org/n/105731-1",
+      "type": "TaxonName",
+      "nameString": "Begonia seychellensis",
+      "scientificNameAuthorship": "Hemsl.",
+      "namePublishedInLiteral": "J. Bot. 54(Suppl. 2): 15 (1916)",
+      "typification": [
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "lectotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Seychelles",
+            "dwc:island": "Mahé",
+            "dwc:recordedBy": "Horne",
+            "dwc:recordNumber": "245",
+            "schema:itemLocation": {
+              "id": "https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861",
+              "type": "org:OrganizationalUnit",
+              "skos:prefLabel": "Herbarium - Royal Botanic Gardens",
+              "dwc:collectionCode": "K",
+              "org:unitOf": {
+                "id": "https://scientific-collections.gbif.org/institution/fa252605-26f6-426c-9892-94d071c2c77f",
+                "type": "org:Organization",
+                "skos:prefLabel": "Royal Botanic Gardens, Kew"
+              }
+            }
+          },
+          "dcterms:source": {
+            "id": "https://doi/org/10.2307/3668252"
+          }
+        },
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "paralectotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Seychelles",
+            "dwc:recordedBy": "Horne",
+            "dwc:recordNumber": "465",
+            "schema:itemLocation": {
+              "id": "https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861"
+            }
+          },
+          "dcterms:source": {
+            "id": "https://doi/org/10.2307/3668252"
+          }
+        },
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "paralectotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Seychelles",
+            "dwc:island": "Mahé",
+            "dwc:recordedBy": "Gardiner",
+            "dwc:recordNumber": "s.n.",
+            "schema:itemLocation": {
+              "id": "https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861"
+            }
+          },
+          "dcterms:source": {
+            "id": "https://doi/org/10.2307/3668252"
+          }
+        },
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "paralectotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Seychelles",
+            "dwc:island": "Silhouette",
+            "dwc:recordedBy": "Gardiner",
+            "dwc:recordNumber": "111",
+            "schema:itemLocation": {
+              "id": "https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861"
+            }
+          },
+          "dcterms:source": {
+            "id": "https://doi/org/10.2307/3668252"
+          }
+        },
+        {
+          "type": "NomenclaturalType",
+          "typeOfType": "paralectotype",
+          "typeSpecimen": {
+            "type": "dwc:MaterialCitation",
+            "dwc:country": "Seychelles",
+            "dwc:island": "Mahé and Silhouette",
+            "dwc:recordedBy": "Neville",
+            "dwc:recordNumber": "s.n.",
+            "schema:itemLocation": {
+              "id": "https://scientific-collections.gbif.org/collection/dceb8d52-094c-4c2c-8960-75e0097c6861"
+            }
+          },
+          "dcterms:source": {
+            "id": "https://doi/org/10.2307/3668252"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "TaxonConceptMapping",
+  "mappingAccordingTo": {
+    "id": "https://doi.org/10.3233/SW-160220",
+    "type": "dcterms:BibliographicResource"
+  },
+  "mappingRelation": "isIncludedIn",
+  "subjectTaxonConcept": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Andropogon hirsutior sec. BONAP 2014",
+    "taxonName": {
+      "id": "https://ipni.org/n/60458078-2"
+    },
+    "accordingTo": {
+      "id": "http://bonap.net/napa#2014"
+    }
+  },
+  "objectTaxonConcept": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Andropogon glomeratus sec. Weakley 2006",
+    "taxonName": {
+      "id": "https://ipni.org/n/12850-2"
+    },
+    "accordingTo": {
+      "id": "http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf",
+      "type": "bibo:Book"
+    }
+  }
+}

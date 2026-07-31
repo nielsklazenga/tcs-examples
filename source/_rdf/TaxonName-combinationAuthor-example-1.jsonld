@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "id": "https://ipni.org/n/316069-1",
+  "type": "TaxonName",
+  "nameString": "Rafflesia arnoldi",
+  "scientificNameAuthorship": "R.Br.",
+  "combinationAuthor": {
+    "id": "https://ipni.org/a/1192-1",
+    "type": "foaf:Person",
+    "foaf:givenName": "Robert",
+    "foaf:familyName": "Brown"
+  },
+  "combinationAuthorLiteral": "R.Br."
+}

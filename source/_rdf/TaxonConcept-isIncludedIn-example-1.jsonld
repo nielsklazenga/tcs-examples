@@ -1,0 +1,68 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "TaxonConcept",
+  "dcterms:title": "Athyriaceae sec. Rothfels & al. 2012",
+  "accordingTo": {
+    "id": "https://doi.org/10.1002/tax.613003",
+    "type": "bibo:AcademicArticle",
+    "dcterms:bibliographicCitation": "Rothfels, C.J., M.A. Sundue, L.-Y. Kuo, A. Larsson, M. Kato, E. Schuettpelz, K.M. Pryer 2018. A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 61: 515-533."
+  },
+  "taxonName": {
+    "id": "https://ipni.org/n/30000361-2",
+    "type": "TaxonName",
+    "nameString": "Athyriaceae"
+  },
+  "isIncludedIn": [
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Athyriaceae sec. Christenhusz & al. 2011",
+      "accordingTo": {
+        "id": "https://doi.org/10.11646/phytotaxa.19.1.2",
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Christenhusz, M.J.M., X.C. Zhang & H. Schneider 2011. A linear sequence of extant families and genera of lycophytes and ferns. Phytotaxa 19(1): 7-54."
+      },
+      "taxonName": "https://ipni.org/n/30000361-2"
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Woodsiaceae sec. Smith & al. 2006",
+      "accordingTo": {
+        "id": "https://doi.org/10.2307/25065646",
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Smith, A.R., K.M. Pryer, E. Schuetpelz, P. Korall, H. Schneider & P.G. Wolf 2006. A classification for extant ferns. Taxon 55: 705-731."
+      },
+      "taxonName": {
+        "id": "https://ipni.org/n/30000455-2",
+        "type": "TaxonName",
+        "nameString": "Woodsiaceae"
+      }
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Dryopteridaceae sec. Nayar 1970",
+      "accordingTo": {
+        "id": "https://doi.org/10.2307/1217958",
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Nayar, B.K. 1970. A phylogenetic classification of the homosporous ferns. Taxon 19: 229-236."
+      },
+      "taxonName": {
+        "id": "https://ipni.org/n/30014148-2",
+        "type": "TaxonName",
+        "nameString": "Woodsiaceae"
+      }
+    },
+    {
+      "type": "TaxonConcept",
+      "dcterms:title": "Dennstaedtiaceae sec. Holttum 1947",
+      "accordingTo": {
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Holttum, R.E. 1947. A revised classification of the leptosporangiate ferns. J. Linn. Soc., Bot. 51: 123--158."
+      },
+      "taxonName": {
+        "id": "https://ipni.org/n/17434830-1",
+        "type": "TaxonName",
+        "nameString": "Dennstaedtiaceae"
+      }
+    }
+  ]
+}

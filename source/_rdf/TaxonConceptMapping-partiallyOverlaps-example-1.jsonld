@@ -1,0 +1,37 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "TaxonConceptMapping",
+  "mappingAccordingTo": {
+    "id": "https://doi.org/10.3233/SW-160220",
+    "type": "bibo:AcademicArticle",
+    "dcterms:bibliographicCitation": "Franz, N.M., M. Chen, P. Kianmajd, S. Yu, S. Bowers, A.S. Weakley & B. Ludäscher 2016. Names are not good enough: Reasoning over taxonomic change in the Andropogon complex. Semantic Web 7: 645–667."
+  },
+  "mappingRelation": "partiallyOverlaps",
+  "subjectTaxonConcept": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Andropogon glomeratus sec. BONAP 2014",
+    "taxonName": {
+      "id": "https://ipni.org/n/12850-2",
+      "type": "TaxonName",
+      "nameString": "Andropogon glomeratus",
+      "dwc:scientificNameAuthorship": "Britton, Sterns & Poggenb."
+    },
+    "accordingTo": {
+      "id": "http://bonap.net/napa#2014",
+      "type": "bibo:Website",
+      "dcterms:bibliographicReference": "Kartesz, J.T. 2014. The Biota of North America Program (BONAP), 2014, North American Plant Atlas, Chapel Hill, NC, 2014, http://bonap.net/napa."
+    }
+  },
+  "objectTaxonConcept": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Andropogon glomeratus sec. Weakley 2006",
+    "taxonName": {
+      "id": "https://ipni.org/n/12850-2"
+    },
+    "accordingTo": {
+      "id": "http://www.herbarium.unc.edu/FloraArchives/WeakleyFlora_2006-Jan.pdf",
+      "type": "bibo:Report",
+      "dcterms:bibliographicReference": "A.S. Weakley, Flora of the Southern and Mid-Atlantic States, Working Draft of 29 Mary, 2015, University of North Carolina Herbarium, Chapel Hill, 2015"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "dsw": "http://purl.org/dsw/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "oa": "http://www.w3.org/ns/oa#",
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      },
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589",
+      "type": "dwc:PreservedSpecimen",
+      "dwc:catalogNumber": "MEL 0687503A",
+      "schema:itemLocation": {
+        "id": "https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992",
+        "type": "org:OrganizationalUnit",
+        "skos:prefLabel": "National Herbarium of Victoria",
+        "dwc:collectionCode": "MEL",
+        "org:unitOf": {
+          "id": "https://scientific-collections.gbif.org/institution/70fbf720-63a3-4e3c-b844-ee96091880e0",
+          "type": "org:Organization",
+          "skos:prefLabel": "National Herbarium of Victoria",
+          "dwc:institutionCode": "MEL"
+        }
+      },
+      "dsw:evidenceFor": {
+        "id": "https://avh.ala.org.au/occurrences/f121f99a-5b02-4f7b-9d57-bb2718c0c7de",
+        "type": "dwc:Occurrence",
+        "dwciri:recordedBy": {
+          "id": "https://www.ipni.org/a/1174-1",
+          "type": "foaf:Person",
+          "foaf:givenName": "Murray Ian Hill",
+          "foaf:familyName": "Brooker"
+        },
+        "dwc:recordNumber": "8969",
+        "dsw:atEvent": {
+          "type": "dwc:Event",
+          "dwc:eventDate": {
+            "@value": "1985-05-01",
+            "@type": "xsd:date"
+          },
+          "dwciri:inDescribedPlace": {
+            "type": "dcterms:Location",
+            "dwc:country": "Australia",
+            "dwc:stateOrProvince": "Queensland",
+            "dwc:verbatimLocality": "10 km NE of Pentland",
+            "dwc:verbatimLatitude": "20° 28' S",
+            "dwc:verbatimLongitude": "145° 29' E",
+            "dwc:decimalLatitude": {
+              "@value": "-20.46667",
+              "@type": "xsd:decimal"
+            },
+            "dwc:decimalLongitude": {
+              "@value": "145.48333",
+              "@type": "xsd:decimal"
+            },
+            "dwc:coordinatePrecision": {
+              "@value": "0.01667",
+              "@type": "xsd:decimal"
+            },
+            "dwc:coordinateUncertaintyInMeters": 1000,
+            "dwciri:geodeticDatum": {
+              "id": "https://epsg.io/4326"
+            }
+          }
+        },
+        "dsw:hasEvidence": {
+          "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589"
+        }
+      },
+      "dsw:isBasisForId": {
+        "id": "_:b0",
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": {
+          "id": "https://id.biodiversity.org.au/instance/apni/612750",
+          "type": "TaxonConcept",
+          "dcterms:title": "Eucalyptus crebra sec. Australian Plant Census 2006",
+          "taxonName": {
+            "id": "https://ipni.org/n/592841-1",
+            "type": "TaxonName",
+            "nameString": "Eucalyptus crebra",
+            "scientificNameAuthorship": "F.Muel.",
+            "namePublishedInLiteral": "J. Proc. Linn. Soc., Bot. 3: 87",
+            "namePublishedInYear": "1858"
+          }
+        }
+      },
+      "dwciri:typeStatus": {
+        "type": "NomenclaturalType",
+        "typeOfType": "isolectotype",
+        "typifiedName": {
+          "id": "https://ipni.org/n/933707-1",
+          "type": "TaxonName",
+          "nameString": "Eucalyptus xanthoclada",
+          "scientificNameAuthorship": "Brooker & A.R.Bean",
+          "namePublishedInLiteral": "Brunonia 10(2): 193",
+          "namePublishedInYear": "1987"
+        },
+        "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589"
+      }
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b0",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/51589",
+      "dcterms:creator": {
+        "id": "https://orcid.org/0000-0001-6661-7722",
+        "type": "foaf:Person",
+        "foaf:givenName": "Wayne",
+        "foaf:familyName": "Gebert"
+      },
+      "dcterms:created": "2015-08-07"
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "dwc:Identification",
+        "dwciri:toTaxon": {
+          "id": "https://id.biodiversity.org.au/instance/apni/455406",
+          "type": "tcs:TaxonConcept",
+          "dcterms:title": "Eucalyptus xanthoclada sec. Brooker & Bean 1987",
+          "taxonName": "https://ipni.org/n/933707-1",
+          "accordingTo": "https://id.biodiversity.org.au/reference/apni/40410"
+        },
+        "dwciri:identifiedBy": "https://www.ipni.org/a/1174-1",
+        "dwc:dateIdentified": "1993-02/1993-03"
+      }
+    }
+  ]
+}

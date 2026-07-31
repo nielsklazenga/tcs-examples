@@ -1,0 +1,16 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "NomenclaturalType",
+  "typifiedName": {
+    "id": "https://ipni.org/n/717216-1",
+    "type": "TaxonName",
+    "nameString": "Cryptandra coronata",
+    "dwc:scientificNameAuthorship": "Reissek"
+  },
+  "typeOfType": "lectotype",
+  "typeSpecimen":     {
+    "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/739393",
+    "type": "dwc:PreservedSpecimen",
+    "dwc:catalogNumber": "MEL 0227036A"
+  }
+}

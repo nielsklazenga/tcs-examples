@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "type": "NomenclaturalType",
+  "typifiedName": {
+    "id": "https://tropicos.org/name/35121972",
+    "type": "TaxonName",
+    "nameString": "Dicranum blumei",
+    "scientificNameAuthorship": "Nees",
+    "namePublishedInLiteral": "Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)",
+    "nomenclaturalStatus": "legitimate"
+  },
+  "typeOfType": "lectotype",
+  "typeSpecimen": {
+    "type": "dwc:MaterialCitation"
+  },
+  "typePublishedIn": {
+    "id": "https://www.tropicos.org/reference/9020903",
+    "type": "bibo:AcademicArticle",
+    "dcterms:bibliographicCitation": "Klazenga, N. (1999). A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci). J. Hattori Bot. Lab. 87: 1–130."
+  }
+}

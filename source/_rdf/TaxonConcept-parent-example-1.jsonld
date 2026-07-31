@@ -1,0 +1,129 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "@graph": [
+    {
+      "id": "https://doi.org/10.48580/dfrdl?version=2024-01-24",
+      "type": "dcterms:Dataset",
+      "dcterms:bibliographicCitation": "Bánki, O., Y. Roskov, M. Döring et al. (2024-01). Catalogue of Life Checklist v. 2024-01-24. Catalogue of Life, Leiden. <https://www.checklistbank.org/dataset/286246/metadata>"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "https://www.catalogueoflife.org/data/taxon/6DBT?version=2024-01-24",
+      "dcterms:title": "Panthera sec. Catalogue of Life 2024-01-24",
+      "accordingTo": "https://doi.org/10.48580/dfrdl?version=2024-01-24",
+      "taxonName": {
+        "type": "TaxonName",
+        "nameString": "Panthera",
+        "scientificNameAuthorship": "Oken, 1816"
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Roaring cats",
+          "dcterms:language": "en"
+        }
+      ],
+      "taxonRank": "genus"
+    },
+    {
+      "id": "https://www.catalogueoflife.org/data/taxon/4CGXP?version=2024-01-24",
+      "type": "TaxonConcept",
+      "dcterms:title": "Panthera leo sec. Catalogue of Life 2024-01-24",
+      "accordingTo": "https://doi.org/10.48580/dfrdl?version=2024-01-24",
+      "taxonName": {
+        "type": "TaxonName",
+        "nameString": "Panthera leo",
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Lion",
+          "dcterms:language": "en"
+        }
+      ],
+      "taxonRank": "species",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6DBT?version=2024-01-24"
+    },
+    {
+      "id": "https://www.catalogueoflife.org/data/taxon/4CGXQ?version=2024-01-24",
+      "type": "TaxonConcept",
+      "dcterms:title": "Panthera onca sec. Catalogue of Life 2024-01-24",
+      "accordingTo": "https://doi.org/10.48580/dfrdl?version=2024-01-24",
+      "taxonName": {
+        "type": "TaxonName",
+        "nameString": "Panthera onca",
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Jaguar",
+          "dcterms:language": "en"
+        }
+      ],
+      "taxonRank": "species",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6DBT?version=2024-01-24"
+    },
+    {
+      "id": "https://www.catalogueoflife.org/data/taxon/4CGXR?version=2024-01-24",
+      "type": "TaxonConcept",
+      "dcterms:title": "Panthera pardus sec. Catalogue of Life 2024-01-24",
+      "accordingTo": "https://doi.org/10.48580/dfrdl",
+      "taxonName": {
+        "type": "TaxonName",
+        "nameString": "Panthera pardus",
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Panther",
+          "dcterms:language": "en"
+        }
+      ],
+      "taxonRank": "species",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6DBT?version=2024-01-24"
+    },
+    {
+      "id": "https://www.catalogueoflife.org/data/taxon/4CGXS?version=2024-01-24",
+      "type": "TaxonConcept",
+      "dcterms:title": "Panthera tigris sec. Catalogue of Life 2024-01-24",
+      "accordingTo": "https://doi.org/10.48580/dfrdl?version=2024-01-24",
+      "taxonName": {
+        "type": "TaxonName",
+        "nameString": "Panthera tigris",
+        "scientificNameAuthorship": "(Linnaeus, 1758)"
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Tiger",
+          "dcterms:language": "en"
+        }
+      ],
+      "taxonRank": "species",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6DBT?version=2024-01-24"
+    },
+    {
+      "id": "https://www.catalogueoflife.org/data/taxon/4CGXT?version=2024-01-24",
+      "type": "TaxonConcept",
+      "dcterms:title": "Panthera uncia sec. Catalogue of Life 2025-09-04",
+      "accordingTo": "https://doi.org/10.48580/dfrdl?version=2024-01-24",
+      "taxonName": {
+        "type": "TaxonName",
+        "nameString": "Panthera uncia",
+        "scientificNameAuthorship": "(Schreber, 1775)"
+      },
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Snow leopard",
+          "dcterms:language": "en"
+        }
+      ],
+      "taxonRank": "species",
+      "parent": "https://www.catalogueoflife.org/data/taxon/6DBT?version=2024-01-24"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "TaxonConcept",
+  "dcterms:title": "Orthetrum caledonicum sec. Theischinger and Hawking 2010",
+  "accordingTo": {
+    "id": "urn:isbn:978-0-643-09073-6",
+    "type": "bibo:Book",
+    "dcterms:bibliographicCitation": "Theischinger, G.; Hawking, J. (2010). The complete field guide to dragonflies of Australia. CSIRO Publishing, Collingwood, Australia."
+  },
+  "taxonName": {
+    "type": "TaxonName",
+    "nameString": "Orthetrum caledonicum"
+  },
+  "vernacularNames": [
+    {
+      "type": "TaxonName",
+      "nameString": "Blue Skimmer"
+    }
+  ]
+}

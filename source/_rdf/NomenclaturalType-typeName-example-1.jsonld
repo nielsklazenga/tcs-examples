@@ -1,0 +1,19 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "NomenclaturalType",
+  "typifiedName": {
+    "id": "https://ipni.org/n/50985479-1",
+    "type": "TaxonName",
+    "nameString": "Rhododendron sect. Sciadorhodion",
+    "scientificNameAuthorship": "Rehder & Wilson",
+    "taxonRank": "section"
+  },
+  "typeOfType": "lectotype",
+  "typeName": {
+    "id": "https://ipni.org/n/333193-1",
+    "type": "TaxonName",
+    "nameString": "Rhododendron quinquefolium",
+    "scientificNameAuthorship": "Bisset & S.Moore",
+    "taxonRank": "species"
+  }
+}

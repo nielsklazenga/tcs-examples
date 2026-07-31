@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "id": "https://www.catalogueoflife.org/data/taxon/KF8T?version=2026-07-17",
+  "type": "TaxonConcept",
+  "dcterms:title": "Balaenoptera musculus sec. Catalogue of Life 2026-07-17",
+  "accordingTo": {
+    "id": "https://doi.org/10.48580/dgykv?version=2026-07-17%20XR",
+    "type": "dcterms:Dataset",
+    "dcterms:isVersionOf": {
+        "id": "https://doi.org/10.48580/dgykv",
+        "type": "dcterms:Dataset",
+        "dcterms:title": "Catalogue of Life",
+        "bibo:uri": "https://www.checklistbank.org/dataset/315834"
+    },
+    "dcterms:modified": {
+      "@value": "2026-07-17",
+      "@type": "xsd:date"
+    }
+  },
+  "taxonName": {
+    "type": "TaxonName",
+    "nameString": "Balaenoptera musculus",
+    "scientificNameAuthorship": "(Linnaeus, 1758)"
+  },
+  "vernacularNames": [
+    {
+      "type": "gbif:VernacularName",
+      "dwc:vernacularName": "Blue whale",
+      "dcterms:language": "en"
+    }
+  ]
+}

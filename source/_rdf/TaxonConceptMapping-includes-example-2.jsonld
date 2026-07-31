@@ -1,0 +1,36 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "TaxonConceptMapping",
+  "mappingAccordingTo": {
+    "id": "https://doi.org/10.1002/tax.613003",
+    "type": "bibo:AcademicArticle",
+    "dcterms:bibliographicCitation": "Rothfels, C.J., M.A. Sundue, L.-Y. Kuo, A. Larsson, M. Kato, E. Schuettpelz, K.M. Pryer 2018. A revised family–level classification for eupolypod II ferns (Polypodiidae: Polypodiales). Taxon 61: 515-533."
+  },
+  "mappingRelation": {
+    "id": "tcs:includes"
+  },
+  "subjectTaxonConcept": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Diplaziopsidaceae sec. Rothfels & al. 2012",
+    "accordingTo": {
+      "id": "https://doi.org/10.1002/tax.613003"
+    },
+    "taxonName": {
+      "id": "https://ipni.org/n/77110538-1",
+      "type": "TaxonName",
+      "nameString": "Diplaziopsidaceae"
+    }
+  },
+  "objectTaxonConcept": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Diplaziopsidaceae sec. Christenhusz & al. 2011",
+    "accordingTo": {
+        "id": "https://doi.org/10.11646/phytotaxa.19.1.2",
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Christenhusz, M.J.M., X.C. Zhang & H. Schneider 2011. A linear sequence of extant families and genera of lycophytes and ferns. Phytotaxa 19(1): 7-54."
+      },
+    "taxonName": {
+      "id": "https://ipni.org/n/13093-2"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "type": "TaxonConcept",
+  "dcterms:title": "Dicranum fuscescens sec. Koperski et al. 2000",
+  "taxonName": {
+    "id": "https://www.tropicos.org/name/35122385",
+    "type": "TaxonName",
+    "nameString": "Dicranum fuscescens",
+    "dwc:scientificNameAuthorship": "Turner"
+  },
+  "accordingTo": {
+    "id": "https://www.tropicos.org/reference/9022656",
+    "type": "bibo:Book",
+    "dcterms:bibliographicCitation": "Koperski, M., M. Sauer, W. Braun & S.R. Gradstein (2000). Referenzliste der Moose Deutschlands. Schriftenreihe Vegetationsk. 34: 1–519."
+  },
+  "isCongruentWith": {
+    "type": "TaxonConcept",
+    "dcterms:title": "Dicranum fuscescens sec. Corley et al. 1981",
+    "accordingTo": {
+      "id": "https://www.tropicos.org/reference/9004554",
+      "type": "bibo:AcademicArticle",
+      "dcterms:bibliographicCitation": "Corley, M.F.V., A.C. Crundwell, R.P.G. Düll, M.O. Hill & A.J.E. Smith (1981 [1982]). Mosses of Europe and the Azores: an annotated list of species, with synonyms from the recent literature. J. Bryol. 11: 609–689."
+    },
+    "taxonName": "https://www.tropicos.org/name/35122385"
+  }
+}

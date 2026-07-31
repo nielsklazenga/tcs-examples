@@ -1,0 +1,92 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "id": "https://id.biodiversity.org.au/instance/apni/545068",
+  "type": "TaxonConcept",
+  "dcterms:title": "Euphrasia gibbsiae sec. Barker 1982",
+  "accordingTo": {
+    "id": "https://www.jstor.org/stable/23873848",
+    "type": "bibo:AcademicArticle",
+    "dcterms:bibliographicCitation": "Barker, W.R. (1982). Taxonomic studies in Euphrasia L. (Scrophulariaceae): A revised infrageneric classification, and a revision of the genus in Australia. Journal of the Adelaide Botanic Gardens 5: 1-304."
+  },
+  "taxonName": {
+    "id": "https://ipni.org/n/802545-1",
+    "type": "TaxonName",
+    "nameString": "Euphrasia gibbsiae",
+    "dwc:scientificNameAuthorship": "Du Rietz"
+  },
+  "synonyms": [
+    {
+      "id": "https://ipni.org/n/802619-1",
+      "type": "TaxonName",
+      "nameString": "Euphrasia kingii",
+      "dwc:scientificNameAuthorship": "W.M.Curtis"
+    }
+  ],
+  "intersects": [
+    {
+      "id": "https://id.biodiversity.org.au/instance/apni/713514",
+      "type": "TaxonConcept",
+      "dcterms:title": "Euphrasia gibbsiae sec. Curtis 1967",
+      "accordingTo": {
+        "id": "https://id.biodiversity.org.au/reference/apni/23028",
+        "type": "bibo:Book",
+        "dcterms:bibliographicCitation": "Curtis, W.M. (1967), Angiospermae: Plumbaginaceae to Salicaceae. The Student's Flora of Tasmania 3  : 465-653"
+      },
+      "taxonName": "https://ipni.org/n/802545-1"
+    },
+    {
+      "id": "https://id.biodiversity.org.au/instance/apni/545938",
+      "type": "TaxonConcept",
+      "dcterms:title": "Euphrasia kingii sec. Curtis 1967",
+      "accordingTo": {
+        "id": "https://id.biodiversity.org.au/reference/apni/23028"
+      },
+      "taxonName": {
+        "id": "https://ipni.org/n/802619-1"
+      }
+    },
+    {
+      "rdf:value": {
+        "type": "TaxonConcept",
+        "dcterms:title": "Euphrasia gibbsiae sec. Willis 1967",
+        "accordingTo": {
+          "id": "https://www.biodiversitylibrary.org/page/49934392",
+          "type": "bibo:AcademicArticle",
+          "dcterms:bibliographicCitation": "Willis, J.H. (1967). Systematic notes on the indigenous Australian Flora. Muelleria 1: 117-163."
+        },
+        "taxonName": "https://ipni.org/n/802545-1"
+      },
+      "rdfs:comment": "p.p. (as to Tasmanian occurrences and f. subglabrifolia in Victoria)"
+    },
+    {
+      "rdf:value": {
+        "type": "TaxonConcept",
+        "dcterms:title": "Euphrasia gibbsiae sec. Harris 1970",
+        "accordingTo": {
+          "id": "urn:isbn:0207120714",
+          "type": "bibo:Book",
+          "dcterms:bibliographicCitation": "Harris, T.Y. (1970). Alpine Plants of Australia, including Subalpine and Montane Plants. Angus and Robertson, Sydney."
+        },
+        "taxonName": "https://ipni.org/n/802545-1"
+      },
+      "rdfs:comment": "p.p. (excl. \"f. comberi\" in Victoria)"
+    },
+    {
+      "rdf:value": {
+        "type": "TaxonConcept",
+        "dcterms:title": "Euphrasia striata sec. Bentham 1868",
+        "accordingTo": {
+          "type": "bibo:Book",
+          "dcterms:bibliographicCitation": "Bentham, G. & F. von Mueller (1868). Flora Australiensis. Vol. 4. L. Reeve & Co., London."
+        },
+        "taxonName": {
+          "id": "https://ipni.org/n/802876-1",
+          "type": "TaxonName",
+          "nameString": "Euphrasia striata",
+          "dwc:scientificNameAuthorship": "R.Br."
+        }
+      },
+      "rdfs:comment": "p.p. (as to Stuart 1745, Milligan MEL41451, p.p., Mueller MEL41539)"
+    }
+  ]
+}

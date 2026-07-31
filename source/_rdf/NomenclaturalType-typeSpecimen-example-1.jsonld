@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "type": "NomenclaturalType",
+  "typifiedName": {
+    "id": "https://ipni.org/n/333193-1",
+    "type": "TaxonName",
+    "nameString": "Rhododendron quinquefolium",
+    "scientificNameAuthorship": "Bisset & S.Moore"
+  },
+  "typeOfType": "lectotype",
+  "typeSpecimen": {
+    "type": "dwc:MaterialCitation",
+    "dwc:verbatimLocality": "Japan, Honshu, Nikko",
+    "dwc:recordedBy": "Bisset",
+    "dwc:eventDate": "1876-05-23",
+    "dwc:collectionCode": "E"
+  },
+  "typePublishedIn": {
+    "id": "_:b0",
+    "type": "bibo:AcademicArticle",
+    "dcterms:bibliographicCitation": "Judd, W.S. & K.A. Kron (1995). A revision of Rhododendron VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh Journal of Botany 52: 1-54."
+  }
+}

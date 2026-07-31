@@ -1,0 +1,22 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "@graph": [
+    {
+      "id": "https://id.biodiversity.org.au/name/apni/117170",
+      "type": "TaxonName",
+      "rdf:seeAlso": "https://ipni.org/n/17567870-1",
+      "nameString": "Doodia media subsp. australis",
+      "scientificNameAuthorship": "Parris",
+      "namePublishedInLiteral": "New Zealand J. Bot. 10(4): 593 (1972)"
+    },
+    {
+      "id": "https://id.biodiversity.org.au/name/apni/166271",
+      "type": "TaxonName",
+      "rdf:seeAlso": "https://ipni.org/n/17571690-1",
+      "nameString": "Doodia australis",
+      "scientificNameAuthorship": "(Parris) Parris",
+      "namePublishedInLiteral": "Fl. Australia 48: 710 (1998)",
+      "basionym": "https://id.biodiversity.org.au/name/apni/117170"
+    }
+  ]
+}

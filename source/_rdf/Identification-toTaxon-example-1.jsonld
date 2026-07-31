@@ -1,0 +1,108 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "dsw": "http://purl.org/dsw/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://arctos.database.museum/guid/UAM:Herb:86707",
+      "type": "dwc:PreservedSpecimen",
+      "dsw:evidenceFor": {
+        "id": "https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb"
+      },
+      "schema:itemLocation": {
+        "id": "https://scientific-collections.gbif.org/collection/d89c112d-f357-4697-946d-c70a6145148d",
+        "type": "org:OrganizationalUnit",
+        "skos:prefLabel": "Herbarium - University of Alaska Museum of the North",
+        "dwc:collectionCode": "ALA",
+        "org:unitOf": {
+          "id": "https://scientific-collections.gbif.org/institution/5a35d381-0dc9-4ea0-9b50-9b69a2ce0ed0",
+          "type": "org:Organization",
+          "skos:prefLabel": "University of Alaska Museum of the North"
+        }
+      },
+      "dsw:isBasisForId": {
+        "type": "dwc:Identification",
+        "dcterms:date": "1984",
+        "dwciri:identifiedBy": {
+          "id": "https://www.wikidata.org/wiki/Q18982613"
+        },
+        "dwciri:toTaxon": {
+          "rdf:value": {
+            "type": "TaxonConcept",
+            "dcterms:title": "Salix arbusculoides sec. Argus 1973",
+            "taxonName": "https://ipni.org/n/306317-2",
+            "accordingTo": {
+              "type": "bibo:Book",
+              "dcterms:title": "The Genus Salix in Alaska and the Yukon",
+              "dcterms:creator": {
+                "id": "https://www.wikidata.org/wiki/Q18982613"
+              },
+              "dcterms:date": "1984"
+            }
+          },
+          "rdfs:comment": "Assumes Argus's concept did not change from 1973 to 1984 [CW 2023]"
+        }
+      }
+    },
+    {
+      "id": "https://ipni.org/n/306317-2",
+      "type": "TaxonName",
+      "nameString": "Salix arbusculoides",
+      "scientificNameAuthorship": "Andersson"
+    },
+    {
+      "id": "https://www.idigbio.org/portal/records/1e364de0-e016-4ace-8c7d-46a60027c4cb",
+      "type": "dwc:Occurrence",
+      "dwciri:recordedBy": {
+        "type": "foaf:Person",
+        "foaf:givenName": "David",
+        "foaf:familyName": "Densmore"
+      },
+      "dsw:atEvent": {
+        "type": "dwc:Event",
+        "dwc:eventDate": "1975-07-03",
+        "dwciri:inDescribedPlace": {
+          "type": "dcterms:Location",
+          "dwciri:geodeticDatum": {
+            "id": "https://epsg.io/4326"
+          },
+          "dwc:coordinateUncertaintyInMeters": {
+            "@value": "3615",
+            "@type": "xsd:integer"
+          },
+          "dwc:country": "United States",
+          "dwc:county": "Fairbanks North Star",
+          "dwc:decimalLatitude": {
+            "type": "xsd:decimal",
+            "@value": "-148.3"
+          },
+          "dwc:decimalLongitude": {
+            "type": "xsd:decimal",
+            "@value": "64.7"
+          },
+          "dwc:stateOrProvince": "Alaska",
+          "dwc:verbatimLocality": "Tanana Lowlands, Bonanza Creek Experimental Forest, Bonanza Cr. Logging Road, 10 Km Down, Fairbanks Quad, Bonanza Creek Experimental Forest"
+        }
+      },
+      "dsw:hasEvidence": {
+        "type": "dwc:PreservedSpecimen",
+        "id": "https://arctos.database.museum/guid/UAM:Herb:86707"
+      }
+    },
+    {
+      "id": "https://www.wikidata.org/wiki/Q18982613",
+      "type": "foaf:Person",
+      "foaf:givenName": "George",
+      "foaf:familyName": "Argus",
+      "rdfs:comment": "One of the most experienced salicologists in US history"
+    }
+  ]
+}

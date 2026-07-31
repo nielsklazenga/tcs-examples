@@ -1,0 +1,48 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "@graph": [
+    {
+      "id": "https://www.tropicos.org/name/35183593",
+      "type": "TaxonName",
+      "nameString": "Dicranum bartramianum",
+      "scientificNameAuthorship": "B.H.Allen",
+      "namePublishedInLiteral": "Cryptog. Bryol. Lichénol. 8: 323",
+      "namePublishedInYear": "1987",
+      "replacedName": "https://www.tropicos.org/name/35120798"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35120798",
+      "type": "TaxonName",
+      "nameString": "Dicnemon robustum",
+      "scientificNameAuthorship": "E.B.Bartram",
+      "namePublishedInLiteral": "Bryologist 48: 112",
+      "namePublishedInYear": "1945"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35124067",
+      "type": "TaxonName",
+      "nameString": "Dicranum robustum",
+      "scientificNameAuthorship": "Hook.f. & Wilson",
+      "namePublishedInLiteral": "London J. Bot. 3: 542",
+      "namePublishedInYear": "1844"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35162373",
+      "type": "TaxonName",
+      "nameString": "Eucamptodon robustum",
+      "scientificNameAuthorship": "(E.B.Bartram) E.B.Bartram",
+      "namePublishedInLiteral": "Brittonia 11: 88",
+      "namePublishedInYear": "1959",
+      "basionym": "https://www.tropicos.org/name/35120798"
+    },
+    {
+      "id": "https://www.tropicos.org/name/35204723",
+      "type": "TaxonName",
+      "nameString": "Dicranoloma bartramianum",
+      "scientificNameAuthorship": "(B.H.Allen) Klazenga",
+      "namePublishedInLiteral": "J. Hattory Bot. Lab. 87: 57",
+      "namePublishedInYear": "1999",
+      "basionym": "https://www.tropicos.org/name/35183593"
+    }
+  ]
+}

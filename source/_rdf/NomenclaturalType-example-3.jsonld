@@ -1,0 +1,66 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@graph": [
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": {
+        "id": "https://ipni.org/n/50985479-1",
+        "type": "TaxonName",
+        "nameString": "Rhododendron sect. Sciadorhodion",
+        "scientificNameAuthorship": "Rehder & Wilson"
+      },
+      "typeOfType": "lectotype",
+      "typeName": {
+        "id": "https://ipni.org/n/333193-1",
+        "type": "TaxonName",
+        "nameString": "Rhododendron quinquefolium",
+        "scientificNameAuthorship": "Bisset & S.Moore"
+      },
+      "typePublishedIn": {
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Copeland, H.F. (1943). A study, anatomical and taxonomic, of the genera of Rhododendroideae. Am. Midl. Nat. 30: 533-625"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": {
+        "id": "https://ipni.org/n/333193-1",
+        "type": "TaxonName",
+        "nameString": "Rhododendron quinquefolium",
+        "scientificNameAuthorship": "Bisset & S.Moore"
+      },
+      "typeOfType": "lectotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:verbatimLocality": "Japan, Honshu, Nikko",
+        "dwc:recordedBy": "Bisset",
+        "dwc:eventDate": "1876-05-23",
+        "dwc:collectionCode": "E",
+        "schema:itemLocation": {
+          "id": "https://scientific-collections.gbif.org/collection/427c8cd7-4358-4a00-9ef3-2b2676d28d1e",
+          "type": "org:OrganizationalUnit",
+          "skos:prefLabel": "Herbarium - Royal Botanic Garden Edinburgh",
+          "dwc:collectionCode": "E",
+          "org:unitOf": {
+            "id": "https://scientific-collections.gbif.org/institution/0237598a-853a-492c-af74-a723fe251799",
+            "type": "org:Organization",
+            "skos:prefLabel": "Royal Botanic Garden Edingburgh",
+            "dwc:institutionCode": "RBGE"
+          }
+        }
+      },
+      "typePublishedIn": {
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Judd, W.S.; Kron, K.A. (1995). A revision of Rhododendron VI. Subgenus Pentanthera (sections Sciadorhodon, Rhodora and Viscidula). Edinburgh Journal of Botany 52: 1-54."
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+  "@graph": [
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": {
+        "type": "TaxonConcept",
+        "accordingTo": {
+          "id": "https://www.jstor.org/stable/25078744",
+          "type": "bibo:AcademicArticle",
+          "dcterms:bibliographicCitation": "Franz, N.M., C.W. O'Brien 2001. Revision and phylogeny of Perelleschus (Coleoptera: Curculionidae) with notes on its association with Carludovica (Cyclanthaceae). Transactions of the American Entomological Society 127: 255-287."
+        },
+        "dcterms:title": "Phyllotrox sec. Franz & O'Brien 2001",
+        "taxonName": "_:b1"
+      },
+      "mappingRelation": "tcs:partiallyOverlaps",
+      "objectTaxonConcept": {
+        "type": "TaxonConcept",
+        "accordingTo": {
+          "id": "https://doi.org/10.1111/j.1365-3113.2005.00308.x",
+          "type": "bibo:AcademicArticle",
+          "dcterms:bibliographicCitation": "Franz, N.M. 2006. Towards a phylogenetic system of derelomine flower weevils (Coleoptera: Curculionidae). Systematic Entomology 31: 220-287."
+        },
+        "dcterms:title": "Phyllotrox sec. Franz 2006",
+        "taxonName": "_:b1"
+      },
+      "dcterms:source": {
+        "id": "https://doi.org/10.1111/cla.12042",
+        "type": "bibo:AcademicArticle",
+        "dcterms:bibliographicCitation": "Franz, N.M. 2013. Anatomy of a cladistic analysis. Cladistics 30: 294-321."
+      }
+    },
+    {
+      "id": "_:b1",
+      "type": "TaxonName",
+      "nameString": "Phyllotrox",
+      "scientificNameAuthorship": "Schönherr, 1843"
+    }
+  ]
+}

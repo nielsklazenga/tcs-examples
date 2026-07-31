@@ -1,0 +1,148 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://www.tropicos.org/reference/9020903",
+      "type": "bibo:AcademicArticle",
+      "dcterms:bibliographicCitation": "Klazenga, N. (1999). A revision of the Malesian species of Dicranoloma (Dicranaceae, Musci). J. Hattori Bot. Lab. 87: 1–130."
+    },
+    {
+      "id": "https://tropicos.org/name/35121972",
+      "type": "TaxonName",
+      "nameString": "Dicranum blumei",
+      "scientificNameAuthorship": "Nees",
+      "namePublishedInLiteral": "Nova Acta Physico-medica Academiae Caesareae Leopoldino-Carolinae Naturae Curiosorum Exhibentia Ephemerides sive Observationes Historias et Experimenta 11(1) tcs: 131. 15 f. 1. 1823. (Nova Acta Phys.-Med. Acad. Caes. Leop.-Carol. Nat. Cur.)",
+      "nomenclaturalStatus": "legitimate"
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": {
+        "id": "https://tropicos.org/name/35121972"
+      },
+      "typeOfType": "holotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "schema:itemLocation": {
+          "id": "https://scientific-collections.gbif.org/collection/824651b8-8457-4f66-ab1c-fccd49133af9",
+          "type": "org:OrganizationalUnit",
+          "skos:prefLabel": "Herbarium - Komarov Botanical Institute of RAS",
+          "dwc:collectionCode": "LE",
+          "org:unitOf": {
+            "id": "https://scientific-collections.gbif.org/institution/26767fe2-9f84-4824-961f-c9a6940effab",
+            "type": "org:Organization",
+            "skos:prefLabel": "Komarov Botanical Institute of the Russian Academy of Sciences",
+            "dwc:institutionCode": "BIN RAS"
+          }
+        },
+        "dwc:disposition": "not located"
+      },
+      "dcterms:source": {
+        "id": "https://www.tropicos.org/reference/9020903"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": {
+        "id": "https://tropicos.org/name/35121972"
+      },
+      "typeOfType": "lectotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "schema:itemLocation": {
+          "id": "https://scientific-collections.gbif.org/collection/db03f448-f575-475a-84c9-809aa21ecd14",
+          "type": "org:OrganizationalUnit",
+          "skos:prefLabel": "Herbarium - Friedrich Schiller University Jena",
+          "dwc:collectionCode": "JE",
+          "org:unitOf": {
+            "id": "https://scientific-collections.gbif.org/institution/e195543b-f365-4a9e-ae47-c1bd5cc1f443",
+            "type": "org:Organization",
+            "skos:prefLabel": "Senckenberg Institute for Plant Form and Function at Friedrich Schiller University Jena",
+            "skos:institutionCode": "JE"
+          }
+        }
+      },
+      "typePublishedIn": "https://www.tropicos.org/reference/9020903",
+      "dcterms:source": {
+        "id": "https://www.tropicos.org/reference/9020903"
+      }
+    },
+    {
+      "id": "_:b124",
+      "type": "NomenclaturalType",
+      "typifiedName": {
+        "id": "https://tropicos.org/name/35121972"
+      },
+      "typeOfType": "isotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "schema:itemLocation": {
+          "id": "https://scientific-collections.gbif.org/collection/0add23db-a8f7-4d15-95ad-4ed0c5c8a055",
+          "type": "org:OrganizationalUnit",
+          "skos:prefLabel": "Botany",
+          "dwc:collectionCode": "L",
+          "org:unitOf": {
+            "id": "https://scientific-collections.gbif.org/institution/0e919a55-08d3-4bd2-aec1-200858fafd92",
+            "type": "org:OrganizationalUnit",
+            "skos:prefLabel": "Naturalis Biodiversity Center",
+            "dwc:institutionCode": "Naturalis"
+          }
+        }
+      },
+      "dcterms:source": {
+        "id": "https://www.tropicos.org/reference/9020903"
+      }
+    },
+    {
+      "type": "NomenclaturalType",
+      "typifiedName": {
+        "id": "https://tropicos.org/name/35121972"
+      },
+      "typeOfType": "isotype",
+      "typeSpecimen": {
+        "type": "dwc:MaterialCitation",
+        "dwc:country": "Indonesia",
+        "dwc:island": "Java",
+        "dwc:verbatimLocality": "Java in montibus excelsis partim ignivomis Salak et Gédé",
+        "dwc:recordedBy": "C. Blume",
+        "dwc:recordNumber": "s.n.",
+        "schema:itemLocation": {
+          "id": "https://scientific-collections.gbif.org/collection/b2190553-4505-4fdd-8fff-065c8ca26f72",
+          "type": "org:OrganizationalUnit",
+          "skos:prefLabel": "Herbarium - The New York Botanical Garden",
+          "dwc:collectionCode": "NY",
+          "org:unitOf": {
+            "id": "https://scientific-collections.gbif.org/institution/ab83e5ab-f4f7-4c9b-a1d5-eb779dfb9377",
+            "type": "org:Organization",
+            "skos:prefLabel": "The New York Botanical Garden"
+          }
+        }
+      },
+      "dcterms:source": {
+        "id": "https://www.tropicos.org/reference/9020903"
+      }
+    }
+  ]
+}

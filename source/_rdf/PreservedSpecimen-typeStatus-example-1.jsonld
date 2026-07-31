@@ -1,0 +1,149 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "dsw": "http://purl.org/dsw/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "oa": "http://www.w3.org/ns/oa#",
+      "Annotation": "oa:Annotation",
+      "commenting": "oa:commenting",
+      "body": {
+        "@id": "oa:hasBody",
+        "@type": "@id"
+      },
+      "target": {
+        "@id": "oa:hasTarget",
+        "@type": "@id"
+      },
+      "motivation": {
+        "@id": "oa:motivatedBy",
+        "@type": "@vocab"
+      },
+      "schema": "https://schema.org/",
+      "org": "https://www.w3.org/TR/vocab-org/#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "@graph": [
+    {
+      "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521",
+      "type": "dwc:PreservedSpecimen",
+      "dsw:evidenceFor": {
+        "id": "https://avh.ala.org.au/occurrences/89086162-0bd8-4504-8abd-960d0a97d41a",
+        "type": "dwc:Occurrence",
+        "dwciri:recordedBy": [
+          {
+            "id": "http://www.wikidata.org/entity/Q153408",
+            "type": "foaf:Person",
+            "foaf:givenName": "Joseph",
+            "foaf:familyName": "Banks"
+          },
+          {
+            "id": "http://www.wikidata.org/entity/Q39789",
+            "type": "foaf:Person",
+            "foaf:givenName": "Daniel Carl",
+            "foaf:familyName": "Solander"
+          }
+        ],
+        "dsw:atEvent": {
+          "type": "dwc:Event",
+          "dwc:eventDate": "1770-04",
+          "dwciri:inDescribedPlace": {
+            "type": "dcterms:Location",
+            "dwc:country": "Australia",
+            "dwc:stateOrProvince": "New South Wales",
+            "dwc:verbatimLocality": "Botany Bay",
+            "dwc:verbatimLatitude": "33° 58' S",
+            "dwc:verbatimLongitude": "151° 12' E",
+            "dwc:decimalLatitude": {
+              "@value": "-33.96667",
+              "@type": "xsd:decimal"
+            },
+            "dwc:decimalLongitude": {
+              "@value": "151.20000",
+              "@type": "xsd:decimal"
+            },
+            "dwc:coordinatePrecision": {
+              "@value": "0.016667",
+              "@type": "xsd:decimal"
+            },
+            "dwc:coordinateUncertaintyInMeters": {
+              "@value": "10000",
+              "@type": "xsd:integer"
+            },
+            "dwciri:geodeticDatum": {
+              "id": "https://epsg.io/4326"
+            }
+          }
+        },
+        "dsw:hasEvidence": {
+          "id": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521"
+        }
+      },
+      "dsw:isBasisForId": {
+        "id": "_:b0",
+        "type": "dwc:Identification",
+        "dwciri:identifiedBy": {
+          "id": "http://www.wikidata.org/entity/Q6135471",
+          "type": "foaf:Person",
+          "foaf:givenName": "James Hamlyn",
+          "foaf:surname": "Willis"
+        },
+        "dwc:dateIdentified": {
+          "@value": "1942-02-05",
+          "@type": "xsd:date"
+        },
+        "dwciri:toTaxon": {
+          "id": "https://id.biodiversity.org.au/instance/apni/720944",
+          "type": "TaxonConcept",
+          "dcterms:title": "Banksia serrata sec. Ewart 1925",
+          "taxonName": {
+            "id": "https://ipni.org/n/703183-1",
+            "type": "TaxonName",
+            "nameString": "Banksia serrata",
+            "scientificNameAuthorship": "L.f.",
+            "namePublishedInLiteral": "Suppl. Pl. 126",
+            "namePublishedInYear": "1782"
+          },
+          "accordingTo": {
+            "id": "https://id.biodiversity.org.au/reference/apni/22019",
+            "type": "bibo:Book",
+            "dcterms:bibliographicCitation": "Ewart, A.J. (1925), Handbook of Forest Trees for Victorian Foresters. Government Printer, Melbourne."
+          }
+        }
+      },
+      "dwciri:typeStatus": {
+        "type": "NomenclaturalType",
+        "typeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/isolectotype",
+        "typifiedName": "https://ipni.org/n/703183-1",
+        "typeSpecimen": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521"
+      },
+      "schema:itemLocation": {
+        "id": "https://scientific-collections.gbif.org/collection/7777d910-553a-45ac-b0e5-635261c1e992",
+        "type": "org:OrganizationalUnit",
+        "skos:prefLabel": "National Herbarium of Victoria",
+        "dwc:collectionCode": "MEL",
+        "org:unitOf": {
+          "id": "https://scientific-collections.gbif.org/institution/70fbf720-63a3-4e3c-b844-ee96091880e0",
+          "type": "org:Organization",
+          "skos:prefLabel": "National Herbarium of Victoria",
+          "dwc:institutionCode": "MEL"
+        }
+      }
+    },
+    {
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": "_:b0",
+      "target": "https://specify.rbg.vic.gov.au/specify/view/collectionobject/273521",
+      "dcterms:creator": {
+        "id": "http://www.wikidata.org/entity/Q6135471"
+      },
+      "dcterms:created": {
+        "@value": "1942-02-05",
+        "@type": "xsd:date"
+      }
+    }
+  ]
+}
