@@ -1,0 +1,989 @@
+{
+  "defaults": {
+    "engine": "dot",
+    "contextFile": "source/_rdf/context.jsonld",
+    "controlledVocabularies": {
+      "TaxonRank": "http://rs.gbif.org/vocabulary/gbif/rank/",
+      "NomenclaturalCode": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_code/",
+      "NomenclaturalStatus": "http://rs.gbif.org/vocabulary/gbif/nomenclatural_status/",
+      "TypeOfType": "http://rs.gbif.org/vocabulary/gbif/type_status/",
+      "EPSG": "https://epsg.io/",
+      "OA": "http://www.w3.org/ns/oa#",
+      "TCS": "http://rs.tdwg.org/tcs/terms/"
+    },
+    "colorPalette": {
+      "TaxonConcept": {
+        "fill": "#C8E6C9",
+        "stroke": "#1B5E20"
+      },
+      "TaxonConceptMapping": {
+        "fill": "#D1C4E9",
+        "stroke": "#311B92"
+      },
+      "TaxonName": {
+        "fill": "#FFCDD2",
+        "stroke": "#B71C1C"
+      },
+      "VernacularName": {
+        "fill": "#FFCDD2",
+        "stroke": "#B71C1C"
+      },
+      "NomenclaturalType": {
+        "fill": "#FFE0B2",
+        "stroke": "#E65100"
+      },
+      "BibliographicResource": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "AcademicArticle": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Book": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Chapter": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Website": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Report": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Dataset": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Issue": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Journal": {
+        "fill": "#BBDEFB",
+        "stroke": "#0D47A1"
+      },
+      "Agent": {
+        "fill": "#B2DFDB",
+        "stroke": "#004D40"
+      },
+      "Person": {
+        "fill": "#B2DFDB",
+        "stroke": "#004D40"
+      },
+      "Group": {
+        "fill": "#B2DFDB",
+        "stroke": "#004D40"
+      },
+      "Organization": {
+        "fill": "#B2DFDB",
+        "stroke": "#004D40"
+      },
+      "OrganizationalUnit": {
+        "fill": "#B2DFDB",
+        "stroke": "#004D40"
+      },
+      "TaxonPublication": {
+        "fill": "#E1BEE7",
+        "stroke": "#4A148C"
+      },
+      "Property": {
+        "fill": "#FFF9C4",
+        "stroke": "#F57F17"
+      },
+      "Annotation": {
+        "fill": "#F8BBD0",
+        "stroke": "#880E4F"
+      },
+      "PreservedSpecimen": {
+        "fill": "#D1C4E9",
+        "stroke": "#311B92"
+      },
+      "MaterialCitation": {
+        "fill": "#D1C4E9",
+        "stroke": "#311B92"
+      },
+      "Occurrence": {
+        "fill": "#FCE4EC",
+        "stroke": "#880E4F"
+      },
+      "Event": {
+        "fill": "#FCE4EC",
+        "stroke": "#880E4F"
+      },
+      "Location": {
+        "fill": "#FFF3E0",
+        "stroke": "#E65100"
+      },
+      "Identification": {
+        "fill": "#C5CAE9",
+        "stroke": "#1A237E"
+      },
+      "RDFList": {
+        "fill": "#ECEFF1",
+        "stroke": "#78909C"
+      },
+      "ValueNode": {
+        "fill": "#ECEFF1",
+        "stroke": "#78909C"
+      },
+      "DefaultResource": {
+        "fill": "#E0E0E0",
+        "stroke": "#212121"
+      }
+    },
+    "predicateRanges": {
+      "parentTaxonConcept": "TaxonConcept",
+      "childTaxonConcept": "TaxonConcept",
+      "subjectTaxonConcept": "TaxonConcept",
+      "objectTaxonConcept": "TaxonConcept",
+      "isCongruentWith": "TaxonConcept",
+      "includes": "TaxonConcept",
+      "isIncludedIn": "TaxonConcept",
+      "partiallyOverlaps": "TaxonConcept",
+      "isDisjointFrom": "TaxonConcept",
+      "intersects": "TaxonConcept",
+      "taxonName": "TaxonName",
+      "synonym": "TaxonName",
+      "basionym": "TaxonName",
+      "replacedName": "TaxonName",
+      "basedOn": "TaxonName",
+      "conservedAgainst": "TaxonName",
+      "laterHomonymOf": "TaxonName",
+      "accordingTo": "BibliographicResource",
+      "mappingAccordingTo": "BibliographicResource",
+      "publishedIn": "BibliographicResource",
+      "typePublishedIn": "BibliographicResource",
+      "combinationAuthor": "foaf:Person",
+      "combinationAscribedAuthor": "foaf:Person",
+      "basionymAuthor": "foaf:Person",
+      "basionymAscribedAuthor": "foaf:Person"
+    },
+    "highlightStyle": {
+      "fill": "#FFEBEE",
+      "stroke": "#000000",
+      "penwidth": "1.8",
+      "fontname": "Arial bold",
+      "fontsize": "9"
+    }
+  },
+  "targets": [
+    {
+      "input": "source/_rdf/NomenclaturalType-typeName-example-1.jsonld",
+      "output": "source/assets/images/shapes/NomenclaturalType-typeName-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "NomenclaturalType"
+        },
+        {
+          "type": "predicate",
+          "value": "typeName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/Identification-toTaxon-example-1.jsonld",
+      "output": "source/assets/images/shapes/Identification-toTaxon-example-1.svg",
+      "engine": "dot"
+    },
+    {
+      "input": "source/_rdf/NomenclaturalType-example-1.jsonld",
+      "output": "source/assets/images/shapes/NomenclaturalType-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "NomenclaturalType"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/NomenclaturalType-example-2.jsonld",
+      "output": "source/assets/images/shapes/NomenclaturalType-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "NomenclaturalType"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/NomenclaturalType-example-3.jsonld",
+      "output": "source/assets/images/shapes/NomenclaturalType-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "NomenclaturalType"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/NomenclaturalType-typePublishedIn-example-1.jsonld",
+      "output": "source/assets/images/shapes/NomenclaturalType-typePublishedIn-example-1.svg",
+      "engine": "dot",
+      "highlight": {
+        "type": "predicate",
+        "value": "typePublishedIn"
+      }
+    },
+    {
+      "input": "source/_rdf/NomenclaturalType-typeSpecimen-example-1.jsonld",
+      "output": "source/assets/images/shapes/NomenclaturalType-typeSpecimen-example-1.svg",
+      "engine": "dot",
+      "highlight": {
+        "type": "predicate",
+        "value": "typeSpecimen"
+      }
+    },
+    {
+      "input": "source/_rdf/NomenclaturalType-typeSpecimen-example-2.jsonld",
+      "output": "source/assets/images/shapes/NomenclaturalType-typeSpecimen-example-2.svg",
+      "engine": "dot",
+      "highlight": {
+        "type": "predicate",
+        "value": "typeSpecimen"
+      }
+    },
+    {
+      "input": "source/_rdf/PreservedSpecimen-typeStatus-example-1.jsonld",
+      "output": "source/assets/images/shapes/PreservedSpecimen-typeStatus-example-1.svg",
+      "engine": "dot"
+    },
+    {
+      "input": "source/_rdf/PreservedSpecimen-typeStatus-example-2.jsonld",
+      "output": "source/assets/images/shapes/PreservedSpecimen-typeStatus-example-2.svg",
+      "engine": "dot"
+    },
+    {
+      "input": "source/_rdf/PreservedSpecimen-typeStatus-example-3.jsonld",
+      "output": "source/assets/images/shapes/PreservedSpecimen-typeStatus-example-3.svg",
+      "engine": "dot"
+    },
+    {
+      "input": "source/_rdf/PreservedSpecimen-typeStatus-example-4.jsonld",
+      "output": "source/assets/images/shapes/PreservedSpecimen-typeStatus-example-4.svg",
+      "engine": "dot"
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-accordingTo-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-accordingTo-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "accordingTo"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-accordingTo-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-accordingTo-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "accordingTo"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-accordingTo-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-accordingTo-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "accordingTo"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-child-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-child-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "childTaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-example-4.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-example-4.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-example-5.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-example-5.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-example-6.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-example-6.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-example-7.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-example-7.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConcept"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-includes-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-includes-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "includes"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-intersects-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-intersects-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "intersects"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-intersects-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-intersects-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "intersects"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-isCongruentWith-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-isCongruentWith-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "isCongruentWith"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-isCongruentWith-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-isCongruentWith-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "isCongruentWith"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-isDisjointFrom-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-isDisjointFrom-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "isDisjointFrom"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-isIncludedIn-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-isIncludedIn-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "isIncludedIn"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-parent-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-parent-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "parent"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-partiallyOverlaps-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-partiallyOverlaps-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "partiallyOverlaps"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-synonym-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-synonym-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "synonym"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-synonym-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-synonym-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "synonym"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-synonym-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-synonym-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "synonym"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-vernacularName-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-vernacularName-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "vernacularName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-vernacularName-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-vernacularName-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "vernacularName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-vernacularName-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-vernacularName-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "vernacularName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConcept-vernacularName-example-4.jsonld",
+      "output": "source/assets/images/shapes/TaxonConcept-vernacularName-example-4.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "vernacularName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-includes-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-includes-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "includes"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-includes-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-includes-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "includes"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-intersects-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-intersects-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "intersects"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-intersects-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-intersects-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "intersects"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-isCongruentWith-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-isCongruentWith-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "isCongruentWith"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-isCongruentWith-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-isCongruentWith-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "isCongruentWith"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-isDisjointFrom-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-isDisjointFrom-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "isDisjointFrom"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-isDisjointFrom-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-isDisjointFrom-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "isDisjointFrom"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-isIncludedIn-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-isIncludedIn-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "isIncludedIn"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-isIncludedIn-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-isIncludedIn-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "isIncludedIn"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-partiallyOverlaps-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-partiallyOverlaps-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "partiallyOverlaps"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-partiallyOverlaps-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-partiallyOverlaps-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        },
+        {
+          "type": "predicate",
+          "value": "mappingRelation"
+        },
+        {
+          "type": "vocab",
+          "value": "partiallyOverlaps"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonConceptMapping-partiallyOverlaps-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonConceptMapping-partiallyOverlaps-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonConceptMapping"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-basionym-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-basionym-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "basionym"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-basionym-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-basionym-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "basionym"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-basionymAscribedAuthor-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-basionymAscribedAuthor-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "basionymAscribedAuthor"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-basionymAuthor-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-basionymAuthor-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "basionymAuthor"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-combinationAscribedAuthor-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-combinationAscribedAuthor-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "combinationAscribedAuthor"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-combinationAuthor-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-combinationAuthor-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "combinationAuthor"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-example-4.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-example-4.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "type",
+          "value": "TaxonName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-replacedName-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-replacedName-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "replacedName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-replacedName-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-replacedName-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "replacedName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-replacedName-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-replacedName-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "replacedName"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-typification-example-1.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-typification-example-1.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "typification"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-typification-example-2.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-typification-example-2.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "typification"
+        }
+      ]
+    },
+    {
+      "input": "source/_rdf/TaxonName-typification-example-3.jsonld",
+      "output": "source/assets/images/shapes/TaxonName-typification-example-3.svg",
+      "engine": "dot",
+      "highlight": [
+        {
+          "type": "predicate",
+          "value": "typification"
+        }
+      ]
+    }
+  ]
+}
