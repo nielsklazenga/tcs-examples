@@ -1,0 +1,134 @@
+{
+  "concepts": [
+    {
+      "id": "https://id.biodiversity.org.au/instance/apni/545068",
+      "label": "Euphrasia gibbsiae sec. Barker 1982"
+    },
+    {
+      "id": "_:tc1",
+      "label": "Euphrasia gibbsiae sec. Willis 1967"
+    },
+    {
+      "id": "_:tc2",
+      "label": "Euphrasia gibbsiae sec. Cochrane & al. 1968"
+    },
+    {
+      "id": "_:tc5",
+      "label": "Euphrasia gibbsiae sec. Stones & Curtis 1978"
+    },
+    {
+      "id": "_:tc6",
+      "label": "Euphrasia kingii sec. Curtis 1967"
+    },
+    {
+      "id": "_:tc7",
+      "label": "Euphrasia kingii sec. Stones & Curtis 1978"
+    },
+    {
+      "id": "https://id.biodiversity.org.au/instance/apni/713514",
+      "label": "Euphrasia gibbsiae sec. Curtis 1967"
+    },
+    {
+      "id": "_:tc3",
+      "label": "Euphrasia gibbsiae sec. Harris 1970"
+    },
+    {
+      "id": "_:tc4",
+      "label": "Euphrasia gibbsiae sec. Willis 1973"
+    }
+  ],
+  "mappings": [
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "intersects",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "intersects",
+      "object": "_:tc2"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "intersects",
+      "object": "_:tc5"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "intersects",
+      "object": "_:tc6"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "intersects",
+      "object": "_:tc7"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "includes",
+      "object": "https://id.biodiversity.org.au/instance/apni/713514"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "isCongruentWith",
+      "object": "_:tc2"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "isIncludedIn",
+      "object": "_:tc3"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "isIncludedIn",
+      "object": "_:tc4"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "includes",
+      "object": "_:tc5"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "includes",
+      "object": "_:tc6"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "includes",
+      "object": "_:tc7"
+    }
+  ],
+  "conflicts": [
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "isCongruentWith",
+      "object": "_:tc2"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "includes",
+      "object": "_:tc5"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "includes",
+      "object": "_:tc6"
+    },
+    {
+      "subject": "https://id.biodiversity.org.au/instance/apni/545068",
+      "relation": "includes",
+      "object": "_:tc7"
+    }
+  ]
+}

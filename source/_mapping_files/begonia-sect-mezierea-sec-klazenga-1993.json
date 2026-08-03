@@ -1,0 +1,260 @@
+{
+  "concepts": [
+    {
+      "id": "_:1994-begonia-sect-mezierea",
+      "label": "Begonia sect. Mezierea sec. Klazenga & al. 1994"
+    },
+    {
+      "id": "_:1894-begonia-sect-mezierea",
+      "label": "Begonia sect. Mezierea sec. Warburg 1894"
+    },
+    {
+      "id": "_:1925-begonia-sect-mezierea",
+      "label": "Begonia sect. Mezierea sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1994-begonia-comorensis",
+      "label": "Begonia comorensis sec. Klazenga & al. 1994"
+    },
+    {
+      "id": "_:1894-begonia-comorensis",
+      "label": "Begonia comorensis sec. Warburg 1894"
+    },
+    {
+      "id": "_:1895-begonia-comorensis",
+      "label": "Begonia comorensis sec. Warburg 1895"
+    },
+    {
+      "id": "_:1925-begonia-comorensis",
+      "label": "Begonia comorensis sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1983-begonia-comorensis",
+      "label": "Begonia comorensis sec. Keraudren-Aymonin 1983"
+    },
+    {
+      "id": "_:1994-begonia-humbertii",
+      "label": "Begonia humbertii sec. Klazenga & al. 1994"
+    },
+    {
+      "id": "_:1983-begonia-humbertii",
+      "label": "Begonia humbertii sec. Keraudren-Aymonin 1983"
+    },
+    {
+      "id": "_:1994-begonia-meyeri-johannis",
+      "label": "Begonia meyeri-johannis sec. Klazenga & al. 1994"
+    },
+    {
+      "id": "_:1894-begonia-meyeri-johannis",
+      "label": "Begonia meyeri-johannis sec. Warburg 1894"
+    },
+    {
+      "id": "_:1895-begonia-meyeri-johannis",
+      "label": "Begonia meyeri-johannis sec. Warburg 1895"
+    },
+    {
+      "id": "_:1925-begonia-meyeri-johannis",
+      "label": "Begonia meyeri-johannis sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1994-begonia-oxyloba",
+      "label": "Begonia oxyloba sec. Klazenga & al. 1994"
+    },
+    {
+      "id": "_:1895-begonia-oxyloba",
+      "label": "Begonia oxyloba sec. Warburg 1895"
+    },
+    {
+      "id": "_:1894-begonia-cladocarpa",
+      "label": "Begonia cladocarpa sec. Warburg 1894"
+    },
+    {
+      "id": "_:1983-begonia-cladocarpa",
+      "label": "Begonia cladocarpa sec. Keraudren-Aymonin 1983"
+    },
+    {
+      "id": "_:1921-begonia-oxyloba",
+      "label": "Begonia oxyloba sec. Engler 1921"
+    },
+    {
+      "id": "_:1925-begonia-oxyloba",
+      "label": "Begonia oxyloba sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1925-begonia-heddei",
+      "label": "Begonia heddei sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1925-begonia-lehmbachii",
+      "label": "Begonia lehmbachii sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1925-begonia-conraui",
+      "label": "Begonia conraui sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1925-begonia-kummerae",
+      "label": "Begonia kummerae sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1925-begonia-petrophila",
+      "label": "Begonia petrophila sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1925-begonia-seretii",
+      "label": "Begonia seretii sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1925-begonia-sassandrensis",
+      "label": "Begonia sassandrensis sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1994-begonia-salaziensis",
+      "label": "Begonia salaziensis sec. Klazenga & al. 1994"
+    },
+    {
+      "id": "_:1894-begonia-salaziensis",
+      "label": "Begonia salaziensis sec. Warburg 1894"
+    },
+    {
+      "id": "_:1925-begonia-salaziensis",
+      "label": "Begonia salaziensis sec. Irmscher 1925"
+    },
+    {
+      "id": "_:1994-begonia-seychellensis",
+      "label": "Begonia seychellensis sec. Klazenga & al. 1994"
+    }
+  ],
+  "mappings": [
+    {
+      "subject": "_:1994-begonia-sect-mezierea",
+      "relation": "intersects",
+      "object": "_:1894-begonia-sect-mezierea"
+    },
+    {
+      "subject": "_:1994-begonia-sect-mezierea",
+      "relation": "intersects",
+      "object": "_:1925-begonia-sect-mezierea"
+    },
+    {
+      "subject": "_:1994-begonia-comorensis",
+      "relation": "intersects",
+      "object": "_:1894-begonia-comorensis"
+    },
+    {
+      "subject": "_:1994-begonia-comorensis",
+      "relation": "intersects",
+      "object": "_:1895-begonia-comorensis"
+    },
+    {
+      "subject": "_:1994-begonia-comorensis",
+      "relation": "intersects",
+      "object": "_:1925-begonia-comorensis"
+    },
+    {
+      "subject": "_:1994-begonia-comorensis",
+      "relation": "intersects",
+      "object": "_:1983-begonia-comorensis"
+    },
+    {
+      "subject": "_:1994-begonia-humbertii",
+      "relation": "intersects",
+      "object": "_:1983-begonia-humbertii"
+    },
+    {
+      "subject": "_:1994-begonia-meyeri-johannis",
+      "relation": "intersects",
+      "object": "_:1894-begonia-meyeri-johannis"
+    },
+    {
+      "subject": "_:1994-begonia-meyeri-johannis",
+      "relation": "intersects",
+      "object": "_:1895-begonia-meyeri-johannis"
+    },
+    {
+      "subject": "_:1994-begonia-meyeri-johannis",
+      "relation": "intersects",
+      "object": "_:1925-begonia-meyeri-johannis"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1994-begonia-oxyloba"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1895-begonia-oxyloba"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1894-begonia-cladocarpa"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1983-begonia-cladocarpa"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1921-begonia-oxyloba"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-oxyloba"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-heddei"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-lehmbachii"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-conraui"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-kummerae"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-petrophila"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-seretii"
+    },
+    {
+      "subject": "_:1994-begonia-oxyloba",
+      "relation": "intersects",
+      "object": "_:1925-begonia-sassandrensis"
+    },
+    {
+      "subject": "_:1994-begonia-salaziensis",
+      "relation": "intersects",
+      "object": "_:1894-begonia-salaziensis"
+    },
+    {
+      "subject": "_:1994-begonia-salaziensis",
+      "relation": "intersects",
+      "object": "_:1925-begonia-salaziensis"
+    },
+    {
+      "subject": "_:1994-begonia-seychellensis",
+      "relation": "intersects",
+      "object": "_:1983-begonia-comorensis"
+    }
+  ]
+}

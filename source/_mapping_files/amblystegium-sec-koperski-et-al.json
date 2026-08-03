@@ -1,0 +1,256 @@
+{
+  "concepts": [
+    {
+      "id": "_:2000-Campylium",
+      "label": "Campylium sec. Koperski & al. 2000"
+    },
+    {
+      "id": "_:1981-Campylium",
+      "label": "Campylium sec. Corley & al. 1981"
+    },
+    {
+      "id": "_:1980-Campylium",
+      "label": "Campylium sec. Smith & al. 1980"
+    },
+    {
+      "id": "_:1927-Chrysohypnum",
+      "label": "Chrysohypnum sec. Mönkemeyer 1927"
+    },
+    {
+      "id": "_:1927-Drepanocladus",
+      "label": "Drepanocladus sec. Mönkemeyer 1927"
+    },
+    {
+      "id": "_:1992-Campylium",
+      "label": "Campylium sec. Frahm & Frey 1992"
+    },
+    {
+      "id": "_:2000-Amblystegium",
+      "label": "Amblystegium sec. Koperski & al. 2000"
+    },
+    {
+      "id": "_:1981-Amblystegium",
+      "label": "Amblystegium sec. Corley & al. 1981"
+    },
+    {
+      "id": "_:1992-Amblystegium",
+      "label": "Amblystegium sec. Frahm & Frey 1992"
+    },
+    {
+      "id": "_:1992-Hygroamblystegium",
+      "label": "Hygroamblystegium sec. Frahm & Frey 1992"
+    },
+    {
+      "id": "_:1927-Hygroamblystegium",
+      "label": "Hygroamblystegium sec. Mönkemeyer 1927"
+    },
+    {
+      "id": "_:1992-Amblystegiella",
+      "label": "Amblystegiella sec. Frahm & Frey 1992"
+    },
+    {
+      "id": "_:1927-Amblystegium",
+      "label": "Amblystegium sec. Mönkemeyer 1927"
+    },
+    {
+      "id": "_:1980-Amblystegium",
+      "label": "Amblystegium sec. Smith 1980"
+    },
+    {
+      "id": "_:1980-Platydictya",
+      "label": "Platydictya sec. Smith 1980"
+    },
+    {
+      "id": "_:2000-Platydictya",
+      "label": "Platydictya sec. Koperski & al. 2000"
+    },
+    {
+      "id": "_:1981-Platydictya",
+      "label": "Platydictya sec. Corley & al. 1981"
+    },
+    {
+      "id": "_:1927-Amblystegium-sect-Serpoleskea",
+      "label": "Amblystegium sect. Serpoleskea sec. Mönkemeyer 1927"
+    },
+    {
+      "id": "_:2000-Leptodictyum",
+      "label": "Leptodictyum sec. Koperski & al. 2000"
+    },
+    {
+      "id": "_:1992-Leptodictyum",
+      "label": "Leptodictyum sec. Frahm & Frey 1992"
+    },
+    {
+      "id": "_:1927-Amblystegium-sect-Leptodictyum",
+      "label": "Amblystegium sect. Leptodictyum sec. Mönkemeyer 1927"
+    },
+    {
+      "id": "_:1981-Amblystegium-subg-Leptodictyum",
+      "label": "Amblystegium subg. Leptodictyum sec. Corley & al. 1981"
+    },
+    {
+      "id": "_:2000-Conardia",
+      "label": "Conardia sec. Koperski & al. 2000"
+    },
+    {
+      "id": "_:1981-Conardia",
+      "label": "Conardia sec. Corley & al. 1981"
+    },
+    {
+      "id": "_:1992-Rhynchostegiella",
+      "label": "Rhynchostegiella sec. Frahm & Frey 1992"
+    }
+  ],
+  "mappings": [
+    {
+      "subject": "_:2000-Campylium",
+      "relation": "isCongruentWith",
+      "object": "_:1981-Campylium"
+    },
+    {
+      "subject": "_:2000-Campylium",
+      "relation": "includes",
+      "object": "_:1980-Campylium"
+    },
+    {
+      "subject": "_:2000-Campylium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1927-Chrysohypnum"
+    },
+    {
+      "subject": "_:2000-Campylium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1927-Drepanocladus"
+    },
+    {
+      "subject": "_:2000-Campylium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1992-Campylium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "isIncludedIn",
+      "object": "_:1981-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "includes",
+      "object": "_:1992-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "includes",
+      "object": "_:1992-Hygroamblystegium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "includes",
+      "object": "_:1927-Hygroamblystegium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1992-Amblystegiella"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1992-Campylium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1927-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1927-Chrysohypnum"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1980-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Amblystegium",
+      "relation": "partiallyOverlaps",
+      "object": "_:1980-Platydictya"
+    },
+    {
+      "subject": "_:2000-Platydictya",
+      "relation": "isCongruentWith",
+      "object": "_:1981-Platydictya"
+    },
+    {
+      "subject": "_:2000-Platydictya",
+      "relation": "isIncludedIn",
+      "object": "_:1992-Amblystegiella"
+    },
+    {
+      "subject": "_:2000-Platydictya",
+      "relation": "isIncludedIn",
+      "object": "_:1927-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Platydictya",
+      "relation": "isIncludedIn",
+      "object": "_:1927-Amblystegium-sect-Serpoleskea"
+    },
+    {
+      "subject": "_:2000-Platydictya",
+      "relation": "isIncludedIn",
+      "object": "_:1980-Platydictya"
+    },
+    {
+      "subject": "_:2000-Leptodictyum",
+      "relation": "isCongruentWith",
+      "object": "_:1992-Leptodictyum"
+    },
+    {
+      "subject": "_:2000-Leptodictyum",
+      "relation": "isCongruentWith",
+      "object": "_:1927-Amblystegium-sect-Leptodictyum"
+    },
+    {
+      "subject": "_:2000-Leptodictyum",
+      "relation": "isIncludedIn",
+      "object": "_:1981-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Leptodictyum",
+      "relation": "isIncludedIn",
+      "object": "_:1981-Amblystegium-subg-Leptodictyum"
+    },
+    {
+      "subject": "_:2000-Leptodictyum",
+      "relation": "isIncludedIn",
+      "object": "_:1927-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Leptodictyum",
+      "relation": "isIncludedIn",
+      "object": "_:1980-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Conardia",
+      "relation": "isCongruentWith",
+      "object": "_:1981-Conardia"
+    },
+    {
+      "subject": "_:2000-Conardia",
+      "relation": "isIncludedIn",
+      "object": "_:1992-Rhynchostegiella"
+    },
+    {
+      "subject": "_:2000-Conardia",
+      "relation": "isIncludedIn",
+      "object": "_:1927-Amblystegium"
+    },
+    {
+      "subject": "_:2000-Conardia",
+      "relation": "isIncludedIn",
+      "object": "_:1980-Amblystegium"
+    }
+  ]
+}

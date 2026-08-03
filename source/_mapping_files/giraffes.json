@@ -1,0 +1,528 @@
+{
+  "concepts": [
+    {
+      "id": "_:tc33",
+      "label": "Giraffa sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc32",
+      "label": "Giraffa sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc34",
+      "label": "Giraffa sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc31",
+      "label": "Giraffa sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc20",
+      "label": "Giraffa camelopardalis sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc12",
+      "label": "Giraffa camelopardalis sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc15",
+      "label": "Giraffa peralta sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc35",
+      "label": "Giraffa camelopardalis sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc36",
+      "label": "Giraffa camelopardalis camelopardalis sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc37",
+      "label": "Giraffa camelopardalis antiquorum sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc38",
+      "label": "Giraffa camelopardalis peralta sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc40",
+      "label": "Giraffa camelopardalis rothschildii sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc14",
+      "label": "Giraffa antiquorum sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc1",
+      "label": "Giraffa camelopardalis sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc2",
+      "label": "Giraffa camelopardalis typica sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc3",
+      "label": "Giraffa camelopardalis antiquorum sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc4",
+      "label": "Giraffa camelopardalis cottoni sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc5",
+      "label": "Giraffa camelopardalis rothschildi sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc11",
+      "label": "Giraffa camelopardalis peralta sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc21",
+      "label": "Giraffa camelopardalis peralta sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc22",
+      "label": "Giraffa camelopardalis antiquorum sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc7",
+      "label": "Giraffa camelopardalis congoensis sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc23",
+      "label": "Giraffa camelopardalis camelopardalis sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc24",
+      "label": "Giraffa reticulata sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc13",
+      "label": "Giraffa reticulata sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc39",
+      "label": "Giraffa camelopardalis reticulata sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc0",
+      "label": "Giraffa reticulata sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc25",
+      "label": "Giraffa tippelskirchi sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc16",
+      "label": "Giraffa tippelskirchi sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc17",
+      "label": "Giraffa thornicrofti sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc41",
+      "label": "Giraffa camelopardalis tippelskirchi sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc42",
+      "label": "Giraffa camelopardalis thornicrofti sec. Dagg 1971"
+    },
+    {
+      "id": "_:tc6",
+      "label": "Giraffa camelopardalis tippelskirchi sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc26",
+      "label": "Giraffa tippelskirchi tippelskirchi sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc27",
+      "label": "Giraffa tippelskirchi thornicrofti sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc28",
+      "label": "Giraffa giraffa sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc18",
+      "label": "Giraffa giraffa sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc19",
+      "label": "Giraffa angolensis sec. Groves & Grubb 2011"
+    },
+    {
+      "id": "_:tc8",
+      "label": "Giraffa camelopardalis angolensis sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc9",
+      "label": "Giraffa camelopardalis wardi sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc10",
+      "label": "Giraffa camelopardalis capensis sec. Lydekker 1904"
+    },
+    {
+      "id": "_:tc29",
+      "label": "Giraffa giraffa giraffa sec. IUCN 2025"
+    },
+    {
+      "id": "_:tc30",
+      "label": "Giraffa giraffa angolensis sec. IUCN 2025"
+    }
+  ],
+  "mappings": [
+    {
+      "subject": "_:tc33",
+      "relation": "isCongruentWith",
+      "object": "_:tc32"
+    },
+    {
+      "subject": "_:tc33",
+      "relation": "isCongruentWith",
+      "object": "_:tc34"
+    },
+    {
+      "subject": "_:tc33",
+      "relation": "isCongruentWith",
+      "object": "_:tc31"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc12"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc15"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc36"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc37"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc38"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc40"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc14"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc2"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc3"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc4"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc5"
+    },
+    {
+      "subject": "_:tc20",
+      "relation": "includes",
+      "object": "_:tc11"
+    },
+    {
+      "subject": "_:tc21",
+      "relation": "isCongruentWith",
+      "object": "_:tc15"
+    },
+    {
+      "subject": "_:tc21",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc21",
+      "relation": "isCongruentWith",
+      "object": "_:tc38"
+    },
+    {
+      "subject": "_:tc21",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc21",
+      "relation": "isCongruentWith",
+      "object": "_:tc11"
+    },
+    {
+      "subject": "_:tc22",
+      "relation": "isCongruentWith",
+      "object": "_:tc14"
+    },
+    {
+      "subject": "_:tc22",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc22",
+      "relation": "isCongruentWith",
+      "object": "_:tc37"
+    },
+    {
+      "subject": "_:tc22",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc22",
+      "relation": "includes",
+      "object": "_:tc3"
+    },
+    {
+      "subject": "_:tc22",
+      "relation": "includes",
+      "object": "_:tc7"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "isCongruentWith",
+      "object": "_:tc12"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "includes",
+      "object": "_:tc36"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "includes",
+      "object": "_:tc40"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "includes",
+      "object": "_:tc2"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "includes",
+      "object": "_:tc4"
+    },
+    {
+      "subject": "_:tc23",
+      "relation": "includes",
+      "object": "_:tc5"
+    },
+    {
+      "subject": "_:tc24",
+      "relation": "isCongruentWith",
+      "object": "_:tc13"
+    },
+    {
+      "subject": "_:tc24",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc24",
+      "relation": "isCongruentWith",
+      "object": "_:tc39"
+    },
+    {
+      "subject": "_:tc24",
+      "relation": "isCongruentWith",
+      "object": "_:tc0"
+    },
+    {
+      "subject": "_:tc25",
+      "relation": "includes",
+      "object": "_:tc16"
+    },
+    {
+      "subject": "_:tc25",
+      "relation": "includes",
+      "object": "_:tc17"
+    },
+    {
+      "subject": "_:tc25",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc25",
+      "relation": "includes",
+      "object": "_:tc41"
+    },
+    {
+      "subject": "_:tc25",
+      "relation": "includes",
+      "object": "_:tc42"
+    },
+    {
+      "subject": "_:tc25",
+      "relation": "isCongruentWith",
+      "object": "_:tc6"
+    },
+    {
+      "subject": "_:tc25",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc26",
+      "relation": "isCongruentWith",
+      "object": "_:tc16"
+    },
+    {
+      "subject": "_:tc26",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc26",
+      "relation": "isCongruentWith",
+      "object": "_:tc41"
+    },
+    {
+      "subject": "_:tc26",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc26",
+      "relation": "isIncludedIn",
+      "object": "_:tc6"
+    },
+    {
+      "subject": "_:tc27",
+      "relation": "isCongruentWith",
+      "object": "_:tc17"
+    },
+    {
+      "subject": "_:tc27",
+      "relation": "isIncludedIn",
+      "object": "_:tc35"
+    },
+    {
+      "subject": "_:tc27",
+      "relation": "isCongruentWith",
+      "object": "_:tc42"
+    },
+    {
+      "subject": "_:tc27",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc27",
+      "relation": "isIncludedIn",
+      "object": "_:tc6"
+    },
+    {
+      "subject": "_:tc28",
+      "relation": "includes",
+      "object": "_:tc18"
+    },
+    {
+      "subject": "_:tc28",
+      "relation": "includes",
+      "object": "_:tc19"
+    },
+    {
+      "subject": "_:tc28",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc28",
+      "relation": "includes",
+      "object": "_:tc8"
+    },
+    {
+      "subject": "_:tc28",
+      "relation": "includes",
+      "object": "_:tc9"
+    },
+    {
+      "subject": "_:tc28",
+      "relation": "includes",
+      "object": "_:tc10"
+    },
+    {
+      "subject": "_:tc29",
+      "relation": "isCongruentWith",
+      "object": "_:tc18"
+    },
+    {
+      "subject": "_:tc29",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc29",
+      "relation": "includes",
+      "object": "_:tc9"
+    },
+    {
+      "subject": "_:tc29",
+      "relation": "includes",
+      "object": "_:tc10"
+    },
+    {
+      "subject": "_:tc30",
+      "relation": "isCongruentWith",
+      "object": "_:tc19"
+    },
+    {
+      "subject": "_:tc30",
+      "relation": "isIncludedIn",
+      "object": "_:tc1"
+    },
+    {
+      "subject": "_:tc30",
+      "relation": "isCongruentWith",
+      "object": "_:tc8"
+    }
+  ]
+}
