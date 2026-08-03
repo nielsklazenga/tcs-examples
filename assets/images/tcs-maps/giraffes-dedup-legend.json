@@ -1,0 +1,183 @@
+[
+  {
+    "id": "_:tc31",
+    "indexId": 1,
+    "labels": [
+      "Giraffa sec. IUCN 2025",
+      "Giraffa sec. Groves & Grubb 2011",
+      "Giraffa sec. Dagg 1971",
+      "Giraffa sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc20",
+    "indexId": 2,
+    "labels": [
+      "Giraffa camelopardalis sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc12",
+    "indexId": 3,
+    "labels": [
+      "Giraffa camelopardalis sec. Groves & Grubb 2011",
+      "Giraffa camelopardalis camelopardalis sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc11",
+    "indexId": 4,
+    "labels": [
+      "Giraffa peralta sec. Groves & Grubb 2011",
+      "Giraffa camelopardalis peralta sec. Dagg 1971",
+      "Giraffa camelopardalis peralta sec. Lydekker 1904",
+      "Giraffa camelopardalis peralta sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc35",
+    "indexId": 5,
+    "labels": [
+      "Giraffa camelopardalis sec. Dagg 1971"
+    ]
+  },
+  {
+    "id": "_:tc36",
+    "indexId": 6,
+    "labels": [
+      "Giraffa camelopardalis camelopardalis sec. Dagg 1971"
+    ]
+  },
+  {
+    "id": "_:tc37",
+    "indexId": 7,
+    "labels": [
+      "Giraffa camelopardalis antiquorum sec. Dagg 1971",
+      "Giraffa antiquorum sec. Groves & Grubb 2011",
+      "Giraffa camelopardalis antiquorum sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc40",
+    "indexId": 8,
+    "labels": [
+      "Giraffa camelopardalis rothschildii sec. Dagg 1971"
+    ]
+  },
+  {
+    "id": "_:tc1",
+    "indexId": 9,
+    "labels": [
+      "Giraffa camelopardalis sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc2",
+    "indexId": 10,
+    "labels": [
+      "Giraffa camelopardalis typica sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc3",
+    "indexId": 11,
+    "labels": [
+      "Giraffa camelopardalis antiquorum sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc4",
+    "indexId": 12,
+    "labels": [
+      "Giraffa camelopardalis cottoni sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc5",
+    "indexId": 13,
+    "labels": [
+      "Giraffa camelopardalis rothschildi sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc7",
+    "indexId": 14,
+    "labels": [
+      "Giraffa camelopardalis congoensis sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc0",
+    "indexId": 15,
+    "labels": [
+      "Giraffa reticulata sec. IUCN 2025",
+      "Giraffa reticulata sec. Groves & Grubb 2011",
+      "Giraffa camelopardalis reticulata sec. Dagg 1971",
+      "Giraffa reticulata sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc6",
+    "indexId": 16,
+    "labels": [
+      "Giraffa tippelskirchi sec. IUCN 2025",
+      "Giraffa camelopardalis tippelskirchi sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc41",
+    "indexId": 17,
+    "labels": [
+      "Giraffa tippelskirchi sec. Groves & Grubb 2011",
+      "Giraffa camelopardalis tippelskirchi sec. Dagg 1971",
+      "Giraffa tippelskirchi tippelskirchi sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc42",
+    "indexId": 18,
+    "labels": [
+      "Giraffa thornicrofti sec. Groves & Grubb 2011",
+      "Giraffa camelopardalis thornicrofti sec. Dagg 1971",
+      "Giraffa tippelskirchi thornicrofti sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc28",
+    "indexId": 19,
+    "labels": [
+      "Giraffa giraffa sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc18",
+    "indexId": 20,
+    "labels": [
+      "Giraffa giraffa sec. Groves & Grubb 2011",
+      "Giraffa giraffa giraffa sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc8",
+    "indexId": 21,
+    "labels": [
+      "Giraffa angolensis sec. Groves & Grubb 2011",
+      "Giraffa camelopardalis angolensis sec. Lydekker 1904",
+      "Giraffa giraffa angolensis sec. IUCN 2025"
+    ]
+  },
+  {
+    "id": "_:tc9",
+    "indexId": 22,
+    "labels": [
+      "Giraffa camelopardalis wardi sec. Lydekker 1904"
+    ]
+  },
+  {
+    "id": "_:tc10",
+    "indexId": 23,
+    "labels": [
+      "Giraffa camelopardalis capensis sec. Lydekker 1904"
+    ]
+  }
+]
