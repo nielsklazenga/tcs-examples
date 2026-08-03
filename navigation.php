@@ -10,4 +10,8 @@ return [
         'collection' => 'examples',
         'description' => 'TCS 2 Examples'
     ],
+    'Recipes' => [
+        'collection' => 'recipes',
+        'description' => 'TCS 2 Recipes'
+    ],
 ];

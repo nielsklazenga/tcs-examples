@@ -15,6 +15,7 @@ $path = function ($page) {
 $collections = [
     'intro' => ['path' => $path, 'sort' => 'order'],
     'examples' => ['path' => $path, 'sort' => 'order'],
+    'recipes' => ['path' => $path, 'sort' => 'order'],
 ];
 
 return [
