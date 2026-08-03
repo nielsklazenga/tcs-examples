@@ -5,6 +5,8 @@ title: Genera of Amblystigiaceae sec. Koperski et al. 2000 Recipe
 
 ## Taxon Concept Mappings
 
+<x-mapping-relation-legend />
+
 ### Separate concepts
 
 <x-svg-viewer path="/assets/images/tcs-maps/amblystegium-sec-koperski-et-al.svg" legend="/assets/images/tcs-maps/amblystegium-sec-koperski-et-al-legend.json" />

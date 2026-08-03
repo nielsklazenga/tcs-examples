@@ -5,6 +5,8 @@ title: Eupolypods sec. Rothfels & al. 2012 Recipe
 
 ## Taxon Concept Mappings
 
+<x-mapping-relation-legend />
+
 ### Separate concepts
 
 <x-svg-viewer path="/assets/images/tcs-maps/eupolypods-rothfels-2012.svg" legend="/assets/images/tcs-maps/eupolypods-rothfels-2012-legend.json" />

@@ -5,6 +5,8 @@ title: Giraffes Recipe
 
 ## Taxon Concept Mappings
 
+<x-mapping-relation-legend />
+
 ### Separate concepts
 
 <x-svg-viewer path="/assets/images/tcs-maps/giraffes.svg" legend="/assets/images/tcs-maps/giraffes-legend.json" />

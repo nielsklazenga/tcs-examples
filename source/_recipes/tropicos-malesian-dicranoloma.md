@@ -5,6 +5,8 @@ title: Tropicos Malesian Dicranoloma Recipe
 
 ## Taxon Concept Mappings
 
+<x-mapping-relation-legend />
+
 ### Separate concepts 
 
 <x-svg-viewer path="/assets/images/tcs-maps/tropicos-malesian-dicranoloma.svg"  legend="/assets/images/tcs-maps/tropicos-malesian-dicranoloma-legend.json" />
