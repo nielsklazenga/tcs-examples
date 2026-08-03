@@ -1,0 +1,32 @@
+{
+  "profiles": [
+    {
+      "inputFile": "./source/_mapping_files/tropicos-malesian-dicranoloma.json",
+      "outputFile": "./source/assets/images/tcs-maps/tropicos-malesian-dicranoloma-dedup.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/amblystegium-sec-koperski-et-al.json",
+      "outputFile": "./source/assets/images/tcs-maps/amblystegium-sec-koperski-et-al-dedup.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/eupolypods-rothfels-2012.json",
+      "outputFile": "./source/assets/images/tcs-maps/eupolypods-rothfels-2012-dedup.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/giraffes.json",
+      "outputFile": "./source/assets/images/tcs-maps/giraffes-dedup.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/begonia-sect-mezierea-sec-klazenga-1993.json",
+      "outputFile": "./source/assets/images/tcs-maps/begonia-sect-mezierea-sec-klazenga-1993-dedup.svg"
+    }
+  ],
+  "mergeCongruent": true,
+  "distances": {
+    "includes": 80,
+    "isIncludedIn": 80,
+    "partiallyOverlaps": 120,
+    "intersects": 140,
+    "default": 100
+  }
+}

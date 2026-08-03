@@ -1,0 +1,25 @@
+{
+  "profiles": [
+    {
+      "inputFile": "./source/_mapping_files/tropicos-malesian-dicranoloma.json",
+      "outputFile": "./source/assets/images/tcs-maps/tropicos-malesian-dicranoloma.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/amblystegium-sec-koperski-et-al.json",
+      "outputFile": "./source/assets/images/tcs-maps/amblystegium-sec-koperski-et-al.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/eupolypods-rothfels-2012.json",
+      "outputFile": "./source/assets/images/tcs-maps/eupolypods-rothfels-2012.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/giraffes.json",
+      "outputFile": "./source/assets/images/tcs-maps/giraffes.svg"
+    },
+    {
+      "inputFile": "./source/_mapping_files/begonia-sect-mezierea-sec-klazenga-1993.json",
+      "outputFile": "./source/assets/images/tcs-maps/begonia-sect-mezierea-sec-klazenga-1993.svg"
+    }
+  ],
+  "mergeCongruent": false
+}
