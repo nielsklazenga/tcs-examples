@@ -1,0 +1,147 @@
+[
+  {
+    "id": "_:1981-Campylium",
+    "indexId": 1,
+    "labels": [
+      "Campylium sec. Koperski & al. 2000",
+      "Campylium sec. Corley & al. 1981"
+    ]
+  },
+  {
+    "id": "_:1980-Campylium",
+    "indexId": 2,
+    "labels": [
+      "Campylium sec. Smith & al. 1980"
+    ]
+  },
+  {
+    "id": "_:1927-Chrysohypnum",
+    "indexId": 3,
+    "labels": [
+      "Chrysohypnum sec. Mönkemeyer 1927"
+    ]
+  },
+  {
+    "id": "_:1927-Drepanocladus",
+    "indexId": 4,
+    "labels": [
+      "Drepanocladus sec. Mönkemeyer 1927"
+    ]
+  },
+  {
+    "id": "_:1992-Campylium",
+    "indexId": 5,
+    "labels": [
+      "Campylium sec. Frahm & Frey 1992"
+    ]
+  },
+  {
+    "id": "_:2000-Amblystegium",
+    "indexId": 6,
+    "labels": [
+      "Amblystegium sec. Koperski & al. 2000"
+    ]
+  },
+  {
+    "id": "_:1981-Amblystegium",
+    "indexId": 7,
+    "labels": [
+      "Amblystegium sec. Corley & al. 1981"
+    ]
+  },
+  {
+    "id": "_:1992-Amblystegium",
+    "indexId": 8,
+    "labels": [
+      "Amblystegium sec. Frahm & Frey 1992"
+    ]
+  },
+  {
+    "id": "_:1992-Hygroamblystegium",
+    "indexId": 9,
+    "labels": [
+      "Hygroamblystegium sec. Frahm & Frey 1992"
+    ]
+  },
+  {
+    "id": "_:1927-Hygroamblystegium",
+    "indexId": 10,
+    "labels": [
+      "Hygroamblystegium sec. Mönkemeyer 1927"
+    ]
+  },
+  {
+    "id": "_:1992-Amblystegiella",
+    "indexId": 11,
+    "labels": [
+      "Amblystegiella sec. Frahm & Frey 1992"
+    ]
+  },
+  {
+    "id": "_:1927-Amblystegium",
+    "indexId": 12,
+    "labels": [
+      "Amblystegium sec. Mönkemeyer 1927"
+    ]
+  },
+  {
+    "id": "_:1980-Amblystegium",
+    "indexId": 13,
+    "labels": [
+      "Amblystegium sec. Smith 1980"
+    ]
+  },
+  {
+    "id": "_:1980-Platydictya",
+    "indexId": 14,
+    "labels": [
+      "Platydictya sec. Smith 1980"
+    ]
+  },
+  {
+    "id": "_:1981-Platydictya",
+    "indexId": 15,
+    "labels": [
+      "Platydictya sec. Koperski & al. 2000",
+      "Platydictya sec. Corley & al. 1981"
+    ]
+  },
+  {
+    "id": "_:1927-Amblystegium-sect-Serpoleskea",
+    "indexId": 16,
+    "labels": [
+      "Amblystegium sect. Serpoleskea sec. Mönkemeyer 1927"
+    ]
+  },
+  {
+    "id": "_:1927-Amblystegium-sect-Leptodictyum",
+    "indexId": 17,
+    "labels": [
+      "Leptodictyum sec. Koperski & al. 2000",
+      "Leptodictyum sec. Frahm & Frey 1992",
+      "Amblystegium sect. Leptodictyum sec. Mönkemeyer 1927"
+    ]
+  },
+  {
+    "id": "_:1981-Amblystegium-subg-Leptodictyum",
+    "indexId": 18,
+    "labels": [
+      "Amblystegium subg. Leptodictyum sec. Corley & al. 1981"
+    ]
+  },
+  {
+    "id": "_:1981-Conardia",
+    "indexId": 19,
+    "labels": [
+      "Conardia sec. Koperski & al. 2000",
+      "Conardia sec. Corley & al. 1981"
+    ]
+  },
+  {
+    "id": "_:1992-Rhynchostegiella",
+    "indexId": 20,
+    "labels": [
+      "Rhynchostegiella sec. Frahm & Frey 1992"
+    ]
+  }
+]

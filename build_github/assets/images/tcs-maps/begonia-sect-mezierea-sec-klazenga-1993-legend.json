@@ -1,0 +1,219 @@
+[
+  {
+    "id": "_:1994-begonia-sect-mezierea",
+    "indexId": 1,
+    "labels": [
+      "Begonia sect. Mezierea sec. Klazenga & al. 1994"
+    ]
+  },
+  {
+    "id": "_:1894-begonia-sect-mezierea",
+    "indexId": 2,
+    "labels": [
+      "Begonia sect. Mezierea sec. Warburg 1894"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-sect-mezierea",
+    "indexId": 3,
+    "labels": [
+      "Begonia sect. Mezierea sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1994-begonia-comorensis",
+    "indexId": 4,
+    "labels": [
+      "Begonia comorensis sec. Klazenga & al. 1994"
+    ]
+  },
+  {
+    "id": "_:1894-begonia-comorensis",
+    "indexId": 5,
+    "labels": [
+      "Begonia comorensis sec. Warburg 1894"
+    ]
+  },
+  {
+    "id": "_:1895-begonia-comorensis",
+    "indexId": 6,
+    "labels": [
+      "Begonia comorensis sec. Warburg 1895"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-comorensis",
+    "indexId": 7,
+    "labels": [
+      "Begonia comorensis sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1983-begonia-comorensis",
+    "indexId": 8,
+    "labels": [
+      "Begonia comorensis sec. Keraudren-Aymonin 1983"
+    ]
+  },
+  {
+    "id": "_:1994-begonia-humbertii",
+    "indexId": 9,
+    "labels": [
+      "Begonia humbertii sec. Klazenga & al. 1994"
+    ]
+  },
+  {
+    "id": "_:1983-begonia-humbertii",
+    "indexId": 10,
+    "labels": [
+      "Begonia humbertii sec. Keraudren-Aymonin 1983"
+    ]
+  },
+  {
+    "id": "_:1994-begonia-meyeri-johannis",
+    "indexId": 11,
+    "labels": [
+      "Begonia meyeri-johannis sec. Klazenga & al. 1994"
+    ]
+  },
+  {
+    "id": "_:1894-begonia-meyeri-johannis",
+    "indexId": 12,
+    "labels": [
+      "Begonia meyeri-johannis sec. Warburg 1894"
+    ]
+  },
+  {
+    "id": "_:1895-begonia-meyeri-johannis",
+    "indexId": 13,
+    "labels": [
+      "Begonia meyeri-johannis sec. Warburg 1895"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-meyeri-johannis",
+    "indexId": 14,
+    "labels": [
+      "Begonia meyeri-johannis sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1994-begonia-oxyloba",
+    "indexId": 15,
+    "labels": [
+      "Begonia oxyloba sec. Klazenga & al. 1994"
+    ]
+  },
+  {
+    "id": "_:1895-begonia-oxyloba",
+    "indexId": 16,
+    "labels": [
+      "Begonia oxyloba sec. Warburg 1895"
+    ]
+  },
+  {
+    "id": "_:1894-begonia-cladocarpa",
+    "indexId": 17,
+    "labels": [
+      "Begonia cladocarpa sec. Warburg 1894"
+    ]
+  },
+  {
+    "id": "_:1983-begonia-cladocarpa",
+    "indexId": 18,
+    "labels": [
+      "Begonia cladocarpa sec. Keraudren-Aymonin 1983"
+    ]
+  },
+  {
+    "id": "_:1921-begonia-oxyloba",
+    "indexId": 19,
+    "labels": [
+      "Begonia oxyloba sec. Engler 1921"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-oxyloba",
+    "indexId": 20,
+    "labels": [
+      "Begonia oxyloba sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-heddei",
+    "indexId": 21,
+    "labels": [
+      "Begonia heddei sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-lehmbachii",
+    "indexId": 22,
+    "labels": [
+      "Begonia lehmbachii sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-conraui",
+    "indexId": 23,
+    "labels": [
+      "Begonia conraui sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-kummerae",
+    "indexId": 24,
+    "labels": [
+      "Begonia kummerae sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-petrophila",
+    "indexId": 25,
+    "labels": [
+      "Begonia petrophila sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-seretii",
+    "indexId": 26,
+    "labels": [
+      "Begonia seretii sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-sassandrensis",
+    "indexId": 27,
+    "labels": [
+      "Begonia sassandrensis sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1994-begonia-salaziensis",
+    "indexId": 28,
+    "labels": [
+      "Begonia salaziensis sec. Klazenga & al. 1994"
+    ]
+  },
+  {
+    "id": "_:1894-begonia-salaziensis",
+    "indexId": 29,
+    "labels": [
+      "Begonia salaziensis sec. Warburg 1894"
+    ]
+  },
+  {
+    "id": "_:1925-begonia-salaziensis",
+    "indexId": 30,
+    "labels": [
+      "Begonia salaziensis sec. Irmscher 1925"
+    ]
+  },
+  {
+    "id": "_:1994-begonia-seychellensis",
+    "indexId": 31,
+    "labels": [
+      "Begonia seychellensis sec. Klazenga & al. 1994"
+    ]
+  }
+]

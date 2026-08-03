@@ -1,0 +1,160 @@
+[
+  {
+    "id": "_:2006-Eupolyploids",
+    "indexId": 1,
+    "labels": [
+      "Eupolypods sec. Rothfels & al. 2012",
+      "Eupolypods sec. Smith & al. 2006"
+    ]
+  },
+  {
+    "id": "_:2006-Eupolyploids-I",
+    "indexId": 2,
+    "labels": [
+      "Eupolypods I sec. Rothfels & al. 2012",
+      "Eupolypods I sec. Smith & al. 2006"
+    ]
+  },
+  {
+    "id": "_:2006-Eupolyploids-II",
+    "indexId": 3,
+    "labels": [
+      "Eupolypods II sec. Rothfels & al. 2012",
+      "Eupolypods II sec. Smith & al. 2006"
+    ]
+  },
+  {
+    "id": "_:1947-Onocleaceae",
+    "indexId": 4,
+    "labels": [
+      "Onocleaceae sec. Rothfels & al. 2012",
+      "Onocleaceae sec. Christenhusz & al. 2011",
+      "Onocleaceae sec. Smith & al. 2006",
+      "Onocleaceae sec. Pichi Sermolli 1977",
+      "Onocleoideae sec. Holttum 1947"
+    ]
+  },
+  {
+    "id": "_:1947-Thelypteridaceae",
+    "indexId": 5,
+    "labels": [
+      "Thelypteridaceae sec. Rothfels & al. 2012",
+      "Thelypteridaceae sec. Christenhusz & al. 2011",
+      "Thelypteridaceae sec. Smith & al. 2006",
+      "Thelypteridaceae sec. Pichi Sermolli 1977",
+      "Thelypteridaceae sec. Nayar 1970",
+      "Thelypteridaceae sec. Holttum 1947"
+    ]
+  },
+  {
+    "id": "_:1977-Woodsiaceae",
+    "indexId": 6,
+    "labels": [
+      "Woodsiaceae sec. Rothfels & al. 2012",
+      "Woodsiaceae sec. Christenhusz & al. 2011",
+      "Woodsiaceae sec. Pichi Sermolli 1977"
+    ]
+  },
+  {
+    "id": "_:2006-Woodsiaceae",
+    "indexId": 7,
+    "labels": [
+      "Woodsiaceae sec. Smith & al. 2006"
+    ]
+  },
+  {
+    "id": "_:1947-Dennstaedtiaceae",
+    "indexId": 8,
+    "labels": [
+      "Dennstaedtiaceae sec. Holttum 1947"
+    ]
+  },
+  {
+    "id": "_:1970-Dryopteridaceae",
+    "indexId": 9,
+    "labels": [
+      "Dryopteridaceae sec. Nayar 1970"
+    ]
+  },
+  {
+    "id": "_:2011-Cystopteridaceae",
+    "indexId": 10,
+    "labels": [
+      "Cystopteridaceae sec. Rothfels & al. 2012",
+      "Cystopteridaceae sec. Christenhusz & al. 2011"
+    ]
+  },
+  {
+    "id": "_:1977-Athyriaceae",
+    "indexId": 11,
+    "labels": [
+      "Athyriaceae sec. Pichi Sermolli 1977"
+    ]
+  },
+  {
+    "id": "_:2011-Rhachidosoraceae",
+    "indexId": 12,
+    "labels": [
+      "Rhachidosoraceae sec. Rothfels & al. 2012",
+      "Rhachidosoraceae sec. Christnhusz & al. 2011"
+    ]
+  },
+  {
+    "id": "_:2012-Diplaziopsidaceae",
+    "indexId": 13,
+    "labels": [
+      "Diplaziopsidaceae sec. Rothfels & al. 2012"
+    ]
+  },
+  {
+    "id": "_:2011-Diplaziopsidaceae",
+    "indexId": 14,
+    "labels": [
+      "Diplaziopsidaceae sec. Christenhusz & al. 2011"
+    ]
+  },
+  {
+    "id": "_:2011-Athyriaceae",
+    "indexId": 15,
+    "labels": [
+      "Athyriaceae sec. Christenhusz & al. 2011"
+    ]
+  },
+  {
+    "id": "_:2011-Hemidictyaceae",
+    "indexId": 16,
+    "labels": [
+      "Hemidictyaceae sec. Rothfels & al. 2012",
+      "Hemidictyaceae sec. Christenhusz & al. 2011"
+    ]
+  },
+  {
+    "id": "_:2012-Athyriaceae",
+    "indexId": 17,
+    "labels": [
+      "Athyriaceae sec. Rothfels & al. 2012"
+    ]
+  },
+  {
+    "id": "_:1977-Aspleniaceae",
+    "indexId": 18,
+    "labels": [
+      "Aspleniaceae sec. Rothfels & al. 2012",
+      "Aspleniaceae sec. Christenhusz & al. 2011",
+      "Aspleniaceae sec. Smith & al. 2006",
+      "Aspleniaceae sec. Nayar 1970",
+      "Aspleniaceae sec. Pichi Sermolli 1977"
+    ]
+  },
+  {
+    "id": "_:1970-Blechnaceae",
+    "indexId": 19,
+    "labels": [
+      "Blechnaceae sec. Rothfels & al. 2012",
+      "Blechnaceae sec. Christenhusz & al. 2011",
+      "Blechnaceae sec. Smith & al. 2006",
+      "Blechnaceae sec. Pichi Sermolli",
+      "Blechnaceae sec. Nayar 1970"
+    ]
+  }
+]

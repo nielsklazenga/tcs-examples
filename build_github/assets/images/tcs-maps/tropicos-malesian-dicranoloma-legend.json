@@ -1,0 +1,534 @@
+[
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121455",
+    "indexId": 1,
+    "labels": [
+      "Dicranoloma arfakianum sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35121903",
+    "indexId": 2,
+    "labels": [
+      "Dicranum arfakianum sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121514",
+    "indexId": 3,
+    "labels": [
+      "Dicranoloma dicarpon sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35122214",
+    "indexId": 4,
+    "labels": [
+      "Dicranum dicarpon sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121458",
+    "indexId": 5,
+    "labels": [
+      "Dicranoloma assimile sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35184276",
+    "indexId": 6,
+    "labels": [
+      "Dicranum rugifolium sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35158613",
+    "indexId": 7,
+    "labels": [
+      "Cryptodicranum armitii sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35121907",
+    "indexId": 8,
+    "labels": [
+      "Dicranum armitii sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35121913",
+    "indexId": 9,
+    "labels": [
+      "Dicranum assimile sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35204723",
+    "indexId": 10,
+    "labels": [
+      "Dicranoloma bartramianum sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35204723",
+    "indexId": 11,
+    "labels": [
+      "Dicranum bartramianum sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121475",
+    "indexId": 12,
+    "labels": [
+      "Dicranoloma blumei sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35121972",
+    "indexId": 13,
+    "labels": [
+      "Dicranum blumei sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121467",
+    "indexId": 14,
+    "labels": [
+      "Dicranoloma billarderii sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35121960",
+    "indexId": 15,
+    "labels": [
+      "Dicranum billarderii sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#-name-35123838",
+    "indexId": 16,
+    "labels": [
+      "Dicranum novoguineense sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121486",
+    "indexId": 17,
+    "labels": [
+      "Dicranoloma braunii sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35122018",
+    "indexId": 18,
+    "labels": [
+      "Dicranum braunii sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121491",
+    "indexId": 19,
+    "labels": [
+      "Dicranoloma brevisetum sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35204724",
+    "indexId": 20,
+    "labels": [
+      "Dicranoloma cutlackii sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35184272",
+    "indexId": 21,
+    "labels": [
+      "Dicranum cutlackii sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121509",
+    "indexId": 22,
+    "labels": [
+      "Dicranoloma daymannianum sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35184274",
+    "indexId": 23,
+    "labels": [
+      "Dicranum daymannianum sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121617",
+    "indexId": 24,
+    "labels": [
+      "Dicranoloma rugifolium sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35184079",
+    "indexId": 25,
+    "labels": [
+      "Dicranoloma geluense sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9007945#name-35184275",
+    "indexId": 26,
+    "labels": [
+      "Dicranum geluense sec. Norris & Koponen 1990"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121609",
+    "indexId": 27,
+    "labels": [
+      "Dicranoloma reflexum sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121609",
+    "indexId": 28,
+    "labels": [
+      "Dicranoloma reflexum sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121458",
+    "indexId": 29,
+    "labels": [
+      "Dicranoloma assimile sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121491",
+    "indexId": 30,
+    "labels": [
+      "Dicranoloma brevisetum sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121457",
+    "indexId": 31,
+    "labels": [
+      "Dicranoloma armitii sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121596",
+    "indexId": 32,
+    "labels": [
+      "Dicranoloma platycaulon sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35121542",
+    "indexId": 33,
+    "labels": [
+      "Dicranoloma havilandii sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121542",
+    "indexId": 34,
+    "labels": [
+      "Dicranoloma havilandii sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121484",
+    "indexId": 35,
+    "labels": [
+      "Dicranoloma braunfelsioides sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121467",
+    "indexId": 36,
+    "labels": [
+      "Dicranoloma billarderii sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121578",
+    "indexId": 37,
+    "labels": [
+      "Dicranoloma novoguinense sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9006742#name-35121475",
+    "indexId": 38,
+    "labels": [
+      "Dicranoloma blumei sec. Tan 1989"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121491",
+    "indexId": 39,
+    "labels": [
+      "Dicranoloma brevisetum sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121609-2",
+    "indexId": 40,
+    "labels": [
+      "Dicranoloma reflexum s.l. sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121559",
+    "indexId": 41,
+    "labels": [
+      "Dicranoloma leucophyllum sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121609",
+    "indexId": 42,
+    "labels": [
+      "Dicranoloma reflexum s.s. sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121530",
+    "indexId": 43,
+    "labels": [
+      "Dicranoloma fragile sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35184079",
+    "indexId": 44,
+    "labels": [
+      "Dicranoloma geluense sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121542",
+    "indexId": 45,
+    "labels": [
+      "Dicranoloma havilandii sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121617",
+    "indexId": 46,
+    "labels": [
+      "Dicranoloma rugifolium sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121587",
+    "indexId": 47,
+    "labels": [
+      "Dicranoloma perarmatum sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121455",
+    "indexId": 48,
+    "labels": [
+      "Dicranoloma arfakianum sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121578",
+    "indexId": 49,
+    "labels": [
+      "Dicranoloma novoguinense sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121488",
+    "indexId": 50,
+    "labels": [
+      "Dicranoloma brevicapsulare sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121467",
+    "indexId": 51,
+    "labels": [
+      "Dicranoloma billarderii sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121486",
+    "indexId": 52,
+    "labels": [
+      "Dicranoloma braunii sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121458-2",
+    "indexId": 53,
+    "labels": [
+      "Dicranoloma assimile s.l. sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121458",
+    "indexId": 54,
+    "labels": [
+      "Dicranoloma assimile s.s. sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35158613",
+    "indexId": 55,
+    "labels": [
+      "Cryptodicranum armitii sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35204725",
+    "indexId": 56,
+    "labels": [
+      "Dicranum psathyrum sec. Klazenga 1999"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121475",
+    "indexId": 57,
+    "labels": [
+      "Dicranoloma blumei sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35191032",
+    "indexId": 58,
+    "labels": [
+      "Dicranoloma brevisetum var. brevisetum sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121467",
+    "indexId": 59,
+    "labels": [
+      "Dicranoloma billarderii sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121479",
+    "indexId": 60,
+    "labels": [
+      "Dicranoloma brachypelma sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121458",
+    "indexId": 61,
+    "labels": [
+      "Dicranoloma assimile sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35167975",
+    "indexId": 62,
+    "labels": [
+      "Dicranoloma brevisetum f. nematosum sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35167976",
+    "indexId": 63,
+    "labels": [
+      "Dicranoloma brevisetum var. samoanum sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121455",
+    "indexId": 64,
+    "labels": [
+      "Dicranoloma arfakianum sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121483",
+    "indexId": 65,
+    "labels": [
+      "Dicranoloma brassii sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121491",
+    "indexId": 66,
+    "labels": [
+      "Dicranoloma brevisetum sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121518",
+    "indexId": 67,
+    "labels": [
+      "Dicranoloma dives sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121475",
+    "indexId": 68,
+    "labels": [
+      "Dicranoloma blumei sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121530",
+    "indexId": 69,
+    "labels": [
+      "Dicranoloma fragile sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121509",
+    "indexId": 70,
+    "labels": [
+      "Dicranoloma daymannianum sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121609",
+    "indexId": 71,
+    "labels": [
+      "Dicranoloma reflexum sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121457",
+    "indexId": 72,
+    "labels": [
+      "Dicranoloma armitii sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121578",
+    "indexId": 73,
+    "labels": [
+      "Dicranoloma novoguinense sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9002886#name-35121514",
+    "indexId": 74,
+    "labels": [
+      "Dicranoloma dicarpon sec. Tan & Koponen 1983"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9005756#name-35121556",
+    "indexId": 75,
+    "labels": [
+      "Dicranoloma laevifolium sec. Eddy 1988"
+    ]
+  },
+  {
+    "id": "https://tropicos.org/reference/9020903#name-35200565",
+    "indexId": 76,
+    "labels": [
+      "Dicranoloma steenisii sec. Klazenga 1999"
+    ]
+  }
+]
