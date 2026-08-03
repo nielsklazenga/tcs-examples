@@ -1,0 +1,1678 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/tdwg/tcs2/refs/heads/master/jsonld/context.jsonld",
+    {
+      "source": {
+        "@id": "dcterms:source",
+        "@type": "@id"
+      },
+      "creator": {
+        "@id": "dcterms:creator",
+        "@type": "@id"
+      },
+      "created": "dcterms:created",
+      "zoobank": "https://zoobank.org/NomenclaturalActs/",
+      "TaxonConcept": {
+        "@id": "tcs:TaxonConcept",
+        "@context": {
+          "taxonConceptLabel": "dcterms:title"
+        }
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "type": "bibo:AcademicArticle",
+      "id": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "bibo:handle": "Lydekker 1904",
+      "dcterms:title": "On the Subspecies of Giraffa camelopardalis.",
+      "dcterms:bibliographicCitation": "Lydekker, R., 1904. On the Subspecies of Giraffa camelopardalis. Proceedings of the Zoological Society of London 74, 202–229. https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "creator": "_:a0",
+      "bibo:authorList": {
+        "@list": [
+          {
+            "id": "_:a0"
+          }
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1904",
+        "bibo:volume": "74",
+        "bibo:issue": "1",
+        "dcterms:isPartOf": {
+          "type": "bibo:Journal",
+          "dcterms:title": "Proceedings of the Zoological Society of London",
+          "bibo:issn": "1469-7998"
+        }
+      },
+      "bibo:pages": "202-229",
+      "bibo:uri": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7998.1904.tb08288.x",
+      "bibo:doi": "10.1111/j.1469-7998.1904.tb08288.x"
+    },
+    {
+      "type": "foaf:Person",
+      "id": "_:a0",
+      "foaf:givenName": "Richard",
+      "foaf:familyName": "Lydekker"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:29a6803b-c1d8-4460-96c7-cc006095413f",
+      "nameString": "Giraffa",
+      "scientificNameAuthorship": "Brisson, 1762",
+      "namePublishedInYear": "1762"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:3ac03875-1c25-49a5-96c5-981b87cfa73a",
+      "nameString": "Giraffa camelopardalis reticulata",
+      "scientificNameAuthorship": "de Winton, 1899",
+      "namePublishedInYear": "1899"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn0",
+      "nameString": "Giraffa reticulata",
+      "scientificNameAuthorship": "(Linn., 1758)",
+      "basionym": "zoobank:29a6803b-c1d8-4460-96c7-cc006095413f"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:ca84d710-341e-46af-be74-f49f84c8a53c",
+      "nameString": "Cervus camelopardalis",
+      "scientificNameAuthorship": "Linn., 1758",
+      "namePublishedInYear": "1758"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn1",
+      "nameString": "Giraffa camelopardalis",
+      "scientificNameAuthorship": "(Linn., 1758)",
+      "basionym": "zoobank:ca84d710-341e-46af-be74-f49f84c8a53c"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn2",
+      "nameString": "Giraffa camelopardalis camelopardalis",
+      "scientificNameAuthorship": "(Linn., 1758)",
+      "basedOn": "_:tn1"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f",
+      "nameString": "Camelopardalis antiquorum",
+      "scientificNameAuthorship": "Swainson, 1835",
+      "namePublishedInYear": "1835"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c",
+      "nameString": "Camelopardalis aethiopica",
+      "scientificNameAuthorship": "Ogilby, 1837",
+      "namePublishedInYear": "1837"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn17",
+      "nameString": "Giraffa antiquorum",
+      "scientificNameAuthorship": "(Swainson, 1835)",
+      "basionym": "zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn3",
+      "nameString": "Giraffa camelopardalis antiquorum",
+      "scientificNameAuthorship": "(Swainson, 1835)",
+      "basionym": "zoobank:6b9469dc-6f06-4fba-911b-c08c2667278f"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:9cba7e21-4f14-4354-b559-36b7db538c08",
+      "nameString": "Giraffa camelopardalis cottoni",
+      "scientificNameAuthorship": "Lydekker, 1904",
+      "namePublishedInYear": "1904"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315",
+      "nameString": "Giraffa camelopardalis rothschildi",
+      "scientificNameAuthorship": "Lydekker, 1903",
+      "namePublishedInYear": "1903"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b",
+      "nameString": "Giraffa tippelskirchi",
+      "scientificNameAuthorship": "Matschie, 1898",
+      "namePublishedInYear": "1898"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn6",
+      "nameString": "Giraffa camelopardalis tippelskirchi",
+      "scientificNameAuthorship": "(Matschie, 1898)",
+      "basionym": "zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn26",
+      "nameString": "Giraffa tippelskirchi tippelskirchi",
+      "scientificNameAuthorship": "(Matschie, 1898)",
+      "basedOn": "zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d",
+      "nameString": "Giraffa schillingsii",
+      "scientificNameAuthorship": "Matschie, 1898",
+      "namePublishedInYear": "1898"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6",
+      "nameString": "Giraffa hagenbecki",
+      "scientificNameAuthorship": "Knottnerus-Meyer, 1910",
+      "namePublishedInYear": "1910"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f",
+      "nameString": "Giraffa camelopardalis congoensis",
+      "scientificNameAuthorship": "Lydekker, 1903",
+      "namePublishedInYear": "1903"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02",
+      "nameString": "Giraffa camelopardalis angolensis",
+      "scientificNameAuthorship": "Lydekker, 1903",
+      "namePublishedInYear": "1903"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn25",
+      "nameString": "Giraffa angolensis",
+      "scientificNameAuthorship": "(Lydekker, 1903)",
+      "basionym": "zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn29",
+      "nameString": "Giraffa giraffa angolensis",
+      "scientificNameAuthorship": "(Lydekker, 1903)",
+      "basionym": "zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:0477d1d3-3602-4bec-b4a3-11d108886065",
+      "nameString": "Giraffa camelopardalis wardi",
+      "scientificNameAuthorship": "Lydekker, 1904",
+      "namePublishedInYear": "1904"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn14",
+      "nameString": "Camelopardalis capensis",
+      "scientificNameAuthorship": "Lesson, 1842",
+      "namePublishedInYear": "1842"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn10",
+      "nameString": "Giraffa camelopardalis capensis",
+      "scientificNameAuthorship": "(Lesson, 1842)",
+      "basionym": "_:tn14"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46",
+      "nameString": "Camelopardalis senaariensis",
+      "scientificNameAuthorship": "Trouessart, 1898",
+      "namePublishedInYear": "1898"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:4967abaa-2035-4237-85e9-3bc7ffa2259b",
+      "nameString": "Giraffa camelopardalis australis",
+      "scientificNameAuthorship": "Rhoads, 1896",
+      "namePublishedInYear": "1896"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn15",
+      "nameString": "Giraffa australis",
+      "scientificNameAuthorship": "(Rhoads, 1896)",
+      "basionym": "zoobank:4967abaa-2035-4237-85e9-3bc7ffa2259b"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41",
+      "nameString": "Giraffa camelopardalis peralta",
+      "scientificNameAuthorship": "Thomas, 1908",
+      "namePublishedInYear": "1908"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn19",
+      "nameString": "Giraffa peralta",
+      "scientificNameAuthorship": "(Thomas, 1908)",
+      "basionym": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn20",
+      "nameString": "Giraffa camelopardalis renatae",
+      "scientificNameAuthorship": "Krumbiegel, 1971",
+      "namePublishedInYear": "1971"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:154d50db-6186-4760-b298-856af70de7b8",
+      "nameString": "Giraffa camelopardalis thornicrofti",
+      "scientificNameAuthorship": "Lydekker, 1903",
+      "namePublishedInYear": "1903"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn21",
+      "nameString": "Giraffa thornicrofti",
+      "scientificNameAuthorship": "(Lydekker, 1903)",
+      "basionym": "zoobank:154d50db-6186-4760-b298-856af70de7b8"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn28",
+      "nameString": "Giraffa tippelskirchi thornicrofti",
+      "scientificNameAuthorship": "(Lydekker, 1903)",
+      "basionym": "zoobank:154d50db-6186-4760-b298-856af70de7b8"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3",
+      "nameString": "Camelopardalis giraffa",
+      "scientificNameAuthorship": "Schreber, 1784",
+      "namePublishedInYear": "1784"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn22",
+      "nameString": "Giraffa giraffa",
+      "scientificNameAuthorship": "(Schreber, 1784)",
+      "basionym": "zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn30",
+      "nameString": "Giraffa camelopardalis giraffa",
+      "scientificNameAuthorship": "(Schreber, 1784)",
+      "basionym": "zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3"
+    },
+    {
+      "type": "TaxonName",
+      "id": "_:tn27",
+      "nameString": "Giraffa giraffa giraffa",
+      "scientificNameAuthorship": "(Schreber, 1784)",
+      "basedOn": "_:tn22"
+    },
+    {
+      "type": "TaxonName",
+      "id": "zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8",
+      "nameString": "Giraffa infumata",
+      "scientificNameAuthorship": "Noak, 1908",
+      "namePublishedInYear": "1908"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc31",
+      "taxonConceptLabel": "Giraffa sec. Lydekker 1904",
+      "taxonName": "zoobank:29a6803b-c1d8-4460-96c7-cc006095413f",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "genus",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc0",
+      "taxonConceptLabel": "Giraffa reticulata sec. Lydekker 1904",
+      "taxonName": "_:tn0",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "species",
+      "parent": "_:tc31",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Reticulated giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc1",
+      "taxonConceptLabel": "Giraffa camelopardalis sec. Lydekker 1904",
+      "taxonName": "_:tn1",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "species",
+      "parent": "_:tc31",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Blotched giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc2",
+      "taxonConceptLabel": "Giraffa camelopardalis typica sec. Lydekker 1904",
+      "taxonName": "_:tn2",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Nubian giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc3",
+      "taxonConceptLabel": "Giraffa camelopardalis antiquorum sec. Lydekker 1904",
+      "taxonName": "_:tn3",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Kordofan giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc4",
+      "taxonConceptLabel": "Giraffa camelopardalis cottoni sec. Lydekker 1904",
+      "taxonName": "zoobank:9cba7e21-4f14-4354-b559-36b7db538c08",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "South Lado giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc5",
+      "taxonConceptLabel": "Giraffa camelopardalis rothschildi sec. Lydekker 1904",
+      "taxonName": "zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Baringo giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc6",
+      "taxonConceptLabel": "Giraffa camelopardalis tippelskirchi sec. Lydekker 1904",
+      "taxonName": "_:tn6",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Kilimanjaro giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc7",
+      "taxonConceptLabel": "Giraffa camelopardalis congoensis sec. Lydekker 1904",
+      "taxonName": "zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Congo giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc8",
+      "taxonConceptLabel": "Giraffa camelopardalis angolensis sec. Lydekker 1904",
+      "taxonName": "zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Angola giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc9",
+      "taxonConceptLabel": "Giraffa camelopardalis wardi sec. Lydekker 1904",
+      "taxonName": "zoobank:0477d1d3-3602-4bec-b4a3-11d108886065",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Northern Transvaal giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc10",
+      "taxonConceptLabel": "Giraffa camelopardalis capensis sec. Lydekker 1904",
+      "taxonName": "_:tn10",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Cape giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc11",
+      "taxonConceptLabel": "Giraffa camelopardalis peralta sec. Lydekker 1904",
+      "taxonName": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41",
+      "accordingTo": "https://doi.org/10.1111/j.1469-7998.1904.tb08288.x",
+      "taxonRank": "subspecies",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Nigerian giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "parent": "_:tc1"
+    },
+
+    {
+      "type": "bibo:AcademicArticle",
+      "id": "https://doi.org/10.2307/3503830",
+      "bibo:handle": "Dagg 1971",
+      "dcterms:title": "Giraffa camelopardalis",
+      "dcterms:bibliographicCitation": "Dagg, A.I., 1971. Giraffa camelopardalis. Mammalian Species 1–8. https://doi.org/10.2307/3503830",
+      "bibo:uri": "https://doi.org/10.2307/3503830",
+      "bibo:pages": "1-8",
+      "bibo:doi": "10.2307/3503830",
+      "dcterms:creator": "_:a6",
+      "bibo:authorList": {
+        "@list": [
+          "_:a6"
+        ]
+      },
+      "dcterms:isPartOf": {
+        "type": "bibo:Issue",
+        "dcterms:date": "1971-01-19",
+        "bibo:issue": "5",
+        "dcterms:isPartOf": {
+          "type": "bibo:Journal",
+          "dcterms:title": "Mammalian Species",
+          "bibo:issn": "0076-3519"
+        }
+      }
+    },
+    {
+      "type": "foaf:Person",
+      "id": "_:a6",
+      "foaf:givenName": "Anne Innis",
+      "foaf:familyName": "Dagg"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc34",
+      "taxonConceptLabel": "Giraffa sec. Dagg 1971",
+      "taxonName": "zoobank:29a6803b-c1d8-4460-96c7-cc006095413f",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "genus"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc35",
+      "taxonConceptLabel": "Giraffa camelopardalis sec. Dagg 1971",
+      "taxonName": "_:tn1",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "species",
+      "parent": "_:tc34",
+      "synonyms": [
+        "zoobank:d877e595-ff30-4d86-b4bd-39d06e5e2cf3",
+        "zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c",
+        "_:tn14",
+        "zoobank:507a1a9e-dcf8-4c92-a94d-2ad984ad8f46",
+        "zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b",
+        "zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d",
+        "zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc36",
+      "taxonConceptLabel": "Giraffa camelopardalis camelopardalis sec. Dagg 1971",
+      "taxonName": "_:tn2",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35",
+      "synonyms": [
+        "zoobank:e6851c80-2e77-4a51-bbbc-7179249e9d5c"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc37",
+      "taxonConceptLabel": "Giraffa camelopardalis antiquorum sec. Dagg 1971",
+      "taxonName": "_:tn3",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc38",
+      "taxonConceptLabel": "Giraffa camelopardalis peralta sec. Dagg 1971",
+      "taxonName": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc39",
+      "taxonConceptLabel": "Giraffa camelopardalis reticulata sec. Dagg 1971",
+      "taxonName": "zoobank:3ac03875-1c25-49a5-96c5-981b87cfa73a",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35",
+      "synonyms": [
+        "zoobank:f4bc8451-d2f8-41be-a900-e61af09734b6",
+        "zoobank:5bdb022d-954d-42d4-b6ca-a273af39789f"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc40",
+      "taxonConceptLabel": "Giraffa camelopardalis rothschildii sec. Dagg 1971",
+      "taxonName": "zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35",
+      "synonyms": [
+        "zoobank:9cba7e21-4f14-4354-b559-36b7db538c08"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc41",
+      "taxonConceptLabel": "Giraffa camelopardalis tippelskirchi sec. Dagg 1971",
+      "taxonName": "_:tn6",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35",
+      "synonyms": [
+        "zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc42",
+      "taxonConceptLabel": "Giraffa camelopardalis thornicrofti sec. Dagg 1971",
+      "taxonName": "zoobank:154d50db-6186-4760-b298-856af70de7b8",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc43",
+      "taxonConceptLabel": "Giraffa camelopardalis angolensis sec. Dagg 1971",
+      "taxonName": "zoobank:c8aeee34-3551-4227-871c-13f2a52bcf02",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35",
+      "synonyms": [
+        "zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc44",
+      "taxonConceptLabel": "Giraffa camelopardalis giraffa sec. Dagg 1971",
+      "taxonName": "_:tn30",
+      "accordingTo": "https://doi.org/10.2307/3503830",
+      "taxonRank": "subspecies",
+      "parent": "_:tc35",
+      "synonyms": [
+        "_:tn14",
+        "_:tn15",
+        "zoobank:0477d1d3-3602-4bec-b4a3-11d108886065"
+      ]
+    },
+    {
+      "type": "bibo:Book",
+      "id": "urn:isbn:978-1-4214-0093-8",
+      "bibo:handle": "Groves & Grubb 2011",
+      "dcterms:title": "Ungulate taxonomy",
+      "dcterms:bibliographicCitation": "Groves, C., Grubb, P., 2011. Ungulate taxonomy. The John Hopkins University Press, Baltimore.",
+      "dcterms:date": "2011",
+      "bibo:publisher": {
+        "type": "foaf:Organization",
+        "address:localityName": "Baltimore",
+        "foaf:name": "The John Hopkins Iniversity Press"
+      },
+      "bibo:isbn13": "978-1-4214-0093-8",
+      "bibo:numPages": 317,
+      "creator": [
+        "_:a3",
+        "_:a4"
+      ],
+      "bibo:authorList": {
+        "@list": [
+          "_:a3",
+          "_:a4"
+        ]
+      }
+    },
+    {
+      "type": "foaf:Person",
+      "id": "_:a3",
+      "foaf:givenName": "Colin",
+      "foaf:familyName": "Groves"
+    },
+    {
+      "type": "foaf:Person",
+      "id": "_:a4",
+      "foaf:givenName": "Peter",
+      "foaf:familyName": "Grubb"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc32",
+      "taxonConceptLabel": "Giraffa sec. Groves & Grubb 2011",
+      "taxonName": "zoobank:29a6803b-c1d8-4460-96c7-cc006095413f",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "genus",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc12",
+      "taxonConceptLabel": "Giraffa camelopardalis sec. Groves & Grubb 2011",
+      "taxonName": "_:tn1",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Nubian giraffe",
+					"dcterms:language": "en"
+        },
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Rothschild's giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "synonyms": [
+        "zoobank:a3492a30-8739-4b4e-8e6f-5c09e2c34315",
+        "zoobank:9cba7e21-4f14-4354-b559-36b7db538c08"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc13",
+      "taxonConceptLabel": "Giraffa reticulata sec. Groves & Grubb 2011",
+      "taxonName": "_:tn0",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Reticulated giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc14",
+      "taxonConceptLabel": "Giraffa antiquorum sec. Groves & Grubb 2011",
+      "taxonName": "_:tn17",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Kordofan giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "synonyms": [
+        "zoobank:38db2575-317c-4f7c-b0d0-5a85250e5f1f"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc15",
+      "taxonConceptLabel": "Giraffa peralta sec. Groves & Grubb 2011",
+      "taxonName": "_:tn19",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "West African giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "synonyms": [
+        "_:tn20"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc16",
+      "taxonConceptLabel": "Giraffa tippelskirchi sec. Groves & Grubb 2011",
+      "taxonName": "zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Maasai giraffe",
+					"dcterms:language": "en"
+        },
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Vine-leaf giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "synonyms": [
+        "zoobank:aed6605c-7811-4260-9c4c-21b26b946e5d"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc17",
+      "taxonConceptLabel": "Giraffa thornicrofti sec. Groves & Grubb 2011",
+      "taxonName": "_:tn21",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Luangwa giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc18",
+      "taxonConceptLabel": "Giraffa giraffa sec. Groves & Grubb 2011",
+      "taxonName": "_:tn22",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Cape giraffe",
+					"dcterms:language": "en"
+        }
+      ],
+      "synonyms": [
+        "zoobank:be7a0080-ff1c-4857-a536-6d0016ccc1e8",
+        "zoobank:0477d1d3-3602-4bec-b4a3-11d108886065"
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc19",
+      "taxonConceptLabel": "Giraffa angolensis sec. Groves & Grubb 2011",
+      "taxonName": "_:tn25",
+      "accordingTo": "urn:isbn:978-1-4214-0093-8",
+      "taxonRank": "species",
+      "parent": "_:tc32",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Angolan giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "bibo:Report",
+      "id": "_:ref0",
+      "bibo:handle": "IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force 2025",
+      "dcterms:title": "An evaluation of the taxonomic status of giraffe (Giraffa spp.)",
+      "dcterms:bibliographicCitation": "IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force, 2025. An evaluation of the taxonomic status of giraffe (Giraffa spp.). IUCN SSC Giraffe and Okapi Specialist Group, Windhoek, Namibia.",
+      "dcterms:date": "2025",
+      "bibo:publisher": {
+        "type": "foaf:Organization",
+        "address:localityName": "Windhoek, Namibia",
+        "foaf:name": "IUCN SSC Giraffe and Okapi Specialist Group"
+      },
+      "creator": "_:a5",
+      "bibo:authorList": {
+        "@list": [
+          "_:a5"
+        ]
+      }
+    },
+    {
+      "type": "foaf:Organization",
+      "id": "_:a5",
+      "foaf:name": "IUCN SSC Giraffe and Okapi Specialist Group Taxonomic Task Force"
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc33",
+      "taxonConceptLabel": "Giraffa sec. IUCN 2025",
+      "taxonName": "zoobank:29a6803b-c1d8-4460-96c7-cc006095413f",
+      "accordingTo": "_:ref0",
+      "taxonRank": "genus",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc20",
+      "taxonConceptLabel": "Giraffa camelopardalis sec. IUCN 2025",
+      "taxonName": "_:tn1",
+      "accordingTo": "_:ref0",
+      "taxonRank": "species",
+      "parent": "_:tc33",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Northern giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc21",
+      "taxonConceptLabel": "Giraffa camelopardalis peralta sec. IUCN 2025",
+      "taxonName": "zoobank:a1d014fd-cdbf-4eaf-a979-100186fc2f41",
+      "accordingTo": "_:ref0",
+      "taxonRank": "subspecies",
+      "parent": "_:tc20",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "West African giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc22",
+      "taxonConceptLabel": "Giraffa camelopardalis antiquorum sec. IUCN 2025",
+      "taxonName": "_:tn3",
+      "accordingTo": "_:ref0",
+      "taxonRank": "subspecies",
+      "parent": "_:tc20",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Kordofan giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc23",
+      "taxonConceptLabel": "Giraffa camelopardalis camelopardalis sec. IUCN 2025",
+      "taxonName": "_:tn2",
+      "accordingTo": "_:ref0",
+      "taxonRank": "subspecies",
+      "parent": "_:tc20",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Nubian giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc24",
+      "taxonConceptLabel": "Giraffa reticulata sec. IUCN 2025",
+      "taxonName": "_:tn0",
+      "accordingTo": "_:ref0",
+      "taxonRank": "species",
+      "parent": "_:tc33",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Reticulated giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc25",
+      "taxonConceptLabel": "Giraffa tippelskirchi sec. IUCN 2025",
+      "taxonName": "zoobank:fc4e3aca-4e59-4fae-a052-f220b4a5c70b",
+      "accordingTo": "_:ref0",
+      "taxonRank": "species",
+      "parent": "_:tc33",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Masai giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc26",
+      "taxonConceptLabel": "Giraffa tippelskirchi tippelskirchi sec. IUCN 2025",
+      "taxonName": "_:tn26",
+      "accordingTo": "_:ref0",
+      "taxonRank": "subspecies",
+      "parent": "_:tc25",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Masai giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc27",
+      "taxonConceptLabel": "Giraffa tippelskirchi thornicrofti sec. IUCN 2025",
+      "taxonName": "_:tn28",
+      "accordingTo": "_:ref0",
+      "taxonRank": "subspecies",
+      "parent": "_:tc25",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Luangwa giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc28",
+      "taxonConceptLabel": "Giraffa giraffa sec. IUCN 2025",
+      "taxonName": "_:tn22",
+      "accordingTo": "_:ref0",
+      "taxonRank": "species",
+      "parent": "_:tc33",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Southern giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc29",
+      "taxonConceptLabel": "Giraffa giraffa giraffa sec. IUCN 2025",
+      "taxonName": "_:tn27",
+      "accordingTo": "_:ref0",
+      "taxonRank": "subspecies",
+      "parent": "_:tc28",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "South African giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConcept",
+      "id": "_:tc30",
+      "taxonConceptLabel": "Giraffa giraffa angolensis sec. IUCN 2025",
+      "taxonName": "_:tn29",
+      "accordingTo": "_:ref0",
+      "taxonRank": "subspecies",
+      "parent": "_:tc28",
+      "vernacularNames": [
+        {
+          "type": "gbif:VernacularName",
+          "dwc:vernacularName": "Angolan giraffe",
+					"dcterms:language": "en"
+        }
+      ]
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc33",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc32",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc33",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc34",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc33",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc31",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc12",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc15",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc36",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc37",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc38",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc40",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc14",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc2",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc3",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc4",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc5",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc20",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc11",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc21",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc15",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc21",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc21",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc38",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc21",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc21",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc11",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc22",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc14",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc22",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc22",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc37",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc22",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc22",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc3",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc22",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc7",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc12",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc36",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc40",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc2",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc4",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc23",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc5",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc24",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc13",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc24",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc24",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc39",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc24",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc0",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc25",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc16",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc25",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc17",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc25",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc25",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc41",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc25",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc42",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc25",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc6",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc25",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc26",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc16",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc26",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc26",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc41",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc26",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc26",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc6",
+      "rdfs:comment": "incl. Giraffa tippelskirchi thornicrofti",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc27",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc17",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc27",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc35",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc27",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc42",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc27",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc27",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc6",
+      "rdfs:comment": "incl. Giraffa tippelskirchi tippelskirchi",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc28",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc18",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc28",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc19",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc28",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc28",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc8",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc28",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc9",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc28",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc10",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc29",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc18",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc29",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc29",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc9",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc29",
+      "mappingRelation": "includes",
+      "objectTaxonConcept": "_:tc10",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc30",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc19",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc30",
+      "mappingRelation": "isIncludedIn",
+      "objectTaxonConcept": "_:tc1",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    },
+    {
+      "type": "TaxonConceptMapping",
+      "subjectTaxonConcept": "_:tc30",
+      "mappingRelation": "isCongruentWith",
+      "objectTaxonConcept": "_:tc8",
+      "creator": "https://orcid.org/0000-0003-2224-6821",
+      "created": "2025-09-01"
+    }
+  ]
+}
